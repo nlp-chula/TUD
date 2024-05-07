@@ -1,0 +1,2567 @@
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01128059
+# text = หลุยส์ โพสต์ ดิสแพตช์ กล่าวว่าเป็นหนึ่งในการแสดงที่ดีที่สุดของลาเบิฟ
+1	หลุยส์	_	PROPN	NNP	_	4	nsubj	_	Translit=hluys|SpaceAfter=Yes
+2	โพสต์	_	PROPN	NNP	_	1	flat:name	_	Translit=bʰóst|SpaceAfter=Yes
+3	ดิสแพตช์	_	PROPN	NNP	_	1	flat:name	_	Translit=disbʰǽtćʰ|SpaceAfter=Yes
+4	กล่าว	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=klá¹w
+5	ว่า	_	ADP	IN	_	7	mark	_	SpaceAfter=No|Translit=wá¹
+6	เป็น	_	AUX	VC	_	7	cop	_	SpaceAfter=No|Translit=pen
+7	หนึ่ง	_	NUM	CD	_	4	ccomp	_	SpaceAfter=No|Translit=hnü¹ŋ
+8	ใน	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=nai
+9	การแสดง	_	VERB	VV	_	7	nmod	_	SpaceAfter=No|ToDo=nmod|Translit=kársǽdŋ
+10	ที่	_	DET	WDT	_	11	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+11	ดี	_	ADJ	JJ	_	9	acl:relcl	_	SpaceAfter=No|Translit=dí
+12	ที่สุด	_	ADV	RB	_	11	advmod	_	SpaceAfter=No|Translit=dʰí¹sud
+13	ของ	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+14	ลาเบิฟ	_	PROPN	NNP	_	9	nmod:poss	_	Translit=lábéิf|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01087039
+# text = “ฉันไปดูงานสอบจบที่มหาวิทยาลัยนอร์ธแฮมป์ตันเพื่อหาคนรุ่นใหม่ที่มีพรสวรรค์” เขากล่าว
+1	“	_	PUNCT	``	_	3	punct	_	SpaceAfter=No|Translit=“
+2	ฉัน	_	PRON	PRP	Person=1	3	nsubj	_	SpaceAfter=No|Translit=čʰân
+3	ไป	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=pai
+4	ดู	_	VERB	VV	_	3	xcomp	_	SpaceAfter=No|Translit=dú
+5	งาน	_	NOUN	NN	_	4	obj	_	SpaceAfter=No|Translit=ŋán
+6	สอบ	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=sɔːb
+7	จบ	_	VERB	VV	_	4	advmod	_	SpaceAfter=No|Translit=čb
+8	ที่	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=dʰí¹
+9	มหาวิทยาลัย	_	NOUN	NN	_	4	obl	_	Proper=True|SpaceAfter=No|Translit=mháwidʰyálây
+10	นอร์ธแฮมป์ตัน	_	PROPN	NNP	_	9	flat:name	_	SpaceAfter=No|Translit=nɔːrḏʰḥǽmptân
+11	เพื่อ	_	ADP	IN	_	12	mark	_	SpaceAfter=No|Translit=bʰűá¹
+12	หา	_	VERB	VV	_	3	advcl	_	SpaceAfter=No|Translit=há
+13	คน	_	NOUN	NN	_	12	obj	_	SpaceAfter=No|Translit=gʰn
+14	รุ่น	_	NOUN	NN	_	13	clf	_	SpaceAfter=No|Translit=ru¹n
+15	ใหม่	_	ADJ	JJ	_	14	amod	_	SpaceAfter=No|Translit=haim¹
+16	ที่	_	DET	WDT	_	17	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+17	มี	_	VERB	VV	_	13	acl:relcl	_	SpaceAfter=No|Translit=mí
+18	พรสวรรค์	_	NOUN	NN	_	17	obj	_	SpaceAfter=No|Translit=bʰrswrrgʰ
+19	”	_	PUNCT	''	_	3	punct	_	Translit=”|SpaceAfter=Yes
+20	เขา	_	PRON	PRP	Person=3	21	nsubj	_	SpaceAfter=No|Translit=kʰao
+21	กล่าว	_	VERB	VV	_	3	advcl	_	Translit=klá¹w|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01147026
+# text = ตั๋ว F1 ให้สิทธิ์ในการไปดูคอนเสิร์ตในวันเดียวกัน
+1	ตั๋ว	_	NOUN	NN	_	3	nsubj	_	Translit=túá⁴|SpaceAfter=Yes
+2	F1	_	PROPN	NNP	_	1	compound	_	Translit=F1|SpaceAfter=Yes
+3	ให้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=hai²
+4	สิทธิ์	_	NOUN	NN	_	3	obj	_	SpaceAfter=No|Translit=sidʰḏʰi
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	การไป	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No|Translit=kárpai
+7	ดู	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No|Translit=dú
+8	คอนเสิร์ต	_	NOUN	NN	_	7	obj	_	SpaceAfter=No|Translit=gʰɔːnséิrt
+9	ใน	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=nai
+10	วัน	_	NOUN	NN	_	6	obl	_	SpaceAfter=No|Translit=wân
+11	เดียว	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No|Translit=díáw
+12	กัน	_	PRON	PRP	_	11	obl	_	Translit=kân|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01003051
+# text = ตัวอย่างคือหมู่เกาะไลน์ในมหาสมุทรแปซิฟิกและมัลดีฟส์ในมหาสมุทรอินเดีย
+1	ตัวอย่าง	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No|Translit=túá'yá¹ŋ
+2	คือ	_	AUX	VC	_	3	cop	_	SpaceAfter=No|Translit=gʰű'
+3	หมู่	_	NOUN	NN	_	0	root	_	Proper=True|SpaceAfter=No|Translit=hmú¹
+4	เกาะ	_	NOUN	NN	_	3	compound	_	Proper=True|SpaceAfter=No|Translit=kɔ
+5	ไลน์	_	PROPN	NNP	_	3	compound	_	SpaceAfter=No|Translit=lain
+6	ใน	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=nai
+7	มหาสมุทร	_	NOUN	NN	_	3	nmod	_	Proper=True|SpaceAfter=No|ToDo=nmod|Translit=mhásmudʰr
+8	แปซิฟิก	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No|Translit=pǽcifik
+9	และ	_	CCONJ	CC	_	10	cc	_	SpaceAfter=No|Translit=læ
+10	มัลดีฟส์	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No|Translit=mâldífs
+11	ใน	_	ADP	IN	_	12	case	_	SpaceAfter=No|Translit=nai
+12	มหาสมุทร	_	NOUN	NN	_	3	nmod	_	Proper=True|SpaceAfter=No|Translit=mhásmudʰr
+13	อินเดีย	_	PROPN	NNP	_	12	flat:name	_	Translit='indíá|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01069006
+# text = พรรคเสรีประชาธิปไตยที่เป็นตัวแทนของเขตชานเมืองอันมั่งมีจนถึงปี 2010 หวังว่าจะได้ที่นั่งคืนด้วยผู้สมัคร ซาราห์ โอลนีย์
+1	พรรค	_	NOUN	NN	_	18	nsubj	_	Proper=True|SpaceAfter=No|Translit=bʰrrgʰ
+2	เสรี	_	ADJ	JJ	_	1	flat:name	_	Proper=True|SpaceAfter=No|Translit=sérí
+3	ประชาธิปไตย	_	NOUN	NN	_	1	flat:name	_	Proper=True|SpaceAfter=No|Translit=praćʰáḏʰiptaiy
+4	ที่	_	DET	WDT	_	6	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+5	เป็น	_	AUX	VC	_	6	cop	_	SpaceAfter=No|Translit=pen
+6	ตัว	_	NOUN	NN	_	1	acl:relcl	_	SpaceAfter=No|Translit=túá
+7	แทน	_	VERB	VV	_	6	acl	_	SpaceAfter=No|Translit=dʰǽn
+8	ของ	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+9	เขต	_	NOUN	NN	_	6	nmod:poss	_	SpaceAfter=No|Translit=kʰét
+10	ชาน	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=ćʰán
+11	เมือง	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=műáŋ
+12	อัน	_	DET	WDT	_	13	nsubj	_	SpaceAfter=No|Translit='ân
+13	มั่งมี	_	ADJ	JJ	_	9	acl:relcl	_	SpaceAfter=No|Translit=mâ¹ŋmí
+14	จน	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=čn
+15	ถึง	_	ADP	IN	_	14	fixed	_	SpaceAfter=No|Translit=tʰüŋ
+16	ปี	_	NOUN	NN	_	1	nmod	_	ToDo=nmod|Translit=pí|SpaceAfter=Yes
+17	2010	_	NUM	CD	_	16	appos	_	Translit=2010|SpaceAfter=Yes
+18	หวัง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=hwâŋ
+19	ว่า	_	ADP	IN	_	21	mark	_	SpaceAfter=No|Translit=wá¹
+20	จะ	_	AUX	MD	_	21	aux	_	SpaceAfter=No|Translit=ča
+21	ได้	_	VERB	VV	_	18	ccomp	_	SpaceAfter=No|Translit=dai²
+22	ที่	_	NOUN	NN	_	21	obj	_	SpaceAfter=No|Translit=dʰí¹
+23	นั่ง	_	VERB	VV	_	22	acl	_	SpaceAfter=No|Translit=nâ¹ŋ
+24	คืน	_	VERB	VV	_	21	xcomp	_	SpaceAfter=No|Translit=gʰűn
+25	ด้วย	_	ADP	IN	_	26	case	_	SpaceAfter=No|Translit=d²wy
+26	ผู้	_	NOUN	NN	_	24	obl	_	SpaceAfter=No|Translit=pʰú²
+27	สมัคร	_	VERB	VV	_	26	acl	_	Translit=smâgʰr|SpaceAfter=Yes
+28	ซาราห์	_	PROPN	NNP	_	21	flat:name	_	Translit=cáráh|SpaceAfter=Yes
+29	โอลนีย์	_	PROPN	NNP	_	28	flat:name	_	Translit='ólníy|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01150042
+# text = ตึกที่ได้รางวัลนี้ซึ่งออกแบบโดย ฮวน การ์ลอส ซาลาส มีลักษณะแบบประติมากรรมและทุกรายละเอียดมีความหมาย
+1	ตึก	_	NOUN	NN	_	12	nsubj	_	SpaceAfter=No|Translit=tük
+2	ที่	_	DET	WDT	_	3	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+3	ได้	_	VERB	VV	_	1	acl:relcl	_	SpaceAfter=No|Translit=dai²
+4	รางวัล	_	NOUN	NN	_	3	obj	_	SpaceAfter=No|Translit=ráŋwâl
+5	นี้	_	DET	DT	_	4	det	_	SpaceAfter=No|Translit=ní²
+6	ซึ่ง	_	DET	WDT	_	7	nsubj	_	SpaceAfter=No|Translit=cü¹ŋ
+7	ออกแบบ	_	VERB	VV	_	3	acl:relcl	_	SpaceAfter=No|Translit='ɔːkbǽb
+8	โดย	_	ADP	IN	_	9	case	_	Translit=dóy|SpaceAfter=Yes
+9	ฮวน	_	PROPN	NNP	_	7	obl	_	Translit=ḥwn|SpaceAfter=Yes
+10	การ์ลอส	_	PROPN	NNP	_	9	flat:name	_	Translit=kárlɔːs|SpaceAfter=Yes
+11	ซาลาส	_	PROPN	NNP	_	9	flat:name	_	Translit=cálás|SpaceAfter=Yes
+12	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+13	ลักษณะ	_	NOUN	NN	_	12	obj	_	SpaceAfter=No|Translit=lâkšṇa
+14	แบบ	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=bǽb
+15	ประติมากรรม	_	NOUN	NN	_	14	compound	_	SpaceAfter=No|Translit=pratimákrrm
+16	และ	_	CCONJ	CC	_	19	cc	_	SpaceAfter=No|Translit=læ
+17	ทุก	_	DET	DT	_	18	det	_	SpaceAfter=No|Translit=dʰuk
+18	รายละเอียด	_	NOUN	NNB	_	19	nsubj	_	SpaceAfter=No|Translit=ráyla'íád
+19	มี	_	VERB	VV	_	12	conj	_	SpaceAfter=No|Translit=mí
+20	ความหมาย	_	NOUN	NN	_	19	obj	_	Translit=gʰwámhmáy|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n05002017
+# text = สหภาพต่างๆ ได้ต่อสู้อย่างหนัก และหลายครั้งก็เรียกร้องการยกเลิกการออกกฎหมายที่ฟาติมา บาเยซมีความภูมิใจเป็นที่สุด
+1	สหภาพ	_	NOUN	NN	_	5	nsubj	_	Proper=True|SpaceAfter=No|Translit=shḇʰábʰ
+2	ต่าง	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No|Translit=tá¹ŋ
+3	ๆ	_	SYM	SYM	_	2	dep	_	Translit=|SpaceAfter=Yes
+4	ได้	_	AUX	AS	Aspect=Perf	5	aux	_	SpaceAfter=No|Translit=dai²
+5	ต่อสู้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=t¹'sú²
+6	อย่างหนัก	_	ADJ	JJ	_	5	advmod	_	Translit='yá¹ŋhnâk|SpaceAfter=Yes
+7	และ	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=læ
+8	หลาย	_	DET	DT	_	9	det	_	SpaceAfter=No|Translit=hláy
+9	ครั้ง	_	NOUN	NNB	_	11	nsubj	_	SpaceAfter=No|Translit=gʰrâ²ŋ
+10	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No|Translit=kɔ
+11	เรียกร้อง	_	VERB	VV	_	5	conj	_	SpaceAfter=No|Translit=ríákr²'ŋ
+12	การยกเลิก	_	VERB	VV	_	11	obj	_	SpaceAfter=No|Translit=kárykléิk
+13	การออก	_	VERB	VV	_	12	obj	_	SpaceAfter=No|Translit=kárɔː'k
+14	กฎหมาย	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=kḍhmáy
+15	ที่	_	DET	WDT	_	18	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+16	ฟาติมา	_	PROPN	NNP	_	18	nsubj	_	Translit=fátimá|SpaceAfter=Yes
+17	บาเยซ	_	PROPN	NNP	_	16	flat:name	_	SpaceAfter=No|Translit=báyéc
+18	มี	_	VERB	VV	_	13	acl:relcl	_	SpaceAfter=No|Translit=mí
+19	ความภูมิใจ	_	VERB	VV	_	18	obj	_	SpaceAfter=No|Translit=gʰwámḇʰúmičai
+20	เป็น	_	VERB	VC	_	18	advmod	_	SpaceAfter=No|Translit=pen
+21	ที่สุด	_	ADV	RB	_	20	advmod	_	Translit=dʰí¹sud|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01111089
+# text = วินสโตนพบอีเลนภรรยาของเขาขณะที่ถ่ายทำภาพยนตร์คิมหันต์นั้นในปี 1979
+1	วินสโตน	_	PROPN	NNP	_	2	nsubj	_	SpaceAfter=No|Translit=winstón
+2	พบ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=bʰb
+3	อีเลน	_	PROPN	NNP	_	2	obj	_	SpaceAfter=No|Translit='ílén
+4	ภรรยา	_	NOUN	NN	_	3	compound	_	SpaceAfter=No|Translit=ḇʰrryá
+5	ของ	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+6	เขา	_	PRON	PRP	Person=3	4	nmod:poss	_	SpaceAfter=No|Translit=kʰao
+7	ขณะ	_	NOUN	NN	_	9	mark	_	SpaceAfter=No|Translit=kʰṇa
+8	ที่	_	DET	WDT	_	9	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+9	ถ่าย	_	VERB	VV	_	2	advcl	_	SpaceAfter=No|Translit=tʰá¹y
+10	ทำ	_	VERB	VV	_	9	xcomp	_	SpaceAfter=No|Translit=dʰã
+11	ภาพยนตร์	_	NOUN	NN	_	10	obj	_	SpaceAfter=No|Translit=ḇʰábʰyntr
+12	คิมหันต์	_	NOUN	NN	_	11	compound	_	Proper=True|SpaceAfter=No|Translit=gʰimhânt
+13	นั้น	_	DET	DT	_	9	det	_	Proper=True|SpaceAfter=No|Translit=nâ²n
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=nai
+15	ปี	_	NOUN	NN	_	2	obl	_	Translit=pí|SpaceAfter=Yes
+16	1979	_	NUM	CD	_	15	appos	_	Translit=1979|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01036077
+# text = วงศ์พืชเหล่านี้ยังมีอยู่ในปาปัวนิวกินี
+1	วงศ์	_	NOUN	NN	_	6	nsubj	_	SpaceAfter=No|Translit=wŋś
+2	พืช	_	NOUN	NN	_	1	compound	_	SpaceAfter=No|Translit=bʰűćʰ
+3	เหล่า	_	NOUN	NNB	_	1	clf	_	SpaceAfter=No|Translit=hélá¹
+4	นี้	_	DET	DT	_	3	det	_	SpaceAfter=No|Translit=ní²
+5	ยัง	_	AUX	AS	Aspect=Prog	6	aux	_	SpaceAfter=No|Translit=yâŋ
+6	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+7	อยู่	_	AUX	AS	Aspect=Prog	6	aux	_	SpaceAfter=No|Translit='yú¹
+8	ใน	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=nai
+9	ปาปัวนิวกินี	_	PROPN	NNP	_	6	obl	_	Translit=pápúániwkiní|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w04002048
+# text = ในปี 1928 สนามกอล์ฟ 90 เฮกตาร์ถูกสร้างขึ้นในบริเวณตะวันออกเฉียงเหนือของสวนติดกับสนามแข่ง
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	ปี	_	NOUN	NN	_	9	obl	_	Translit=pí|SpaceAfter=Yes
+3	1928	_	NUM	CD	_	2	appos	_	Translit=1928|SpaceAfter=Yes
+4	สนาม	_	NOUN	NN	_	9	nsubj:pass	_	SpaceAfter=No|Translit=snám
+5	กอล์ฟ	_	NOUN	NN	_	4	compound	_	Translit=kɔːlf|SpaceAfter=Yes
+6	90	_	NUM	CD	_	7	nummod	_	Translit=90|SpaceAfter=Yes
+7	เฮกตาร์	_	NOUN	NN	_	4	clf	_	SpaceAfter=No|Translit=ḥéktár
+8	ถูก	_	AUX	MD	Voice=Pass	9	aux:pass	_	SpaceAfter=No|Translit=tʰúk
+9	สร้าง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=srá²ŋ
+10	ขึ้น	_	PART	RP	_	9	compound:prt	_	SpaceAfter=No|Translit=kʰü²n
+11	ใน	_	ADP	IN	_	12	case	_	SpaceAfter=No|Translit=nai
+12	บริเวณ	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|Translit=briwéṇ
+13	ตะวัน	_	NOUN	NN	_	12	compound	_	SpaceAfter=No|Translit=tawân
+14	ออก	_	VERB	VV	_	13	acl	_	SpaceAfter=No|Translit='ɔːk
+15	เฉียง	_	ADV	RB	_	13	acl	_	SpaceAfter=No|Translit=čʰíáŋ
+16	เหนือ	_	NOUN	NN	_	15	obl	_	SpaceAfter=No|Translit=hénű'
+17	ของ	_	ADP	IN	_	18	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+18	สวน	_	NOUN	NN	_	13	nmod:poss	_	SpaceAfter=No|Translit=swn
+19	ติด	_	VERB	VV	_	9	acl	_	SpaceAfter=No|Translit=tid
+20	กับ	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit=kâb
+21	สนาม	_	NOUN	NN	_	19	obl	_	SpaceAfter=No|Translit=snám
+22	แข่ง	_	VERB	VV	_	21	acl	_	Translit=kʰǽ¹ŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w03010098
+# text = ในช่วงฤดูใบไม้ผลิปี 1948 นั้น ด้วยความหวังที่จะดัดแปลงตินตินเป็นภาพยนตร์ ศิลปินชาวเบลเยียมได้เขียนจดหมายถึงวอลต์ ดิสนีย์เพื่อขอการสนับสนุนแบบลมๆ แล้งๆ
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	ช่วง	_	NOUN	NN	_	21	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+3	ฤดู	_	NOUN	NN	_	2	compound	_	SpaceAfter=No|Translit=ṟdú
+4	ใบไม้	_	NOUN	NN	_	3	compound	_	SpaceAfter=No|Translit=baimai²
+5	ผลิ	_	VERB	VV	_	3	acl	_	SpaceAfter=No|Translit=pʰli
+6	ปี	_	NOUN	NN	_	2	obl:tmod	_	Translit=pí|SpaceAfter=Yes
+7	1948	_	NUM	CD	_	6	appos	_	Translit=1948|SpaceAfter=Yes
+8	นั้น	_	DET	DT	_	2	det	_	Translit=nâ²n|SpaceAfter=Yes
+9	ด้วย	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=d²wy
+10	ความหวัง	_	VERB	VV	_	21	obl	_	SpaceAfter=No|Translit=gʰwámhwâŋ
+11	ที่	_	DET	WDT	_	13	mark	_	SpaceAfter=No|Translit=dʰí¹
+12	จะ	_	AUX	MD	_	13	aux	_	SpaceAfter=No|Translit=ča
+13	ดัดแปลง	_	VERB	VV	_	10	acl:relcl	_	SpaceAfter=No|Translit=dâdpǽlŋ
+14	ตินติน	_	PROPN	NNP	_	13	obj	_	SpaceAfter=No|Translit=tintin
+15	เป็น	_	AUX	VC	_	16	cop	_	SpaceAfter=No|Translit=pen
+16	ภาพยนตร์	_	NOUN	NN	_	13	xcomp	_	Translit=ḇʰábʰyntr|SpaceAfter=Yes
+17	ศิลปิน	_	NOUN	NN	_	21	nsubj	_	SpaceAfter=No|Translit=śilpin
+18	ชาว	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit=ćʰáw
+19	เบลเยียม	_	PROPN	NNP	_	17	compound	_	SpaceAfter=No|Translit=bélyíám
+20	ได้	_	AUX	AS	Aspect=Perf	21	aux	_	SpaceAfter=No|Translit=dai²
+21	เขียน	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰíán
+22	จดหมาย	_	NOUN	NN	_	21	obj	_	SpaceAfter=No|Translit=čdhmáy
+23	ถึง	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=tʰüŋ
+24	วอลต์	_	PROPN	NNP	_	22	nmod	_	Translit=wɔːlt|SpaceAfter=Yes
+25	ดิสนีย์	_	PROPN	NNP	_	24	flat:name	_	SpaceAfter=No|Translit=disníy
+26	เพื่อ	_	ADP	IN	_	27	mark	_	SpaceAfter=No|Translit=bʰűá¹
+27	ขอ	_	VERB	VV	_	21	advcl	_	SpaceAfter=No|Translit=kʰɔː
+28	การสนับสนุน	_	VERB	VV	_	27	obj	_	SpaceAfter=No|Translit=kársnâbsnun
+29	แบบ	_	NOUN	NN	_	28	obj	_	SpaceAfter=No|Translit=bǽb
+30	ลม	_	NOUN	NN	_	29	amod	_	SpaceAfter=No|Translit=lm
+31	ๆ	_	SYM	SYM	_	30	dep	_	Translit=|SpaceAfter=Yes
+32	แล้ง	_	ADJ	JJ	_	29	amod	_	SpaceAfter=No|Translit=lǽ²ŋ
+33	ๆ	_	SYM	SYM	_	32	dep	_	Translit=|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01043005
+# text = ผู้บริหารยังจะได้รับสิ่งที่เรียกว่า “ค่าตอบแทนการปฏิบัติงาน” สำหรับการปฏิบัติงานสำเร็จหรือมีผลงานเหนือความคาดหมาย โดยแบ่งกันจากจำนวน 1.5 ล้านดอลลาร์ หรือเฉลี่ยประมาณคนละ 15,000 ดอลลาร์
+1	ผู้	_	NOUN	NN	_	6	nsubj	_	SpaceAfter=No|Translit=pʰú²
+2	บริหาร	_	VERB	VV	_	1	acl	_	SpaceAfter=No|Translit=brihár
+3	ยัง	_	ADV	RB	_	6	aux	_	SpaceAfter=No|Translit=yâŋ
+4	จะ	_	AUX	MD	_	6	aux	_	SpaceAfter=No|Translit=ča
+5	ได้	_	AUX	AS	Aspect=Perf	6	aux	_	SpaceAfter=No|Translit=dai²
+6	รับ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=râb
+7	สิ่ง	_	NOUN	NN	_	6	obj	_	SpaceAfter=No|Translit=si¹ŋ
+8	ที่	_	DET	WDT	_	9	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+9	เรียก	_	VERB	VV	_	7	acl:relcl	_	SpaceAfter=No|Translit=ríák
+10	ว่า	_	VERB	VV	_	9	xcomp	_	Translit=wá¹|SpaceAfter=Yes
+11	“	_	PUNCT	``	_	12	punct	_	SpaceAfter=No|Translit=“
+12	ค่า	_	NOUN	NN	_	10	obj	_	SpaceAfter=No|Translit=gʰá¹
+13	ตอบแทน	_	VERB	VV	_	12	acl	_	SpaceAfter=No|Translit=tɔːbdʰǽn
+14	การปฏิบัติ	_	VERB	VV	_	13	obj	_	SpaceAfter=No|Translit=kárpṭibâti
+15	งาน	_	NOUN	NN	_	14	obj	_	SpaceAfter=No|Translit=ŋán
+16	”	_	PUNCT	''	_	9	punct	_	Translit=”|SpaceAfter=Yes
+17	สำหรับ	_	ADP	IN	_	18	case	_	SpaceAfter=No|Translit=sãhrâb
+18	การปฏิบัติ	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No|Translit=kárpṭibâti
+19	งาน	_	NOUN	NN	_	18	obj	_	SpaceAfter=No|Translit=ŋán
+20	สำเร็จ	_	VERB	VV	_	18	acl	_	SpaceAfter=No|Translit=sãreč
+21	หรือ	_	CCONJ	CC	_	22	cc	_	SpaceAfter=No|Translit=hrű'
+22	มี	_	VERB	VV	_	18	conj	_	SpaceAfter=No|Translit=mí
+23	ผล	_	NOUN	NN	_	22	obj	_	SpaceAfter=No|Translit=pʰl
+24	งาน	_	NOUN	NN	_	23	compound	_	SpaceAfter=No|Translit=ŋán
+25	เหนือ	_	ADP	IN	_	26	case	_	SpaceAfter=No|Translit=hénű'
+26	ความคาดหมาย	_	VERB	VV	_	18	obl	_	Translit=gʰwámgʰádhmáy|SpaceAfter=Yes
+27	โดย	_	ADP	IN	_	28	mark	_	SpaceAfter=No|Translit=dóy
+28	แบ่ง	_	VERB	VV	_	6	advcl	_	SpaceAfter=No|Translit=bǽ¹ŋ
+29	กัน	_	PRON	PRP	_	28	obl	_	SpaceAfter=No|Translit=kân
+30	จาก	_	ADP	IN	_	31	case	_	SpaceAfter=No|Translit=čák
+31	จำนวน	_	NOUN	NN	_	28	obl	_	Translit=čãnwn|SpaceAfter=Yes
+32	1.5	_	NUM	CD	_	33	nummod	_	Translit=1.5|SpaceAfter=Yes
+33	ล้าน	_	NUM	CD	_	34	nummod	_	SpaceAfter=No|Translit=lá²n
+34	ดอลลาร์	_	NOUN	NNB	_	31	clf	_	Translit=dɔːllár|SpaceAfter=Yes
+35	หรือ	_	CCONJ	CC	_	36	cc	_	SpaceAfter=No|Translit=hrű'
+36	เฉลี่ย	_	ADJ	JJ	_	31	conj	_	SpaceAfter=No|Translit=čʰélí¹y
+37	ประมาณ	_	ADV	RB	_	38	advmod	_	SpaceAfter=No|Translit=pramáṇ
+38	คน	_	NOUN	NN	_	36	obl	_	SpaceAfter=No|Translit=gʰn
+39	ละ	_	DET	DT	_	38	amod	_	Translit=la|SpaceAfter=Yes
+40	15,000	_	NUM	CD	_	41	nummod	_	Translit=15,000|SpaceAfter=Yes
+41	ดอลลาร์	_	NOUN	NNB	_	38	clf	_	Translit=dɔːllár|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w02005028
+# text = สวนเยร์บาบวยนาสร้างขึ้นในช่วงต้นยุค 1900 ทางเหนือของศูนย์ประชุมมอสโคนีเหนือ
+1	สวน	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No|Translit=swn
+2	เยร์บาบวยนา	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit=yérbábwyná
+3	สร้าง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=srá²ŋ
+4	ขึ้น	_	PART	RP	_	3	compound:prt	_	SpaceAfter=No|Translit=kʰü²n
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	ช่วง	_	NOUN	NN	_	3	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+7	ต้น	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit=t²n
+8	ยุค	_	NOUN	NN	_	6	compound	_	Translit=yugʰ|SpaceAfter=Yes
+9	1900	_	NUM	CD	_	8	appos	_	Translit=1900|SpaceAfter=Yes
+10	ทาง	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=dʰáŋ
+11	เหนือ	_	NOUN	NN	_	6	nmod	_	SpaceAfter=No|Translit=hénű'
+12	ของ	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+13	ศูนย์	_	NOUN	NN	_	6	nmod:poss	_	SpaceAfter=No|ToDo=ex-adp-child|Translit=śúny
+14	ประชุม	_	VERB	VV	_	13	acl	_	Proper=True|SpaceAfter=No|Translit=praćʰum
+15	มอสโคนี	_	PROPN	NNP	_	13	flat:name	_	SpaceAfter=No|Translit=mɔːsgʰóní
+16	เหนือ	_	NOUN	NN	_	13	flat:name	_	Translit=hénű'|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w05002014
+# text = ก่อนเทือกเขาแอนดีสก่อตัว ส่วนขอบตะวันตกของอเมริกาใต้มีบริเวณของการก่อเทือกเขาอยู่หลายจุดอยู่แล้ว
+1	ก่อน	_	ADP	IN	_	5	mark	_	SpaceAfter=No|Translit=k¹'n
+2	เทือก	_	NOUN	NN	_	5	nsubj	_	Proper=True|SpaceAfter=No|Translit=dʰűák
+3	เขา	_	NOUN	NN	_	2	flat:name	_	Proper=True|SpaceAfter=No|Translit=kʰao
+4	แอนดีส	_	PROPN	NNP	_	2	flat:name	_	SpaceAfter=No|Translit='ǽndís
+5	ก่อ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=k¹'
+6	ตัว	_	NOUN	NN	_	5	obj	_	Translit=túá|SpaceAfter=Yes
+7	ส่วน	_	NOUN	NN	_	13	cc	_	SpaceAfter=No|Translit=s¹wn
+8	ขอบ	_	NOUN	NN	_	13	nsubj	_	SpaceAfter=No|Translit=kʰɔːb
+9	ตะวัน	_	NOUN	NN	_	8	compound	_	SpaceAfter=No|Translit=tawân
+10	ตก	_	VERB	VV	_	9	acl	_	SpaceAfter=No|Translit=tk
+11	ของ	_	ADP	IN	_	12	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+12	อเมริกาใต้	_	PROPN	NNP	_	8	nmod:poss	_	SpaceAfter=No|Translit='mérikátai²
+13	มี	_	VERB	VV	_	5	advcl	_	SpaceAfter=No|Translit=mí
+14	บริเวณ	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=briwéṇ
+15	ของ	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+16	การก่อ	_	VERB	VV	_	14	nmod:poss	_	SpaceAfter=No|Translit=kárk¹'
+17	เทือก	_	NOUN	NN	_	16	obj	_	SpaceAfter=No|Translit=dʰűák
+18	เขา	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit=kʰao
+19	อยู่	_	AUX	AS	Aspect=Prog	13	aux	_	SpaceAfter=No|Translit='yú¹
+20	หลาย	_	DET	DT	_	21	det	_	SpaceAfter=No|Translit=hláy
+21	จุด	_	NOUN	NNB	_	13	obl	_	SpaceAfter=No|Translit=čud
+22	อยู่	_	AUX	AS	Aspect=Prog	13	advmod	_	SpaceAfter=No|Translit='yú¹
+23	แล้ว	_	AUX	AS	Aspect=Perf	13	advmod	_	Translit=lǽ²w|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w02001041
+# text = ก่อตั้งในปี 1925 เพื่อเป็นการละเล่นสำหรับทุกคน โรงละครเปิดโล่งบนบันไดขนาดใหญ่หน้าโบสถ์เซนต์ไมเคิลยังคงดึงดูดผู้คนจากทุกสารทิศ
+1	ก่อตั้ง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=k¹'tâ²ŋ
+2	ใน	_	ADP	IN	_	3	case	_	SpaceAfter=No|Translit=nai
+3	ปี	_	NOUN	NN	_	1	obl	_	Translit=pí|SpaceAfter=Yes
+4	1925	_	NUM	CD	_	3	appos	_	Translit=1925|SpaceAfter=Yes
+5	เพื่อ	_	ADP	IN	_	7	mark	_	SpaceAfter=No|Translit=bʰűá¹
+6	เป็น	_	AUX	VC	_	7	cop	_	SpaceAfter=No|Translit=pen
+7	การละเล่น	_	VERB	VV	_	1	xcomp	_	SpaceAfter=No|Translit=kárlalé¹n
+8	สำหรับ	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=sãhrâb
+9	ทุก	_	DET	DT	_	10	det	_	SpaceAfter=No|Translit=dʰuk
+10	คน	_	NOUN	NNB	_	7	obl	_	Translit=gʰn|SpaceAfter=Yes
+11	โรง	_	NOUN	NN	_	13	nsubj	_	SpaceAfter=No|Translit=róŋ
+12	ละคร	_	NOUN	NN	_	11	compound	_	SpaceAfter=No|Translit=lagʰr
+13	เปิด	_	VERB	VV	_	7	acl	_	SpaceAfter=No|Translit=péิd
+14	โล่ง	_	ADV	RB	_	13	advmod	_	SpaceAfter=No|Translit=ló¹ŋ
+15	บน	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=bn
+16	บันได	_	NOUN	NN	_	13	obl	_	SpaceAfter=No|Translit=bândai
+17	ขนาด	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=kʰnád
+18	ใหญ่	_	ADJ	JJ	_	17	amod	_	SpaceAfter=No|Translit=haiŷ¹
+19	หน้า	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=hná²
+20	โบสถ์	_	NOUN	NN	_	16	nmod	_	SpaceAfter=No|Translit=bóstʰ
+21	เซนต์	_	PROPN	NNP	_	20	flat:name	_	SpaceAfter=No|Translit=cént
+22	ไมเคิล	_	PROPN	NNP	_	20	flat:name	_	SpaceAfter=No|Translit=maigʰéิl
+23	ยังคง	_	AUX	AS	Aspect=Prog	24	aux	_	SpaceAfter=No|Translit=yâŋgʰŋ
+24	ดึงดูด	_	VERB	VV	_	13	ccomp	_	SpaceAfter=No|Translit=düŋdúd
+25	ผู้คน	_	NOUN	NN	_	24	obj	_	SpaceAfter=No|Translit=pʰú²gʰn
+26	จาก	_	ADP	IN	_	28	case	_	SpaceAfter=No|Translit=čák
+27	ทุก	_	DET	DT	_	28	det	_	SpaceAfter=No|Translit=dʰuk
+28	สารทิศ	_	NOUN	NNB	_	25	nmod	_	Translit=sárdʰiś|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01033028
+# text = นางสาวพุกเข้ารับการรักษาที่โรงพยาบาลแพพเวิร์ทและโรงพยาบาลแอดเดนบรูคในแคมบริดจ์เชอร์
+1	นางสาว	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No|Translit=náŋsáw
+2	พุก	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit=bʰuk
+3	เข้า	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰao²
+4	รับ	_	VERB	VV	_	3	xcomp	_	SpaceAfter=No|Translit=râb
+5	การรักษา	_	VERB	VV	_	4	obj	_	SpaceAfter=No|Translit=kárrâkšá
+6	ที่	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=dʰí¹
+7	โรง	_	NOUN	NN	_	4	obl	_	Proper=True|SpaceAfter=No|Translit=róŋ
+8	พยาบาล	_	VERB	VV	_	7	acl	_	Proper=True|SpaceAfter=No|Translit=bʰyábál
+9	แพพเวิร์ท	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No|Translit=bʰǽbʰwéิrdʰ
+10	และ	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=læ
+11	โรง	_	NOUN	NN	_	7	conj	_	Proper=True|SpaceAfter=No|Translit=róŋ
+12	พยาบาล	_	VERB	VV	_	11	acl	_	Proper=True|SpaceAfter=No|Translit=bʰyábál
+13	แอดเดนบรูค	_	PROPN	NNP	_	11	flat:name	_	SpaceAfter=No|Translit='ǽddénbrúgʰ
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=nai
+15	แคมบริดจ์เชอร์	_	PROPN	NNP	_	7	nmod	_	Translit=gʰǽmbridčćʰóér|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01119019
+# text = แล้วผลก็ออกมาแทบจะไม่ยอดเยี่ยมเลย
+1	แล้ว	_	CCONJ	CC	_	4	cc	_	SpaceAfter=No|Translit=lǽ²w
+2	ผล	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No|Translit=pʰl
+3	ก็	_	ADV	RB	_	4	advmod	_	SpaceAfter=No|Translit=kɔ
+4	ออก	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit='ɔːk
+5	มา	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No|Translit=má
+6	แทบ	_	ADV	RB	_	9	advmod	_	SpaceAfter=No|Translit=dʰǽb
+7	จะ	_	AUX	MD	_	9	aux	_	SpaceAfter=No|Translit=ča
+8	ไม่	_	PART	NEG	Polarity=Neg	9	advmod	_	SpaceAfter=No|Translit=mai¹
+9	ยอด	_	ADV	RB	_	4	advcl	_	SpaceAfter=No|Translit=yɔːd
+10	เยี่ยม	_	ADJ	JJ	_	9	advmod	_	SpaceAfter=No|Translit=yíá¹m
+11	เลย	_	ADV	RB	_	9	advmod	_	Translit=léy|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n02074009
+# text = สามีของฮิลลารี คลินตัน ผู้เข้าชิงตำแหน่งทำเนียบขาวคนปัจจุบัน ได้ขอโทษคนจำนวนหนึ่งรวมถึงริช ในวันที่ 20 มกราคม 2001 วันสุดท้ายของการเป็นประธานาธิบดีของเขา
+1	สามี	_	NOUN	NN	_	14	nsubj	_	SpaceAfter=No|Translit=sámí
+2	ของ	_	ADP	IN	_	3	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+3	ฮิลลารี	_	PROPN	NNP	_	1	nmod:poss	_	Translit=ḥillárí|SpaceAfter=Yes
+4	คลินตัน	_	PROPN	NNP	_	3	flat:name	_	Translit=gʰlintân|SpaceAfter=Yes
+5	ผู้	_	NOUN	NN	_	14	nsubj	_	SpaceAfter=No|Translit=pʰú²
+6	เข้า	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=kʰao²
+7	ชิง	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No|Translit=ćʰiŋ
+8	ตำแหน่ง	_	NOUN	NN	_	7	obj	_	SpaceAfter=No|Translit=tãhǽn¹ŋ
+9	ทำเนียบ	_	NOUN	NN	_	8	compound	_	Proper=True|SpaceAfter=No|Translit=dʰãníáb
+10	ขาว	_	ADJ	JJ	_	9	compound	_	Proper=True|SpaceAfter=No|Translit=kʰáw
+11	คน	_	NOUN	NNB	_	5	clf	_	SpaceAfter=No|Translit=gʰn
+12	ปัจจุบัน	_	NOUN	NN	_	11	amod	_	Translit=pâččubân|SpaceAfter=Yes
+13	ได้	_	AUX	AS	Aspect=Perf	14	aux	_	SpaceAfter=No|Translit=dai²
+14	ขอโทษ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰɔːdʰóš
+15	คน	_	NOUN	NN	_	14	obj	_	SpaceAfter=No|Translit=gʰn
+16	จำนวน	_	NOUN	NN	_	15	clf	_	SpaceAfter=No|Translit=čãnwn
+17	หนึ่ง	_	NUM	CD	_	16	nummod	_	SpaceAfter=No|Translit=hnü¹ŋ
+18	รวม	_	VERB	VV	_	-1	_	_	SpaceAfter=No|Translit=rwm
+19	ถึง	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=tʰüŋ
+20	ริช	_	PROPN	NNP	_	18	obl	_	Translit=rićʰ|SpaceAfter=Yes
+21	ใน	_	ADP	IN	_	22	case	_	SpaceAfter=No|Translit=nai
+22	วันที่	_	NOUN	NN	_	18	obl	_	Translit=wândʰí¹|SpaceAfter=Yes
+23	20	_	NUM	CD	_	22	appos	_	Translit=20|SpaceAfter=Yes
+24	มกราคม	_	NOUN	NN	_	23	obl:tmod	_	Translit=mkrágʰm|SpaceAfter=Yes
+25	2001	_	NUM	CD	_	24	obl:tmod	_	Translit=2001|SpaceAfter=Yes
+26	วัน	_	NOUN	NN	_	22	appos	_	SpaceAfter=No|Translit=wân
+27	สุดท้าย	_	ADJ	JJ	_	26	amod	_	SpaceAfter=No|Translit=suddʰá²y
+28	ของ	_	ADP	IN	_	29	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+29	การเป็น	_	AUX	VC	_	-1	_	_	SpaceAfter=No|Translit=kárpen
+30	ประธานาธิบดี	_	NOUN	NN	_	29	xcomp	_	SpaceAfter=No|Translit=praḏʰánáḏʰibdí
+31	ของ	_	ADP	IN	_	32	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+32	เขา	_	PRON	PRP	Person=3	29	nmod:poss	_	Translit=kʰao|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01095009
+# text = ฉันไม่เรียกมันว่าสัตว์ร้ายหรอก
+1	ฉัน	_	PRON	PRP	Person=1	3	nsubj	_	SpaceAfter=No|Translit=čʰân
+2	ไม่	_	PART	NEG	Polarity=Neg	3	advmod	_	SpaceAfter=No|Translit=mai¹
+3	เรียก	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=ríák
+4	มัน	_	PRON	PRP	Person=3	3	obj	_	SpaceAfter=No|Translit=mân
+5	ว่า	_	VERB	VV	_	3	xcomp	_	SpaceAfter=No|Translit=wá¹
+6	สัตว์	_	NOUN	NN	_	5	obj	_	SpaceAfter=No|Translit=sâtw
+7	ร้าย	_	ADJ	JJ	_	6	amod	_	SpaceAfter=No|Translit=rá²y
+8	หรอก	_	PART	EP	_	3	advmod	_	Translit=hrɔːk|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01124049
+# text = หลังจากถูกไล่ออก เพนิสตันรับเล่นเป็นกลินดา แม่มดฝ่ายดีในการผลิตละครเวทีของละครเพลงเรื่องเดอะวิซ
+1	หลัง	_	ADP	IN	_	4	mark	_	SpaceAfter=No|Translit=hlâŋ
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No|Translit=čák
+3	ถูก	_	AUX	MD	Voice=Pass	4	aux:pass	_	SpaceAfter=No|Translit=tʰúk
+4	ไล่	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=lai¹
+5	ออก	_	PART	RP	_	4	compound:prt	_	Translit='ɔːk|SpaceAfter=Yes
+6	เพนิสตัน	_	PROPN	NNP	_	7	nsubj	_	SpaceAfter=No|Translit=bʰénistân
+7	รับ	_	VERB	VV	_	4	root	_	SpaceAfter=No|Translit=râb
+8	เล่น	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No|Translit=lé¹n
+9	เป็น	_	AUX	VC	_	10	cop	_	SpaceAfter=No|Translit=pen
+10	กลินดา	_	PROPN	NNP	_	8	xcomp	_	Translit=klindá|SpaceAfter=Yes
+11	แม่มด	_	NOUN	NN	_	10	appos	_	SpaceAfter=No|Translit=mǽ¹md
+12	ฝ่าย	_	NOUN	NNB	_	11	compound	_	SpaceAfter=No|Translit=fʰá¹y
+13	ดี	_	ADJ	JJ	_	12	amod	_	SpaceAfter=No|Translit=dí
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=nai
+15	การผลิต	_	VERB	VV	_	10	xcomp	_	SpaceAfter=No|Translit=kárpʰlit
+16	ละคร	_	NOUN	NN	_	15	obj	_	SpaceAfter=No|Translit=lagʰr
+17	เวที	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=wédʰí
+18	ของ	_	ADP	IN	_	19	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+19	ละคร	_	NOUN	NN	_	16	nmod:poss	_	SpaceAfter=No|Translit=lagʰr
+20	เพลง	_	NOUN	NN	_	19	compound	_	SpaceAfter=No|Translit=bʰélŋ
+21	เรื่อง	_	NOUN	NN	_	19	compound	_	SpaceAfter=No|Translit=rűá¹ŋ
+22	เดอะ	_	DET	DT	_	23	det	_	Proper=True|SpaceAfter=No|Translit=doe
+23	วิซ	_	NOUN	NN	_	19	conj	_	Proper=True|Translit=wic|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01021012
+# text = บทวิเคราะห์เผยว่ามีการใช้ข้อมูลมหาศาลเพื่อทำให้เกิดความขัดข้อง
+1	บท	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No|Translit=bdʰ
+2	วิเคราะห์	_	VERB	VV	_	1	acl	_	SpaceAfter=No|Translit=wigʰéráะh
+3	เผย	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=pʰéy
+4	ว่า	_	ADP	IN	_	5	mark	_	SpaceAfter=No|Translit=wá¹
+5	มี	_	VERB	VV	_	3	ccomp	_	SpaceAfter=No|Translit=mí
+6	การใช้	_	VERB	VV	_	5	obj	_	SpaceAfter=No|Translit=kárćʰai²
+7	ข้อมูล	_	NOUN	NN	_	6	obj	_	SpaceAfter=No|Translit=kʰ²'múl
+8	มหาศาล	_	ADJ	JJ	_	6	advmod	_	SpaceAfter=No|Translit=mháśál
+9	เพื่อ	_	ADP	IN	_	10	mark	_	SpaceAfter=No|Translit=bʰűá¹
+10	ทำให้	_	VERB	VV	_	6	advcl	_	SpaceAfter=No|Translit=dʰãhai²
+11	เกิด	_	VERB	VV	_	10	xcomp	_	SpaceAfter=No|Translit=kéิd
+12	ความขัดข้อง	_	VERB	VV	_	11	obj	_	Translit=gʰwámkʰâdkʰ²'ŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01029014
+# text = ช่วงต้นปี ซีกัลได้สัญชาติเซอร์เบียหลังจากเสนอที่จะเปิดโรงเรียนสอนศิลปะป้องกันตัวในนครหลวงเบลเกรด
+1	ช่วง	_	NOUN	NN	_	5	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+2	ต้น	_	NOUN	NN	_	1	compound	_	SpaceAfter=No|Translit=t²n
+3	ปี	_	NOUN	NN	_	1	compound	_	Translit=pí|SpaceAfter=Yes
+4	ซีกัล	_	PROPN	NNP	_	5	nsubj	_	SpaceAfter=No|Translit=cíkâl
+5	ได้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=dai²
+6	สัญชาติ	_	NOUN	NN	_	5	obj	_	SpaceAfter=No|Translit=sâŷćʰáti
+7	เซอร์เบีย	_	PROPN	NNP	_	6	compound	_	SpaceAfter=No|Translit=cóérbíá
+8	หลัง	_	ADP	IN	_	10	mark	_	SpaceAfter=No|Translit=hlâŋ
+9	จาก	_	ADP	IN	_	8	fixed	_	SpaceAfter=No|Translit=čák
+10	เสนอ	_	VERB	VV	_	5	advcl	_	SpaceAfter=No|Translit=sénɔː
+11	ที่	_	ADP	IN	_	13	mark	_	SpaceAfter=No|Translit=dʰí¹
+12	จะ	_	AUX	MD	_	13	aux	_	SpaceAfter=No|Translit=ča
+13	เปิด	_	VERB	VV	_	10	advcl	_	SpaceAfter=No|Translit=péิd
+14	โรง	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=róŋ
+15	เรียน	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=ríán
+16	สอน	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=sɔːn
+17	ศิลปะ	_	NOUN	NN	_	16	obj	_	SpaceAfter=No|Translit=śilpa
+18	ป้องกัน	_	VERB	VV	_	17	acl	_	SpaceAfter=No|Translit=p²'ŋkân
+19	ตัว	_	NOUN	NN	_	18	obj	_	SpaceAfter=No|Translit=túá
+20	ใน	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit=nai
+21	นคร	_	NOUN	NN	_	13	obl	_	Proper=True|SpaceAfter=No|Translit=ngʰr
+22	หลวง	_	ADJ	JJ	_	21	amod	_	Proper=True|SpaceAfter=No|Translit=hlwŋ
+23	เบลเกรด	_	PROPN	NNP	_	21	flat:name	_	Translit=bélkérd|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01140033
+# text = หลังจากได้การยอมรับในฐานะผู้เชี่ยวชาญในสาขานี้ เธอนำทักษะเหล่านั้นกลับไปยังสถาบันเรเดียมพร้อมกับพอโลเนียมแผ่นเล็กๆด้วย
+1	หลัง	_	ADP	IN	_	4	mark	_	SpaceAfter=No|Translit=hlâŋ
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No|Translit=čák
+3	ได้	_	VERB	VV	_	1	fixed	_	SpaceAfter=No|Translit=dai²
+4	การยอมรับ	_	VERB	VV	_	-1	_	_	SpaceAfter=No|Translit=káryɔːmrâb
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	ฐานะ	_	NOUN	NN	_	4	obl	_	SpaceAfter=No|Translit=ṭʰána
+7	ผู้	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit=pʰú²
+8	เชี่ยวชาญ	_	ADJ	JJ	_	7	acl	_	SpaceAfter=No|Translit=ćʰíá¹wćʰáŷ
+9	ใน	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=nai
+10	สาขา	_	NOUN	NN	_	7	nmod	_	SpaceAfter=No|Translit=sákʰá
+11	นี้	_	DET	DT	_	10	det	_	Translit=ní²|SpaceAfter=Yes
+12	เธอ	_	PRON	PRP	Person=3	13	nsubj	_	SpaceAfter=No|Translit=ḏʰóé
+13	นำ	_	VERB	VV	_	4	advcl	_	SpaceAfter=No|Translit=nã
+14	ทักษะ	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=dʰâkša
+15	เหล่า	_	NOUN	NNB	_	14	clf	_	SpaceAfter=No|Translit=hélá¹
+16	นั้น	_	DET	DT	_	15	det	_	SpaceAfter=No|Translit=nâ²n
+17	กลับ	_	VERB	VV	_	13	acl	_	SpaceAfter=No|Translit=klâb
+18	ไป	_	PART	RP	_	17	compound:prt	_	SpaceAfter=No|Translit=pai
+19	ยัง	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=yâŋ
+20	สถาบัน	_	NOUN	NN	_	17	obl	_	SpaceAfter=No|Translit=stʰábân
+21	เรเดียม	_	NOUN	NN	_	20	flat:name	_	SpaceAfter=No|Translit=rédíám
+22	พร้อม	_	VERB	VV	_	13	acl	_	SpaceAfter=No|Translit=bʰr²'m
+23	กับ	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=kâb
+24	พอโลเนียม	_	NOUN	NN	_	22	obl	_	SpaceAfter=No|Translit=bʰɔːlóníám
+25	แผ่น	_	NOUN	NNB	_	24	clf	_	SpaceAfter=No|Translit=pʰǽ¹n
+26	เล็ก	_	ADJ	JJ	_	25	amod	_	SpaceAfter=No|Translit=lek
+27	ๆ	_	SYM	SYM	_	26	dep	_	SpaceAfter=No|Translit=
+28	ด้วย	_	ADV	RB	_	13	advmod	_	Translit=d²wy|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01081022
+# text = เราจะปล่อยให้คนที่เหยียดผิว เหยียดเพศ และไม่มีคุณสมบัติที่จะเป็นผู้นำอย่างโดนัลด์ ทรัมป์ เป็นประธานาธิบดีไม่ได้
+1	เรา	_	PRON	PRP	Person=1	3	nsubj	_	SpaceAfter=No|Translit=rao
+2	จะ	_	AUX	MD	_	3	aux	_	SpaceAfter=No|Translit=ča
+3	ปล่อย	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=pl¹'y
+4	ให้	_	VERB	VV	_	3	xcomp	_	SpaceAfter=No|Translit=hai²
+5	คน	_	NOUN	NN	_	4	obj	_	SpaceAfter=No|Translit=gʰn
+6	ที่	_	DET	WDT	_	7	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+7	เหยียด	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No|Translit=héyíyd
+8	ผิว	_	NOUN	NN	_	7	obj	_	Translit=pʰiw|SpaceAfter=Yes
+9	เหยียด	_	VERB	VV	_	7	conj	_	SpaceAfter=No|Translit=héyíyd
+10	เพศ	_	NOUN	NN	_	9	obj	_	Translit=bʰéś|SpaceAfter=Yes
+11	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No|Translit=læ
+12	ไม่	_	PART	NEG	Polarity=Neg	13	advmod	_	SpaceAfter=No|Translit=mai¹
+13	มี	_	VERB	VV	_	5	conj	_	SpaceAfter=No|Translit=mí
+14	คุณสมบัติ	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=gʰuṇsmbâti
+15	ที่	_	DET	WDT	_	18	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+16	จะ	_	AUX	MD	_	18	aux	_	SpaceAfter=No|Translit=ča
+17	เป็น	_	AUX	VC	_	18	cop	_	SpaceAfter=No|Translit=pen
+18	ผู้	_	NOUN	NN	_	14	acl:relcl	_	SpaceAfter=No|Translit=pʰú²
+19	นำ	_	VERB	VV	_	18	acl	_	SpaceAfter=No|Translit=nã
+20	อย่าง	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit='yá¹ŋ
+21	โดนัลด์	_	PROPN	NNP	_	18	obl	_	Translit=dónâld|SpaceAfter=Yes
+22	ทรัมป์	_	PROPN	NNP	_	21	flat:name	_	Translit=dʰrâmp|SpaceAfter=Yes
+23	เป็น	_	AUX	VC	_	24	cop	_	SpaceAfter=No|Translit=pen
+24	ประธานาธิบดี	_	NOUN	NN	_	4	xcomp	_	SpaceAfter=No|Translit=praḏʰánáḏʰibdí
+25	ไม่	_	PART	NEG	Polarity=Neg	26	advmod	_	SpaceAfter=No|Translit=mai¹
+26	ได้	_	AUX	MD	_	3	aux	_	Translit=dai²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01085005
+# text = อย่างไรก็ตาม มันมุ่งเน้นไปยังตำแหน่งเล็กๆ ทางตะวันตกมากเกินไป และไม่ได้เตรียมพร้อมรับมือกับความขัดแย้งโพ้นทะเล
+1	อย่าง	_	ADP	IN	_	6	cc	_	SpaceAfter=No|Translit='yá¹ŋ
+2	ไร	_	ADV	WRB	_	1	fixed	_	SpaceAfter=No|Translit=rai
+3	ก็	_	ADV	RB	_	1	fixed	_	SpaceAfter=No|Translit=kɔ
+4	ตาม	_	ADV	RB	_	1	fixed	_	Translit=tám|SpaceAfter=Yes
+5	มัน	_	PRON	PRP	Person=3	6	nsubj	_	SpaceAfter=No|Translit=mân
+6	มุ่ง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mu¹ŋ
+7	เน้น	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No|Translit=né²n
+8	ไป	_	PART	RP	_	7	compound:prt	_	SpaceAfter=No|Translit=pai
+9	ยัง	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=yâŋ
+10	ตำแหน่ง	_	NOUN	NN	_	7	obl	_	SpaceAfter=No|Translit=tãhǽn¹ŋ
+11	เล็ก	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No|Translit=lek
+12	ๆ	_	SYM	SYM	_	11	dep	_	Translit=|SpaceAfter=Yes
+13	ทาง	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=dʰáŋ
+14	ตะวัน	_	NOUN	NN	_	10	nmod	_	SpaceAfter=No|Translit=tawân
+15	ตก	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=tk
+16	มาก	_	ADV	RB	_	7	advmod	_	SpaceAfter=No|Translit=mák
+17	เกิน	_	ADV	RB	_	16	advmod	_	SpaceAfter=No|Translit=kéิn
+18	ไป	_	ADV	RB	_	17	advmod	_	Translit=pai|SpaceAfter=Yes
+19	และ	_	CCONJ	CC	_	22	cc	_	SpaceAfter=No|Translit=læ
+20	ไม่	_	PART	NEG	Polarity=Neg	21	advmod	_	SpaceAfter=No|Translit=mai¹
+21	ได้	_	AUX	AS	Aspect=Perf	22	aux	_	SpaceAfter=No|Translit=dai²
+22	เตรียม	_	VERB	VV	_	6	conj	_	SpaceAfter=No|Translit=téríym
+23	พร้อม	_	ADV	RB	_	22	xcomp	_	SpaceAfter=No|Translit=bʰr²'m
+24	รับมือ	_	VERB	VV	_	23	xcomp	_	SpaceAfter=No|Translit=râbmű'
+25	กับ	_	ADP	IN	_	26	case	_	SpaceAfter=No|Translit=kâb
+26	ความขัดแย้ง	_	VERB	VV	_	24	obl	_	SpaceAfter=No|Translit=gʰwámkʰâdyǽ²ŋ
+27	โพ้น	_	ADJ	JJ	_	-1	_	_	SpaceAfter=No|Translit=bʰó²n
+28	ทะเล	_	NOUN	NN	_	27	obj	_	Translit=dʰalé|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01149027
+# text = ในเปียงยาง ฉันเห็นคนใช้สมาร์ทโฟนบ้าง แต่ก็น้อยกว่ามาก
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	เปียงยาง	_	PROPN	NNP	_	4	obl	_	Translit=píáŋyáŋ|SpaceAfter=Yes
+3	ฉัน	_	PRON	PRP	Person=1	4	nsubj	_	SpaceAfter=No|Translit=čʰân
+4	เห็น	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=hen
+5	คน	_	NOUN	NN	_	4	obj	_	SpaceAfter=No|Translit=gʰn
+6	ใช้	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=ćʰai²
+7	สมาร์ทโฟน	_	NOUN	NN	_	6	obj	_	SpaceAfter=No|Translit=smárdʰfón
+8	บ้าง	_	ADV	RB	_	4	advmod	_	Translit=bá²ŋ|SpaceAfter=Yes
+9	แต่	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=tǽ¹
+10	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No|Translit=kɔ
+11	น้อย	_	ADJ	JJ	_	4	conj	_	SpaceAfter=No|Translit=n²'y
+12	กว่า	_	ADV	RB	_	-1	_	_	SpaceAfter=No|Translit=kwá¹
+13	มาก	_	ADV	RB	_	12	advmod	_	Translit=mák|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w02004008
+# text = ในจำนวนนั้นเป็นอารามเก่าจากโบสถ์เซนต์ปีเตอร์และเซนต์ปอล
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	จำนวน	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|ToDo=nmod|Translit=čãnwn
+3	นั้น	_	DET	DT	_	2	det	_	SpaceAfter=No|Translit=nâ²n
+4	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No|Translit=pen
+5	อาราม	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit='árám
+6	เก่า	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No|Translit=kao¹
+7	จาก	_	ADP	IN	_	8	case	_	SpaceAfter=No|Translit=čák
+8	โบสถ์	_	NOUN	NN	_	5	nmod	_	Proper=True|SpaceAfter=No|ToDo=nmod|Translit=bóstʰ
+9	เซนต์	_	NOUN	NN	_	8	flat:name	_	Proper=True|SpaceAfter=No|Translit=cént
+10	ปีเตอร์	_	PROPN	NNP	_	8	flat:name	_	SpaceAfter=No|Translit=pítóér
+11	และ	_	CCONJ	CC	_	12	cc	_	SpaceAfter=No|Translit=læ
+12	เซนต์	_	NOUN	NN	_	8	conj	_	Proper=True|SpaceAfter=No|Translit=cént
+13	ปอล	_	PROPN	NNP	_	12	flat:name	_	Translit=pɔːl|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w02013015
+# text = การปฏิวัติอุตสาหกรรมเกิดขึ้นในบริเตนใหญ่ก่อนประเทศอื่นๆ
+1	การปฏิวัติ	_	VERB	VV	_	3	nsubj	_	Proper=True|SpaceAfter=No|Translit=kárpṭiwâti
+2	อุตสาหกรรม	_	NOUN	NN	_	1	obj	_	Proper=True|SpaceAfter=No|Translit='utsáhkrrm
+3	เกิด	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kéิd
+4	ขึ้น	_	PART	RP	_	3	compound:prt	_	SpaceAfter=No|Translit=kʰü²n
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	บริเตนใหญ่	_	PROPN	NNP	_	3	obl	_	SpaceAfter=No|Translit=briténhaiŷ¹
+7	ก่อน	_	ADP	IN	_	8	case	_	SpaceAfter=No|Translit=k¹'n
+8	ประเทศ	_	NOUN	NN	_	6	nmod	_	SpaceAfter=No|Translit=pradʰéś
+9	อื่น	_	ADJ	JJ	_	8	amod	_	SpaceAfter=No|Translit='ű¹n
+10	ๆ	_	SYM	SYM	_	9	dep	_	Translit=|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01105053
+# text = มันเสร็จสมบูรณ์ช้าไปในช่วงสงคราม และถึงแม้ว่าจะนำหมายเลข B-29 มาใช้กับอีเกิลได้และใช้การได้ดีเสียด้วย แต่ก็มาช้าเกินไปกว่าที่จะทำให้เกิดความแตกต่างอย่างมาก
+1	มัน	_	PRON	PRP	Person=3	2	nsubj	_	SpaceAfter=No|Translit=mân
+2	เสร็จ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=sérɔč
+3	สมบูรณ์	_	ADV	RB	_	2	advmod	_	SpaceAfter=No|Translit=smbúrṇ
+4	ช้า	_	ADV	RB	_	2	advmod	_	SpaceAfter=No|Translit=ćʰá²
+5	ไป	_	ADV	RB	_	4	advmod	_	SpaceAfter=No|Translit=pai
+6	ใน	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=nai
+7	ช่วง	_	NOUN	NN	_	2	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+8	สงคราม	_	NOUN	NN	_	7	compound	_	Translit=sŋgʰrám|SpaceAfter=Yes
+9	และ	_	CCONJ	CC	_	14	cc	_	SpaceAfter=No|Translit=læ
+10	ถึง	_	ADP	IN	_	14	advmod	_	SpaceAfter=No|Translit=tʰüŋ
+11	แม้	_	ADP	IN	_	10	fixed	_	SpaceAfter=No|Translit=mǽ²
+12	ว่า	_	ADP	IN	_	10	fixed	_	SpaceAfter=No|Translit=wá¹
+13	จะ	_	AUX	MD	_	14	aux	_	SpaceAfter=No|Translit=ča
+14	นำ	_	VERB	VV	_	2	conj	_	SpaceAfter=No|Translit=nã
+15	หมายเลข	_	NOUN	NN	_	14	obj	_	Translit=hmáylékʰ|SpaceAfter=Yes
+16	B	_	NOUN	NN	_	15	compound	_	SpaceAfter=No|Translit=B
+17	-	_	PUNCT	-	_	18	punct	_	SpaceAfter=No|Translit=-
+18	29	_	NUM	CD	_	15	appos	_	Translit=29|SpaceAfter=Yes
+19	มา	_	PART	RP	_	14	compound:prt	_	SpaceAfter=No|Translit=má
+20	ใช้	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=ćʰai²
+21	กับ	_	ADP	IN	_	22	case	_	SpaceAfter=No|Translit=kâb
+22	อีเกิล	_	PROPN	NNP	_	20	obl	_	SpaceAfter=No|Translit='íkéิl
+23	ได้	_	AUX	MD	_	20	aux	_	SpaceAfter=No|Translit=dai²
+24	และ	_	CCONJ	CC	_	25	cc	_	SpaceAfter=No|Translit=læ
+25	ใช้การ	_	VERB	VV	_	20	conj	_	SpaceAfter=No|Translit=ćʰai²kár
+26	ได้	_	AUX	MD	_	25	aux	_	SpaceAfter=No|Translit=dai²
+27	ดี	_	ADV	RB	_	25	advmod	_	SpaceAfter=No|Translit=dí
+28	เสียด้วย	_	ADV	RB	_	25	advmod	_	Translit=síád²wy|SpaceAfter=Yes
+29	แต่	_	CCONJ	CC	_	31	cc	_	SpaceAfter=No|Translit=tǽ¹
+30	ก็	_	ADV	RB	_	31	advmod	_	SpaceAfter=No|Translit=kɔ
+31	มา	_	VERB	VV	_	14	conj	_	SpaceAfter=No|Translit=má
+32	ช้า	_	ADV	RB	_	31	advmod	_	SpaceAfter=No|Translit=ćʰá²
+33	เกิน	_	ADV	RB	_	32	advmod	_	SpaceAfter=No|Translit=kéิn
+34	ไป	_	ADV	RB	_	33	advmod	_	SpaceAfter=No|Translit=pai
+35	กว่า	_	ADP	IN	_	38	mark	_	SpaceAfter=No|Translit=kwá¹
+36	ที่	_	ADP	IN	_	38	mark	_	SpaceAfter=No|Translit=dʰí¹
+37	จะ	_	AUX	MD	_	38	aux	_	SpaceAfter=No|Translit=ča
+38	ทำให้	_	VERB	VV	_	31	advcl	_	SpaceAfter=No|Translit=dʰãhai²
+39	เกิด	_	VERB	VV	_	38	xcomp	_	SpaceAfter=No|Translit=kéิd
+40	ความแตกต่าง	_	VERB	VV	_	39	obj	_	SpaceAfter=No|Translit=gʰwámtǽktá¹ŋ
+41	อย่างมาก	_	ADJ	JJ	_	39	advmod	_	Translit='yá¹ŋmák|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01107124
+# text = ฮิตช์ค็อกชอบร่วมงานกับผู้มีความสามารถที่เก่งที่สุดในช่วงเวลาของเขา นักออกแบบโปสเตอร์ภาพยนตร์อย่างบิล โกลด์ และซาอูล เบส ผู้ที่สามารถทำโปสเตอร์ที่นำเสนอภาพยนตร์ของเขาได้อย่างเที่ยงตรง
+1	ฮิตช์ค็อก	_	PROPN	NNP	_	2	nsubj	_	SpaceAfter=No|Translit=ḥitćʰgʰɔk
+2	ชอบ	_	VERB	VV	_	-1	_	_	SpaceAfter=No|Translit=ćʰɔːb
+3	ร่วม	_	VERB	VV	_	2	xcomp	_	SpaceAfter=No|Translit=r¹wm
+4	งาน	_	NOUN	NN	_	3	obj	_	SpaceAfter=No|Translit=ŋán
+5	กับ	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=kâb
+6	ผู้	_	NOUN	NN	_	3	obl	_	SpaceAfter=No|Translit=pʰú²
+7	มี	_	VERB	VV	_	6	acl	_	SpaceAfter=No|Translit=mí
+8	ความสามารถ	_	ADJ	JJ	_	7	obj	_	SpaceAfter=No|Translit=gʰwámsámártʰ
+9	ที่	_	DET	WDT	_	10	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+10	เก่ง	_	ADJ	JJ	_	6	acl:relcl	_	SpaceAfter=No|Translit=ké¹ŋ
+11	ที่สุด	_	ADV	RB	_	10	advmod	_	SpaceAfter=No|Translit=dʰí¹sud
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=nai
+13	ช่วง	_	NOUN	NN	_	6	nmod	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+14	เวลา	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=wélá
+15	ของ	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+16	เขา	_	PRON	PRP	Person=3	13	nmod:poss	_	Translit=kʰao|SpaceAfter=Yes
+17	นัก	_	NOUN	NN	_	3	conj	_	SpaceAfter=No|Translit=nâk
+18	ออกแบบ	_	VERB	VV	_	17	acl	_	SpaceAfter=No|Translit='ɔːkbǽb
+19	โปสเตอร์	_	NOUN	NN	_	18	obj	_	SpaceAfter=No|Translit=póstóér
+20	ภาพยนตร์	_	NOUN	NN	_	19	compound	_	SpaceAfter=No|Translit=ḇʰábʰyntr
+21	อย่าง	_	ADP	IN	_	22	case	_	SpaceAfter=No|Translit='yá¹ŋ
+22	บิล	_	PROPN	NNP	_	17	nmod	_	Translit=bil|SpaceAfter=Yes
+23	โกลด์	_	PROPN	NNP	_	22	flat:name	_	Translit=kóld|SpaceAfter=Yes
+24	และ	_	CCONJ	CC	_	25	cc	_	SpaceAfter=No|Translit=læ
+25	ซาอูล	_	PROPN	NNP	_	22	conj	_	Translit=cá'úl|SpaceAfter=Yes
+26	เบส	_	PROPN	NNP	_	25	flat:name	_	Translit=bés|SpaceAfter=Yes
+27	ผู้	_	NOUN	NN	_	22	appos	_	SpaceAfter=No|Translit=pʰú²
+28	ที่	_	DET	WDT	_	30	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+29	สามารถ	_	AUX	MD	_	30	aux	_	SpaceAfter=No|Translit=sámártʰ
+30	ทำ	_	VERB	VV	_	27	acl:relcl	_	SpaceAfter=No|Translit=dʰã
+31	โปสเตอร์	_	NOUN	NN	_	30	obj	_	SpaceAfter=No|Translit=póstóér
+32	ที่	_	DET	WDT	_	33	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+33	นำเสนอ	_	VERB	VV	_	31	acl:relcl	_	SpaceAfter=No|Translit=nãsénɔː
+34	ภาพยนตร์	_	NOUN	NN	_	33	obj	_	SpaceAfter=No|Translit=ḇʰábʰyntr
+35	ของ	_	ADP	IN	_	36	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+36	เขา	_	PRON	PRP	Person=3	34	nmod:poss	_	SpaceAfter=No|Translit=kʰao
+37	ได้	_	AUX	MD	_	30	aux	_	SpaceAfter=No|Translit=dai²
+38	อย่างเที่ยงตรง	_	ADJ	JJ	_	30	advmod	_	Translit='yá¹ŋdʰíá¹ŋtrŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n04010021
+# text = บรรดาผู้นำของบริษัทต่างๆ อาทิ สปอติฟาย เทสลา อูเบอร์ และสแนปแชท จะเข้าร่วมงานส่วนตัวนอกเหนือจากเมาเทนวิวซัมมิท
+1	บรรดา	_	ADJ	JJ	_	15	nsubj	_	SpaceAfter=No|Translit=brrdá
+2	ผู้	_	NOUN	NN	_	15	nsubj	_	SpaceAfter=No|Translit=pʰú²
+3	นำ	_	VERB	VV	_	2	acl	_	SpaceAfter=No|Translit=nã
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+5	บริษัท	_	NOUN	NN	_	2	nmod:poss	_	SpaceAfter=No|Translit=brišâdʰ
+6	ต่าง	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No|Translit=tá¹ŋ
+7	ๆ	_	SYM	SYM	_	6	dep	_	Translit=|SpaceAfter=Yes
+8	อาทิ	_	ADP	IN	_	9	case	_	Translit='ádʰi|SpaceAfter=Yes
+9	สปอติฟาย	_	PROPN	NNP	_	5	conj	_	Translit=spɔːtifáy|SpaceAfter=Yes
+10	เทสลา	_	PROPN	NNP	_	9	conj	_	Translit=dʰéslá|SpaceAfter=Yes
+11	อูเบอร์	_	PROPN	NNP	_	10	conj	_	Translit='úbóér|SpaceAfter=Yes
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No|Translit=læ
+13	สแนปแชท	_	PROPN	NNP	_	9	conj	_	Translit=snǽpćʰǽdʰ|SpaceAfter=Yes
+14	จะ	_	AUX	MD	_	15	aux	_	SpaceAfter=No|Translit=ča
+15	เข้าร่วม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰao²r¹wm
+16	งาน	_	NOUN	NN	_	15	obj	_	SpaceAfter=No|Translit=ŋán
+17	ส่วนตัว	_	ADJ	JJ	_	16	amod	_	SpaceAfter=No|Translit=s¹wntúá
+18	นอก	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit=nɔːk
+19	เหนือ	_	ADP	IN	_	18	fixed	_	SpaceAfter=No|Translit=hénű'
+20	จาก	_	ADP	IN	_	18	fixed	_	SpaceAfter=No|Translit=čák
+21	เมาเทนวิว	_	PROPN	NNP	_	16	nmod	_	SpaceAfter=No|Translit=maodʰénwiw
+22	ซัมมิท	_	NOUN	NN	_	21	flat:name	_	Proper=True|Translit=câmmidʰ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01121032
+# text = เมื่อมิลลิคันตาย เราก็คิดว่าเป็นครั้งสุดท้ายที่จะได้เห็นโอดี้ผู้มีทั้งความผิดพลาดและความบิดเบี้ยวเช่นกัน
+1	เมื่อ	_	ADP	IN	_	-1	_	_	SpaceAfter=No|Translit=műá¹
+2	มิลลิคัน	_	PROPN	NNP	_	-1	_	_	SpaceAfter=No|Translit=milligʰân
+3	ตาย	_	VERB	VV	_	-1	_	_	Translit=táy|SpaceAfter=Yes
+4	เรา	_	PRON	PRP	Person=1	6	nsubj	_	SpaceAfter=No|Translit=rao
+5	ก็	_	ADV	RB	_	6	advmod	_	SpaceAfter=No|Translit=kɔ
+6	คิด	_	VERB	VV	_	3	advcl	_	SpaceAfter=No|Translit=gʰid
+7	ว่า	_	ADP	IN	_	9	mark	_	SpaceAfter=No|Translit=wá¹
+8	เป็น	_	AUX	VC	_	9	cop	_	SpaceAfter=No|Translit=pen
+9	ครั้ง	_	NOUN	NN	_	6	ccomp	_	SpaceAfter=No|Translit=gʰrâ²ŋ
+10	สุดท้าย	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No|Translit=suddʰá²y
+11	ที่	_	DET	WDT	_	14	mark	_	SpaceAfter=No|Translit=dʰí¹
+12	จะ	_	AUX	MD	_	14	aux	_	SpaceAfter=No|Translit=ča
+13	ได้	_	AUX	AS	Aspect=Perf	14	aux	_	SpaceAfter=No|Translit=dai²
+14	เห็น	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No|Translit=hen
+15	โอดี้	_	PROPN	NNP	_	14	obj	_	SpaceAfter=No|Translit='ódí²
+16	ผู้	_	DET	WDT	_	17	nsubj	_	SpaceAfter=No|Translit=pʰú²
+17	มี	_	VERB	VV	_	15	acl:relcl	_	SpaceAfter=No|Translit=mí
+18	ทั้ง	_	CCONJ	DT	_	23	advmod	_	SpaceAfter=No|Translit=dʰâ²ŋ
+19	ความผิดพลาด	_	ADJ	JJ	_	18	obj	_	SpaceAfter=No|Translit=gʰwámpʰidbʰlád
+20	และ	_	CCONJ	CC	_	21	cc	_	SpaceAfter=No|Translit=læ
+21	ความบิดเบี้ยว	_	ADJ	JJ	_	19	conj	_	SpaceAfter=No|Translit=gʰwámbidbíá²w
+22	เช่น	_	AUX	VC	_	23	cop	_	SpaceAfter=No|Translit=ćʰé¹n
+23	กัน	_	PRON	PRP	_	17	obl	_	Translit=kân|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01073075
+# text = ถึงตอนนี้ เขาก็เริ่มคิดถึงอนาคตมากขึ้น
+1	ถึง	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=tʰüŋ
+2	ตอน	_	NOUN	NN	_	6	obl	_	SpaceAfter=No|Translit=tɔːn
+3	นี้	_	DET	DT	_	2	det	_	Translit=ní²|SpaceAfter=Yes
+4	เขา	_	PRON	PRP	Person=3	6	nsubj	_	SpaceAfter=No|Translit=kʰao
+5	ก็	_	ADV	RB	_	6	advmod	_	SpaceAfter=No|Translit=kɔ
+6	เริ่ม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=réิ¹m
+7	คิด	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No|Translit=gʰid
+8	ถึง	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=tʰüŋ
+9	อนาคต	_	NOUN	NN	_	7	obl	_	SpaceAfter=No|Translit='nágʰt
+10	มาก	_	ADV	RB	_	7	advmod	_	SpaceAfter=No|Translit=mák
+11	ขึ้น	_	ADV	RB	_	10	advmod	_	Translit=kʰü²n|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01033021
+# text = อย่างไรก็ตาม พวกเขาไม่พบรูปแบบเดียวกันนี้ในเนื้อเยื่ออย่างกระเพาะปัสสาวะซึ่งไม่ได้สัมผัสโดยตรง
+1	อย่าง	_	ADP	IN	_	8	cc	_	SpaceAfter=No|Translit='yá¹ŋ
+2	ไร	_	ADV	WRB	_	1	fixed	_	SpaceAfter=No|Translit=rai
+3	ก็	_	ADV	RB	_	1	fixed	_	SpaceAfter=No|Translit=kɔ
+4	ตาม	_	ADV	RB	_	1	fixed	_	Translit=tám|SpaceAfter=Yes
+5	พวก	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No|Translit=bʰwk
+6	เขา	_	PRON	PRP	Person=3	5	compound	_	SpaceAfter=No|Translit=kʰao
+7	ไม่	_	PART	NEG	Polarity=Neg	8	advmod	_	SpaceAfter=No|Translit=mai¹
+8	พบ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=bʰb
+9	รูปแบบ	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=rúpbǽb
+10	เดียว	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No|Translit=díáw
+11	กัน	_	PRON	PRP	_	10	obl	_	SpaceAfter=No|Translit=kân
+12	นี้	_	DET	DT	_	9	det	_	SpaceAfter=No|Translit=ní²
+13	ใน	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=nai
+14	เนื้อเยื่อ	_	NOUN	NN	_	8	obl	_	SpaceAfter=No|Translit=nűá²yűá¹
+15	อย่าง	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit='yá¹ŋ
+16	กระเพาะ	_	NOUN	NN	_	14	nmod	_	SpaceAfter=No|Translit=krabʰɔ
+17	ปัสสาวะ	_	NOUN	NN	_	16	acl	_	SpaceAfter=No|Translit=pâssáwa
+18	ซึ่ง	_	DET	WDT	_	21	nsubj	_	SpaceAfter=No|Translit=cü¹ŋ
+19	ไม่	_	PART	NEG	Polarity=Neg	20	advmod	_	SpaceAfter=No|Translit=mai¹
+20	ได้	_	AUX	AS	Aspect=Perf	21	aux	_	SpaceAfter=No|Translit=dai²
+21	สัมผัส	_	VERB	VV	_	16	acl:relcl	_	SpaceAfter=No|Translit=sâmpʰâs
+22	โดยตรง	_	ADJ	JJ	_	21	advmod	_	Translit=dóytrŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01005024
+# text = ยิ่งไปกว่านั้น ชนชั้นสูงของมาซิโดเนียและเปอร์เซียได้สมรสข้ามชนชาติ
+1	ยิ่ง	_	ADV	RB	_	-1	_	_	SpaceAfter=No|Translit=yi¹ŋ
+2	ไป	_	ADV	RB	_	1	compound:prt	_	SpaceAfter=No|Translit=pai
+3	กว่า	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=kwá¹
+4	นั้น	_	PRON	PRD	_	1	obl	_	Translit=nâ²n|SpaceAfter=Yes
+5	ชน	_	NOUN	NN	_	13	nsubj	_	SpaceAfter=No|Translit=ćʰn
+6	ชั้น	_	NOUN	NN	_	5	compound	_	SpaceAfter=No|Translit=ćʰâ²n
+7	สูง	_	ADJ	JJ	_	6	amod	_	SpaceAfter=No|Translit=súŋ
+8	ของ	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+9	มาซิโดเนีย	_	PROPN	NNP	_	5	nmod:poss	_	SpaceAfter=No|Translit=mácidóníá
+10	และ	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=læ
+11	เปอร์เซีย	_	PROPN	NNP	_	9	conj	_	SpaceAfter=No|Translit=póércíá
+12	ได้	_	AUX	AS	Aspect=Perf	13	aux	_	SpaceAfter=No|Translit=dai²
+13	สมรส	_	VERB	VV	_	1	root	_	SpaceAfter=No|Translit=smrs
+14	ข้าม	_	VERB	VV	_	13	acl	_	SpaceAfter=No|Translit=kʰá²m
+15	ชนชาติ	_	NOUN	NN	_	14	obj	_	Translit=ćʰnćʰáti|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01053008
+# text = ชายบางคนเข้าใจและโบโนก็เป็นหนึ่งในนั้น ลีฟกล่าวในการสัมภาษณ์เมื่อไม่นานมานี้
+1	ชาย	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No|Translit=ćʰáy
+2	บาง	_	DET	DT	_	3	det	_	SpaceAfter=No|Translit=báŋ
+3	คน	_	NOUN	NNB	_	1	clf	_	SpaceAfter=No|Translit=gʰn
+4	เข้าใจ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰao²čai
+5	และ	_	CCONJ	CC	_	9	cc	_	SpaceAfter=No|Translit=læ
+6	โบโน	_	PROPN	NNP	_	9	nsubj	_	SpaceAfter=No|Translit=bónó
+7	ก็	_	ADV	RB	_	9	advmod	_	SpaceAfter=No|Translit=kɔ
+8	เป็น	_	AUX	VC	_	9	cop	_	SpaceAfter=No|Translit=pen
+9	หนึ่ง	_	NUM	CD	_	4	conj	_	SpaceAfter=No|Translit=hnü¹ŋ
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=nai
+11	นั้น	_	PRON	PRD	_	9	obl	_	ToDo=nmod|Translit=nâ²n|SpaceAfter=Yes
+12	ลีฟ	_	PROPN	NNP	_	13	nsubj	_	SpaceAfter=No|Translit=líf
+13	กล่าว	_	VERB	VV	_	9	advcl	_	SpaceAfter=No|Translit=klá¹w
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=nai
+15	การสัมภาษณ์	_	VERB	VV	_	13	obl	_	SpaceAfter=No|Translit=kársâmḇʰášṇ
+16	เมื่อ	_	ADP	IN	_	18	case	_	SpaceAfter=No|Translit=műá¹
+17	ไม่	_	PART	NEG	Polarity=Neg	18	advmod	_	SpaceAfter=No|Translit=mai¹
+18	นาน	_	ADJ	JJ	_	13	xcomp	_	SpaceAfter=No|Translit=nán
+19	มา	_	AUX	AS	Aspect=Perf	18	compound:prt	_	SpaceAfter=No|Translit=má
+20	นี้	_	PRON	PRD	_	18	obl	_	Translit=ní²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01069094
+# text = การต่อสู้กับจักรวรรดิออตโตมันในทะเลเมดิเตอร์เรเนียนสร้างข้อจำกัดที่หนักหนาด้านกำลังทหารที่จะส่งไปปราบกบฏในเนเธอร์แลนด์
+1	การต่อสู้	_	VERB	VV	_	8	nsubj	_	SpaceAfter=No|Translit=kárt¹'sú²
+2	กับ	_	ADP	IN	_	3	case	_	SpaceAfter=No|Translit=kâb
+3	จักรวรรดิ	_	NOUN	NN	_	1	obl	_	SpaceAfter=No|Translit=čâkrwrrdi
+4	ออตโตมัน	_	PROPN	NNP	_	3	flat:name	_	SpaceAfter=No|Translit='ɔːttómân
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	ทะเล	_	NOUN	NN	_	1	obl	_	Proper=True|SpaceAfter=No|Translit=dʰalé
+7	เมดิเตอร์เรเนียน	_	PROPN	NNP	_	6	flat:name	_	SpaceAfter=No|Translit=méditóérréníán
+8	สร้าง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=srá²ŋ
+9	ข้อ	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=kʰ²'
+10	จำกัด	_	VERB	VV	_	9	acl	_	SpaceAfter=No|Translit=čãkâd
+11	ที่	_	DET	WDT	_	12	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+12	หนักหนา	_	ADJ	JJ	_	9	acl:relcl	_	SpaceAfter=No|Translit=hnâkhná
+13	ด้าน	_	NOUN	NN	_	-1	_	_	SpaceAfter=No|Translit=dá²n
+14	กำลัง	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=kãlâŋ
+15	ทหาร	_	NOUN	NN	_	14	compound	_	SpaceAfter=No|Translit=dʰhár
+16	ที่	_	DET	WDT	_	18	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+17	จะ	_	AUX	MD	_	18	aux	_	SpaceAfter=No|Translit=ča
+18	ส่ง	_	VERB	VV	_	14	acl:relcl	_	SpaceAfter=No|Translit=s¹ŋ
+19	ไป	_	PART	RP	_	18	compound:prt	_	SpaceAfter=No|Translit=pai
+20	ปราบ	_	VERB	VV	_	18	xcomp	_	SpaceAfter=No|Translit=práb
+21	กบฏ	_	NOUN	NN	_	20	obj	_	SpaceAfter=No|Translit=kbṭ
+22	ใน	_	ADP	IN	_	23	case	_	SpaceAfter=No|Translit=nai
+23	เนเธอร์แลนด์	_	PROPN	NNP	_	20	obl	_	Translit=néḏʰóérlǽnd|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01038044
+# text = ชาวพื้นเมืองจำนวนมากอยู่ในอะแลสกามานับหลายพันปีก่อนการมาถึงของชาวยุโรปสู่พื้นที่นี้
+1	ชาว	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|Translit=ćʰáw
+2	พื้นเมือง	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No|Translit=bʰű²nműáŋ
+3	จำนวน	_	NOUN	NN	_	1	clf	_	SpaceAfter=No|Translit=čãnwn
+4	มาก	_	ADJ	JJ	_	3	amod	_	SpaceAfter=No|Translit=mák
+5	อยู่	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit='yú¹
+6	ใน	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=nai
+7	อะแลสกา	_	PROPN	NNP	_	5	obl	_	SpaceAfter=No|Translit='alǽská
+8	มา	_	AUX	AS	Aspect=Perf	5	compound:prt	_	SpaceAfter=No|Translit=má
+9	นับ	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=nâb
+10	หลาย	_	DET	DT	_	11	advmod	_	SpaceAfter=No|Translit=hláy
+11	พัน	_	NUM	CD	_	12	nummod	_	SpaceAfter=No|Translit=bʰân
+12	ปี	_	NOUN	NNB	_	9	obl	_	SpaceAfter=No|Translit=pí
+13	ก่อน	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=k¹'n
+14	การมา	_	VERB	VV	_	9	obl	_	SpaceAfter=No|Translit=kármá
+15	ถึง	_	ADP	IN	_	14	acl	_	SpaceAfter=No|Translit=tʰüŋ
+16	ของ	_	ADP	IN	_	17	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+17	ชาว	_	NOUN	NN	_	14	nmod:poss	_	SpaceAfter=No|Translit=ćʰáw
+18	ยุโรป	_	PROPN	NNP	_	17	compound	_	SpaceAfter=No|Translit=yuróp
+19	สู่	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=sú¹
+20	พื้นที่	_	NOUN	NN	_	14	obl	_	SpaceAfter=No|Translit=bʰű²ndʰí¹
+21	นี้	_	DET	DT	_	20	det	_	Translit=ní²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01150046
+# text = พวกเขาได้ตัดสินใจให้แอลเบเนียอยู่ใต้อำนาจของออตโตมันแต่มีรัฐบาลปกครองตนเองแทน
+1	พวก	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No|Translit=bʰwk
+2	เขา	_	PRON	PRP	Person=3	1	compound	_	SpaceAfter=No|Translit=kʰao
+3	ได้	_	AUX	AS	Aspect=Perf	4	aux	_	SpaceAfter=No|Translit=dai²
+4	ตัดสินใจ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=tâdsinčai
+5	ให้	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No|Translit=hai²
+6	แอลเบเนีย	_	PROPN	NNP	_	5	obj	_	SpaceAfter=No|Translit='ǽlbéníá
+7	อยู่	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No|Translit='yú¹
+8	ใต้	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=tai²
+9	อำนาจ	_	NOUN	NN	_	7	obl	_	SpaceAfter=No|Translit='ãnáč
+10	ของ	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+11	ออตโตมัน	_	PROPN	NNP	_	9	nmod:poss	_	SpaceAfter=No|Translit='ɔːttómân
+12	แต่	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No|Translit=tǽ¹
+13	มี	_	VERB	VV	_	7	conj	_	SpaceAfter=No|Translit=mí
+14	รัฐบาล	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=râṭʰbál
+15	ปกครอง	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=pkgʰrɔːŋ
+16	ตนเอง	_	PRON	PRP	Person=3	15	obj	_	SpaceAfter=No|Translit=tn'éŋ
+17	แทน	_	VERB	VV	_	13	advmod	_	Translit=dʰǽn|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01021007
+# text = น่าเสียดายที่เป็นอีกครั้งที่ปลาเน่าตัวเดียวเหม็นไปทั้งข้อง เจสซี่ ลาบร็อคค่า ผู้ก่อตั้งกระดานสนทนาแฮ็ค เขียนในข้อความอธิบายว่าเหตุใดส่วนนั้นจึงถูกปิด
+1	น่าเสียดาย	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=ná¹síádáy
+2	ที่	_	ADP	IN	_	5	mark	_	SpaceAfter=No|Translit=dʰí¹
+3	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No|Translit=pen
+4	อีก	_	DET	DT	_	5	det	_	SpaceAfter=No|Translit='ík
+5	ครั้ง	_	NOUN	NNB	_	1	ccomp	_	SpaceAfter=No|Translit=gʰrâ²ŋ
+6	ที่	_	DET	WDT	_	11	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+7	ปลา	_	NOUN	NN	_	11	nsubj	_	SpaceAfter=No|Translit=plá
+8	เน่า	_	VERB	VV	_	7	acl	_	SpaceAfter=No|Translit=nao¹
+9	ตัว	_	NOUN	NNB	_	7	clf	_	SpaceAfter=No|Translit=túá
+10	เดียว	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No|Translit=díáw
+11	เหม็น	_	ADJ	JJ	_	5	acl:relcl	_	SpaceAfter=No|Translit=hémɔn
+12	ไป	_	ADV	RB	_	11	compound:prt	_	SpaceAfter=No|Translit=pai
+13	ทั้ง	_	DET	DT	_	14	det	_	SpaceAfter=No|Translit=dʰâ²ŋ
+14	ข้อง	_	NOUN	NN	_	11	obl	_	Translit=kʰ²'ŋ|SpaceAfter=Yes
+15	เจสซี่	_	PROPN	NNP	_	22	nsubj	_	Translit=čéscí¹|SpaceAfter=Yes
+16	ลาบร็อคค่า	_	PROPN	NNP	_	15	flat:name	_	Translit=lábrɔgʰgʰá¹|SpaceAfter=Yes
+17	ผู้	_	NOUN	NN	_	15	appos	_	SpaceAfter=No|Translit=pʰú²
+18	ก่อตั้ง	_	VERB	VV	_	17	acl	_	SpaceAfter=No|Translit=k¹'tâ²ŋ
+19	กระดาน	_	NOUN	NN	_	18	obj	_	SpaceAfter=No|Translit=kradán
+20	สนทนา	_	VERB	VV	_	19	acl	_	SpaceAfter=No|Translit=sndʰná
+21	แฮ็ค	_	PROPN	NNP	_	19	acl	_	Translit=ḥægʰ|SpaceAfter=Yes
+22	เขียน	_	VERB	VV	_	1	ccomp	_	SpaceAfter=No|Translit=kʰíán
+23	ใน	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=nai
+24	ข้อความ	_	NOUN	NN	_	22	obl	_	SpaceAfter=No|Translit=kʰ²'gʰwám
+25	อธิบาย	_	VERB	VV	_	22	acl	_	SpaceAfter=No|Translit='ḏʰibáy
+26	ว่า	_	ADP	IN	_	33	mark	_	SpaceAfter=No|Translit=wá¹
+27	เหตุ	_	NOUN	NN	_	33	nsubj:pass	_	SpaceAfter=No|Translit=hétu
+28	ใด	_	DET	WDT	_	27	amod	_	SpaceAfter=No|Translit=dai
+29	ส่วน	_	NOUN	NN	_	33	nsubj:pass	_	SpaceAfter=No|Translit=s¹wn
+30	นั้น	_	DET	DT	_	29	det	_	SpaceAfter=No|Translit=nâ²n
+31	จึง	_	ADP	IN	_	33	advmod	_	SpaceAfter=No|Translit=čüŋ
+32	ถูก	_	AUX	MD	Voice=Pass	33	aux:pass	_	SpaceAfter=No|Translit=tʰúk
+33	ปิด	_	VERB	VV	_	25	ccomp	_	Translit=pid|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n04001013
+# text = จากการที่มักได้ใกล้ชิดกับสภาคาทอลิก ทีนา อันเซลมีเข้าร่วมในสิทธิของคนงานสิ่งทอและครูอย่างเจาะจง
+1	จาก	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=čák
+2	การ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No|Translit=kár
+3	ที่	_	DET	WDT	_	6	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+4	มัก	_	ADV	RB	_	6	aux	_	SpaceAfter=No|Translit=mâk
+5	ได้	_	AUX	AS	Aspect=Perf	6	aux	_	SpaceAfter=No|Translit=dai²
+6	ใกล้ชิด	_	ADJ	JJ	_	2	acl:relcl	_	SpaceAfter=No|Translit=kail²ćʰid
+7	กับ	_	ADP	IN	_	8	case	_	SpaceAfter=No|Translit=kâb
+8	สภา	_	NOUN	NN	_	6	obl	_	Proper=True|SpaceAfter=No|Translit=sḇʰá
+9	คาทอลิก	_	PROPN	NNP	_	8	flat:name	_	Translit=gʰádʰɔːlik|SpaceAfter=Yes
+10	ทีนา	_	PROPN	NNP	_	2	appos	_	Translit=dʰíná|SpaceAfter=Yes
+11	อันเซลมี	_	PROPN	NNP	_	10	flat:name	_	SpaceAfter=No|Translit='âncélmí
+12	เข้าร่วม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰao²r¹wm
+13	ใน	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=nai
+14	สิทธิ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No|Translit=sidʰḏʰi
+15	ของ	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+16	คน	_	NOUN	NN	_	14	nmod:poss	_	SpaceAfter=No|Translit=gʰn
+17	งาน	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=ŋán
+18	สิ่ง	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=si¹ŋ
+19	ทอ	_	VERB	VV	_	18	acl	_	SpaceAfter=No|Translit=dʰɔː
+20	และ	_	CCONJ	CC	_	21	cc	_	SpaceAfter=No|Translit=læ
+21	ครู	_	NOUN	NN	_	18	conj	_	SpaceAfter=No|Translit=gʰrú
+22	อย่างเจาะจง	_	VERB	VV	_	12	advmod	_	Translit='yá¹ŋčɔčŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01110008
+# text = ถ้าเขาทำจริงๆ หุ้นกู้ที่ขายในราคาสูงกว่ามูลค่าที่ตราไว้ก็คงจะไม่ต่างอะไรกับบัญชีออมทรัพย์ทั่วไป
+1	ถ้า	_	ADP	IN	_	3	mark	_	SpaceAfter=No|Translit=tʰá²
+2	เขา	_	PRON	PRP	Person=3	3	nsubj	_	SpaceAfter=No|Translit=kʰao
+3	ทำ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=dʰã
+4	จริง	_	ADV	RB	_	3	advmod	_	SpaceAfter=No|Translit=čriŋ
+5	ๆ	_	SYM	SYM	_	4	dep	_	Translit=|SpaceAfter=Yes
+6	หุ้น	_	NOUN	NN	_	22	nsubj	_	SpaceAfter=No|Translit=hu²n
+7	กู้	_	VERB	VV	_	6	acl	_	SpaceAfter=No|Translit=kú²
+8	ที่	_	DET	WDT	_	9	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+9	ขาย	_	VERB	VV	_	6	acl:relcl	_	SpaceAfter=No|Translit=kʰáy
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=nai
+11	ราคา	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|Translit=rágʰá
+12	สูง	_	ADJ	JJ	_	9	advmod	_	SpaceAfter=No|Translit=súŋ
+13	กว่า	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=kwá¹
+14	มูลค่า	_	NOUN	NN	_	12	obl	_	SpaceAfter=No|ToDo=nmod|Translit=múlgʰá¹
+15	ที่	_	DET	WDT	_	16	obj	_	SpaceAfter=No|Translit=dʰí¹
+16	ตรา	_	VERB	VV	_	14	acl:relcl	_	SpaceAfter=No|Translit=trá
+17	ไว้	_	ADV	RB	_	16	advmod	_	SpaceAfter=No|Translit=wai²
+18	ก็	_	ADV	RB	_	22	advmod	_	SpaceAfter=No|Translit=kɔ
+19	คง	_	AUX	MD	_	22	aux	_	SpaceAfter=No|Translit=gʰŋ
+20	จะ	_	AUX	MD	_	22	aux	_	SpaceAfter=No|Translit=ča
+21	ไม่	_	PART	NEG	Polarity=Neg	22	advmod	_	SpaceAfter=No|Translit=mai¹
+22	ต่าง	_	ADJ	JJ	_	3	ccomp	_	SpaceAfter=No|Translit=tá¹ŋ
+23	อะไร	_	PRON	WP	_	22	obj	_	SpaceAfter=No|Translit='arai
+24	กับ	_	ADP	IN	_	25	case	_	SpaceAfter=No|Translit=kâb
+25	บัญชี	_	NOUN	NN	_	22	obl	_	SpaceAfter=No|Translit=bâŷćʰí
+26	ออม	_	VERB	VV	_	25	acl	_	SpaceAfter=No|Translit='ɔːm
+27	ทรัพย์	_	NOUN	NN	_	26	obj	_	SpaceAfter=No|Translit=dʰrâbʰy
+28	ทั่วไป	_	ADJ	JJ	_	25	amod	_	Translit=dʰúá¹pai|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01097104
+# text = นักประวัติศาสตร์บางท่าน อย่างเช่นแชนด์เลอร์และเวลเลอร์ยืนยันว่ากองทหารม้าอังกฤษติดอาวุธถูกทำลายในฐานะที่เป็นกองกำลังซึ่งประสบผลสำเร็จในการพุ่งเข้าสู่สนามรบอันเป็นตำนานครั้งแรกของพวกเขา
+1	นัก	_	NOUN	NN	_	10	nsubj	_	SpaceAfter=No|Translit=nâk
+2	ประวัติศาสตร์	_	NOUN	NN	_	1	compound	_	SpaceAfter=No|Translit=prawâtiśástr
+3	บาง	_	DET	DT	_	4	det	_	SpaceAfter=No|Translit=báŋ
+4	ท่าน	_	NOUN	NNB	_	1	clf	_	Translit=dʰá¹n|SpaceAfter=Yes
+5	อย่าง	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit='yá¹ŋ
+6	เช่น	_	ADP	IN	_	5	fixed	_	SpaceAfter=No|Translit=ćʰé¹n
+7	แชนด์เลอร์	_	PROPN	NNP	_	1	nmod	_	SpaceAfter=No|Translit=ćʰǽndlóér
+8	และ	_	CCONJ	CC	_	9	cc	_	SpaceAfter=No|Translit=læ
+9	เวลเลอร์	_	PROPN	NNP	_	7	conj	_	SpaceAfter=No|Translit=wéllóér
+10	ยืนยัน	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=yűnyân
+11	ว่า	_	ADP	IN	_	19	mark	_	SpaceAfter=No|Translit=wá¹
+12	กอง	_	NOUN	NN	_	19	nsubj	_	SpaceAfter=No|Translit=kɔːŋ
+13	ทหาร	_	NOUN	NN	_	12	compound	_	SpaceAfter=No|Translit=dʰhár
+14	ม้า	_	NOUN	NN	_	12	compound	_	SpaceAfter=No|Translit=má²
+15	อังกฤษ	_	PROPN	NNP	_	12	compound	_	SpaceAfter=No|Translit='âŋkṟš
+16	ติด	_	VERB	VV	_	12	acl	_	SpaceAfter=No|Translit=tid
+17	อาวุธ	_	NOUN	NN	_	16	obj	_	SpaceAfter=No|Translit='áwuḏʰ
+18	ถูก	_	AUX	MD	Voice=Pass	19	aux:pass	_	SpaceAfter=No|Translit=tʰúk
+19	ทำลาย	_	VERB	VV	_	10	ccomp	_	SpaceAfter=No|Translit=dʰãláy
+20	ใน	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit=nai
+21	ฐานะ	_	NOUN	NN	_	19	obl	_	SpaceAfter=No|Translit=ṭʰána
+22	ที่	_	DET	WDT	_	24	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+23	เป็น	_	AUX	VC	_	24	cop	_	SpaceAfter=No|Translit=pen
+24	กอง	_	NOUN	NN	_	21	acl:relcl	_	SpaceAfter=No|Translit=kɔːŋ
+25	กำลัง	_	NOUN	NN	_	24	compound	_	SpaceAfter=No|Translit=kãlâŋ
+26	ซึ่ง	_	DET	WDT	_	27	nsubj	_	SpaceAfter=No|Translit=cü¹ŋ
+27	ประสบ	_	VERB	VV	_	24	acl:relcl	_	SpaceAfter=No|Translit=prasb
+28	ผล	_	NOUN	NN	_	27	obj	_	SpaceAfter=No|Translit=pʰl
+29	สำเร็จ	_	VERB	VV	_	27	advmod	_	SpaceAfter=No|Translit=sãreč
+30	ใน	_	ADP	IN	_	31	case	_	SpaceAfter=No|Translit=nai
+31	การพุ่ง	_	VERB	VV	_	27	xcomp	_	SpaceAfter=No|Translit=kárbʰu¹ŋ
+32	เข้า	_	VERB	VV	_	31	compound:prt	_	SpaceAfter=No|Translit=kʰao²
+33	สู่	_	ADP	IN	_	34	case	_	SpaceAfter=No|Translit=sú¹
+34	สนาม	_	NOUN	NN	_	31	obl	_	SpaceAfter=No|Translit=snám
+35	รบ	_	VERB	VV	_	34	acl	_	SpaceAfter=No|Translit=rb
+36	อัน	_	DET	WDT	_	38	nsubj	_	SpaceAfter=No|Translit='ân
+37	เป็น	_	AUX	VC	_	38	cop	_	SpaceAfter=No|Translit=pen
+38	ตำนาน	_	NOUN	NN	_	34	acl:relcl	_	SpaceAfter=No|Translit=tãnán
+39	ครั้ง	_	NOUN	NNB	_	38	clf	_	SpaceAfter=No|Translit=gʰrâ²ŋ
+40	แรก	_	ADJ	JJ	_	39	amod	_	SpaceAfter=No|Translit=rǽk
+41	ของ	_	ADP	IN	_	42	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+42	พวก	_	NOUN	NN	_	38	nmod:poss	_	SpaceAfter=No|Translit=bʰwk
+43	เขา	_	PRON	PRP	Person=3	42	compound	_	Translit=kʰao|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01143009
+# text = ชาวออสเตรเลียสองคนผู้ยอมรับว่าเป็นนักกอล์ฟที่ไม่ได้เรื่อง สับขาหลอกจนได้ไปถึงพรีเมียร์ทัวร์นาเมนต์กอล์ฟในเกาหลีเหนือ
+1	ชาว	_	NOUN	NN	_	6	nsubj	_	SpaceAfter=No|Translit=ćʰáw
+2	ออสเตรเลีย	_	PROPN	NNP	_	1	compound	_	SpaceAfter=No|Translit='ɔːstérlíá
+3	สอง	_	NUM	CD	_	4	nummod	_	SpaceAfter=No|Translit=sɔːŋ
+4	คน	_	NOUN	NNB	_	1	clf	_	SpaceAfter=No|Translit=gʰn
+5	ผู้	_	DET	WDT	_	6	nsubj	_	SpaceAfter=No|Translit=pʰú²
+6	ยอมรับ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=yɔːmrâb
+7	ว่า	_	ADP	IN	_	9	mark	_	SpaceAfter=No|Translit=wá¹
+8	เป็น	_	AUX	VC	_	9	cop	_	SpaceAfter=No|Translit=pen
+9	นัก	_	NOUN	NN	_	6	ccomp	_	SpaceAfter=No|Translit=nâk
+10	กอล์ฟ	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=kɔːlf
+11	ที่	_	DET	WDT	_	13	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+12	ไม่	_	PART	NEG	Polarity=Neg	13	advmod	_	SpaceAfter=No|Translit=mai¹
+13	ได้	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No|Translit=dai²
+14	เรื่อง	_	NOUN	NN	_	13	obj	_	Translit=rűá¹ŋ|SpaceAfter=Yes
+15	สับขาหลอก	_	VERB	VV	_	9	acl	_	SpaceAfter=No|Translit=sâbkʰáhlɔːk
+16	จน	_	ADP	IN	_	18	mark	_	SpaceAfter=No|Translit=čn
+17	ได้	_	AUX	AS	Aspect=Perf	18	aux	_	SpaceAfter=No|Translit=dai²
+18	ไป	_	VERB	VV	_	15	advcl	_	SpaceAfter=No|Translit=pai
+19	ถึง	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=tʰüŋ
+20	พรีเมียร์	_	ADJ	JJ	_	18	obl	_	SpaceAfter=No|Translit=bʰrímíár
+21	ทัวร์นาเมนต์	_	NOUN	NN	_	20	compound	_	SpaceAfter=No|Translit=dʰúárnámént
+22	กอล์ฟ	_	NOUN	NN	_	20	compound	_	SpaceAfter=No|Translit=kɔːlf
+23	ใน	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=nai
+24	เกาหลีเหนือ	_	PROPN	NNP	_	20	nmod	_	Translit=kaohlíhénű'|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n05007006
+# text = เขาเชื่อว่าไม่มีใครที่รอเราอยู่กำลังรอเราอยู่จริง
+1	เขา	_	PRON	PRP	Person=3	2	nsubj	_	SpaceAfter=No|Translit=kʰao
+2	เชื่อ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=ćʰűá¹
+3	ว่า	_	ADP	IN	_	5	mark	_	SpaceAfter=No|Translit=wá¹
+4	ไม่	_	PART	NEG	Polarity=Neg	5	advmod	_	SpaceAfter=No|Translit=mai¹
+5	มี	_	VERB	VV	_	2	ccomp	_	SpaceAfter=No|Translit=mí
+6	ใคร	_	PRON	WP	_	5	obj	_	SpaceAfter=No|Translit=gʰair
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+8	รอ	_	VERB	VV	_	6	acl:relcl	_	SpaceAfter=No|Translit=rɔː
+9	เรา	_	PRON	PRP	Person=1	8	obj	_	SpaceAfter=No|Translit=rao
+10	อยู่	_	AUX	AS	Aspect=Prog	8	aux	_	SpaceAfter=No|Translit='yú¹
+11	กำลัง	_	AUX	AS	Aspect=Prog	12	aux	_	SpaceAfter=No|Translit=kãlâŋ
+12	รอ	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No|Translit=rɔː
+13	เรา	_	PRON	PRP	Person=1	12	obj	_	SpaceAfter=No|Translit=rao
+14	อยู่	_	AUX	AS	Aspect=Prog	12	aux	_	SpaceAfter=No|Translit='yú¹
+15	จริง	_	ADV	RB	_	12	advmod	_	Translit=čriŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01148035
+# text = ไม่ใช่ทุกการเปลี่ยนแปลงในภูมิภาคที่จะสำเร็จลุล่วง
+1	ไม่	_	PART	NEG	Polarity=Neg	4	advmod	_	SpaceAfter=No|Translit=mai¹
+2	ใช่	_	AUX	VC	_	4	cop	_	SpaceAfter=No|Translit=ćʰai¹
+3	ทุก	_	DET	DT	_	4	advmod	_	SpaceAfter=No|Translit=dʰuk
+4	การเปลี่ยนแปลง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kárpélí¹ynpǽlŋ
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	ภูมิภาค	_	NOUN	NN	_	4	nmod	_	SpaceAfter=No|Translit=ḇʰúmiḇʰágʰ
+7	ที่	_	DET	WDT	_	9	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+8	จะ	_	AUX	MD	_	9	aux	_	SpaceAfter=No|Translit=ča
+9	สำเร็จ	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No|Translit=sãreč
+10	ลุล่วง	_	ADV	RB	_	9	xcomp	_	Translit=lul¹wŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01041006
+# text = นี่เป็นหายนะสำหรับผู้ป่วยที่มีอาการเจ็บปวด เมลลิสกล่าวกับซีบีซีนิวส์ในการสัมภาษณ์เมื่อวันพฤหัสบดี
+1	นี่	_	PRON	PRD	_	3	nsubj	_	SpaceAfter=No|Translit=ní¹
+2	เป็น	_	AUX	VC	_	3	cop	_	SpaceAfter=No|Translit=pen
+3	หายนะ	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=háyna
+4	สำหรับ	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=sãhrâb
+5	ผู้	_	NOUN	NN	_	3	nmod	_	SpaceAfter=No|ToDo=nmod|Translit=pʰú²
+6	ป่วย	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=p¹wy
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+8	มี	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No|Translit=mí
+9	อาการ	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit='ákár
+10	เจ็บปวด	_	VERB	VV	_	9	amod	_	Translit=čebpwd|SpaceAfter=Yes
+11	เมลลิส	_	PROPN	NNP	_	12	nsubj	_	SpaceAfter=No|Translit=méllis
+12	กล่าว	_	VERB	VV	_	3	root	_	SpaceAfter=No|Translit=klá¹w
+13	กับ	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=kâb
+14	ซีบีซี	_	PROPN	NNP	_	12	obl	_	SpaceAfter=No|Translit=cíbící
+15	นิวส์	_	NOUN	NN	_	14	flat:name	_	Proper=True|SpaceAfter=No|Translit=niws
+16	ใน	_	ADP	IN	_	17	case	_	SpaceAfter=No|Translit=nai
+17	การสัมภาษณ์	_	VERB	VV	_	12	obl	_	SpaceAfter=No|Translit=kársâmḇʰášṇ
+18	เมื่อ	_	ADP	IN	_	19	case	_	SpaceAfter=No|Translit=műá¹
+19	วัน	_	NOUN	NN	_	17	obl	_	SpaceAfter=No|Translit=wân
+20	พฤหัสบดี	_	NOUN	NN	_	19	appos	_	Translit=bʰṟhâsbdí|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01006081
+# text = ในปี 2007 ภาพยนตร์ที่ประสบความสำเร็จมากที่สุดคือ เอล เกรโค กำกับโดยยานนิส สมาแรกดิส
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	ปี	_	NOUN	NN	_	11	obl	_	ToDo=nmod|Translit=pí|SpaceAfter=Yes
+3	2007	_	NUM	CD	_	2	appos	_	Translit=2007|SpaceAfter=Yes
+4	ภาพยนตร์	_	NOUN	NN	_	11	nsubj	_	SpaceAfter=No|Translit=ḇʰábʰyntr
+5	ที่	_	DET	WDT	_	6	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+6	ประสบ	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No|Translit=prasb
+7	ความสำเร็จ	_	VERB	VV	_	6	obj	_	SpaceAfter=No|Translit=gʰwámsãreč
+8	มาก	_	ADV	RB	_	6	advmod	_	SpaceAfter=No|Translit=mák
+9	ที่สุด	_	ADV	RB	_	8	advmod	_	SpaceAfter=No|Translit=dʰí¹sud
+10	คือ	_	AUX	VC	_	11	cop	_	Translit=gʰű'|SpaceAfter=Yes
+11	เอล	_	PROPN	NNP	_	0	root	_	Translit='él|SpaceAfter=Yes
+12	เกรโค	_	PROPN	NNP	_	11	flat:name	_	Translit=kérgʰó|SpaceAfter=Yes
+13	กำกับ	_	VERB	VV	_	11	acl	_	SpaceAfter=No|Translit=kãkâb
+14	โดย	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=dóy
+15	ยานนิส	_	PROPN	NNP	_	13	obl	_	Translit=yánnis|SpaceAfter=Yes
+16	สมาแรกดิส	_	PROPN	NNP	_	15	flat:name	_	Translit=smárǽkdis|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01038025
+# text = เขาอาจจะรอจนหมดสมัยแรกเพื่อใช้บทบัญญัติในความตกลงปารีสเพื่อถอนตัวจากสนธิสัญญา
+1	เขา	_	PRON	PRP	Person=3	4	nsubj	_	SpaceAfter=No|Translit=kʰao
+2	อาจ	_	AUX	MD	_	4	aux	_	SpaceAfter=No|Translit='áč
+3	จะ	_	AUX	MD	_	4	aux	_	SpaceAfter=No|Translit=ča
+4	รอ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=rɔː
+5	จน	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=čn
+6	หมด	_	VERB	VV	_	5	fixed	_	SpaceAfter=No|Translit=hmd
+7	สมัย	_	NOUN	NN	_	4	obl	_	SpaceAfter=No|Translit=smây
+8	แรก	_	ADJ	JJ	_	7	amod	_	SpaceAfter=No|Translit=rǽk
+9	เพื่อ	_	ADP	IN	_	10	mark	_	SpaceAfter=No|Translit=bʰűá¹
+10	ใช้	_	VERB	VV	_	4	advcl	_	SpaceAfter=No|Translit=ćʰai²
+11	บท	_	NOUN	NN	_	10	obj	_	SpaceAfter=No|Translit=bdʰ
+12	บัญญัติ	_	NOUN	NN	_	11	acl	_	SpaceAfter=No|Translit=bâŷŷâti
+13	ใน	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=nai
+14	ความตกลง	_	VERB	VV	_	11	nmod	_	Proper=True|SpaceAfter=No|Translit=gʰwámtklŋ
+15	ปารีส	_	PROPN	NNP	_	14	compound	_	SpaceAfter=No|Translit=párís
+16	เพื่อ	_	ADP	IN	_	17	mark	_	SpaceAfter=No|Translit=bʰűá¹
+17	ถอน	_	VERB	VV	_	10	advcl	_	SpaceAfter=No|Translit=tʰɔːn
+18	ตัว	_	NOUN	NN	_	17	obj	_	SpaceAfter=No|Translit=túá
+19	จาก	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=čák
+20	สนธิสัญญา	_	NOUN	NN	_	17	obl	_	Translit=snḏʰisâŷŷá|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w05006058
+# text = ในทางตรงกันข้าม ประวัติศาสตร์ภายนอกมีการอ้างอิงถึงประวัติศาสตร์ของผู้พูดภาษาสเปน การเปลี่ยนแปลงเชิงประวัติที่ไม่คาดคิด และการใช้ภาษาเชิงสังคม
+1	ใน	_	ADP	IN	_	7	mark	_	SpaceAfter=No|Translit=nai
+2	ทาง	_	NOUN	NN	_	1	fixed	_	SpaceAfter=No|Translit=dʰáŋ
+3	ตรงกันข้าม	_	ADJ	JJ	_	1	fixed	_	Translit=trŋkânkʰá²m|SpaceAfter=Yes
+4	ประวัติศาสตร์	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No|Translit=prawâtiśástr
+5	ภาย	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No|Translit=ḇʰáy
+6	นอก	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No|Translit=nɔːk
+7	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+8	การอ้างอิง	_	VERB	VV	_	7	obj	_	SpaceAfter=No|Translit=kár'á²ŋ'iŋ
+9	ถึง	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=tʰüŋ
+10	ประวัติศาสตร์	_	NOUN	NN	_	8	obl	_	SpaceAfter=No|Translit=prawâtiśástr
+11	ของ	_	ADP	IN	_	12	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+12	ผู้	_	NOUN	NN	_	10	nmod:poss	_	SpaceAfter=No|Translit=pʰú²
+13	พูด	_	VERB	VV	_	12	acl	_	SpaceAfter=No|Translit=bʰúd
+14	ภาษา	_	NOUN	NN	_	12	compound	_	SpaceAfter=No|Translit=ḇʰášá
+15	สเปน	_	PROPN	NNP	_	12	compound	_	Translit=spén|SpaceAfter=Yes
+16	การเปลี่ยนแปลง	_	VERB	VV	_	10	conj	_	SpaceAfter=No|Translit=kárpélí¹ynpǽlŋ
+17	เชิง	_	NOUN	NN	_	-1	_	_	SpaceAfter=No|Translit=ćʰéิŋ
+18	ประวัติ	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit=prawâti
+19	ที่	_	DET	WDT	_	21	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+20	ไม่	_	PART	NEG	Polarity=Neg	21	advmod	_	SpaceAfter=No|Translit=mai¹
+21	คาดคิด	_	VERB	VV	_	17	acl:relcl	_	Translit=gʰádgʰid|SpaceAfter=Yes
+22	และ	_	CCONJ	CC	_	23	cc	_	SpaceAfter=No|Translit=læ
+23	การใช้	_	VERB	VV	_	17	conj	_	SpaceAfter=No|Translit=kárćʰai²
+24	ภาษา	_	NOUN	NN	_	23	obj	_	SpaceAfter=No|Translit=ḇʰášá
+25	เชิง	_	NOUN	NN	_	24	compound	_	SpaceAfter=No|Translit=ćʰéิŋ
+26	สังคม	_	NOUN	NN	_	24	compound	_	Translit=sâŋgʰm|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01140012
+# text = ในเนเธอร์แลนด์ ทางการได้ใช้วิธีการที่ใช้เทคโนโลยีน้อยกว่าในการติดตามโดรน
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	เนเธอร์แลนด์	_	PROPN	NNP	_	5	obl	_	Translit=néḏʰóérlǽnd|SpaceAfter=Yes
+3	ทางการ	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|Translit=dʰáŋkár
+4	ได้	_	AUX	AS	Aspect=Perf	5	aux	_	SpaceAfter=No|Translit=dai²
+5	ใช้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=ćʰai²
+6	วิธีการ	_	NOUN	NN	_	5	obj	_	SpaceAfter=No|Translit=wiḏʰíkár
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+8	ใช้	_	VERB	VV	_	6	acl:relcl	_	SpaceAfter=No|Translit=ćʰai²
+9	เทคโนโลยี	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=dʰégʰnólóyí
+10	น้อย	_	ADV	RB	_	8	advmod	_	SpaceAfter=No|Translit=n²'y
+11	กว่า	_	ADV	RB	_	10	advmod	_	SpaceAfter=No|Translit=kwá¹
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=nai
+13	การติดตาม	_	VERB	VV	_	8	xcomp	_	SpaceAfter=No|Translit=kártidtám
+14	โดรน	_	NOUN	NN	_	13	obj	_	Translit=dórn|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n02050052
+# text = เห็นได้ชัดว่า ผู้ชายน่าจะมีความรับผิดชอบในเรื่องของการคุมกำเนิดได้มากกว่านี้
+1	เห็น	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=hen
+2	ได้	_	AUX	MD	_	1	aux	_	SpaceAfter=No|Translit=dai²
+3	ชัด	_	ADV	RB	_	1	advmod	_	SpaceAfter=No|Translit=ćʰâd
+4	ว่า	_	ADP	IN	_	8	mark	_	Translit=wá¹|SpaceAfter=Yes
+5	ผู้ชาย	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No|Translit=pʰú²ćʰáy
+6	น่า	_	AUX	MD	_	8	aux	_	SpaceAfter=No|Translit=ná¹
+7	จะ	_	AUX	MD	_	8	aux	_	SpaceAfter=No|Translit=ča
+8	มี	_	VERB	VV	_	1	ccomp	_	SpaceAfter=No|Translit=mí
+9	ความรับผิดชอบ	_	VERB	VV	_	8	obj	_	SpaceAfter=No|Translit=gʰwámrâbpʰidćʰɔːb
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=nai
+11	เรื่อง	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|Translit=rűá¹ŋ
+12	ของ	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+13	การคุม	_	VERB	VV	_	11	nmod:poss	_	SpaceAfter=No|Translit=kárgʰum
+14	กำเนิด	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=kãnéิd
+15	ได้	_	AUX	MD	_	8	aux	_	SpaceAfter=No|Translit=dai²
+16	มาก	_	ADV	RB	_	8	advmod	_	SpaceAfter=No|Translit=mák
+17	กว่า	_	ADP	IN	_	18	case	_	SpaceAfter=No|Translit=kwá¹
+18	นี้	_	PRON	PRD	_	16	obl	_	Translit=ní²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01091013
+# text = อย่างดีที่สุดก็คือความไร้เดียงสา และอย่างแย่ที่สุดก็คงเป็นการปล่อยให้พวกกลุ่มล็อบบี้ยิสต์การล่าสัตว์หลุดไปอีกครั้ง
+1	อย่างดี	_	ADJ	JJ	_	5	advmod	_	SpaceAfter=No|Translit='yá¹ŋdí
+2	ที่สุด	_	ADV	RB	_	1	fixed	_	SpaceAfter=No|Translit=dʰí¹sud
+3	ก็	_	ADV	RB	_	5	advmod	_	SpaceAfter=No|Translit=kɔ
+4	คือ	_	AUX	VC	_	5	cop	_	SpaceAfter=No|Translit=gʰű'
+5	ความไร้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=gʰwámrai²
+6	เดียงสา	_	ADJ	JJ	_	5	acl	_	Translit=díáŋsá|SpaceAfter=Yes
+7	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No|Translit=læ
+8	อย่างแย่	_	ADJ	JJ	_	13	advmod	_	SpaceAfter=No|Translit='yá¹ŋyǽ¹
+9	ที่สุด	_	ADV	RB	_	8	fixed	_	SpaceAfter=No|Translit=dʰí¹sud
+10	ก็	_	ADV	RB	_	13	advmod	_	SpaceAfter=No|Translit=kɔ
+11	คง	_	AUX	MD	_	13	aux	_	SpaceAfter=No|Translit=gʰŋ
+12	เป็น	_	AUX	VC	_	13	cop	_	SpaceAfter=No|Translit=pen
+13	การปล่อย	_	VERB	VV	_	5	conj	_	SpaceAfter=No|Translit=kárpl¹'y
+14	ให้	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No|Translit=hai²
+15	พวก	_	NOUN	NN	_	14	obj	_	SpaceAfter=No|Translit=bʰwk
+16	กลุ่ม	_	NOUN	NN	_	15	compound	_	SpaceAfter=No|Translit=klu¹m
+17	ล็อบบี้ยิสต์	_	NOUN	NN	_	15	compound	_	SpaceAfter=No|Translit=lɔbbí²yist
+18	การล่า	_	VERB	VV	_	15	compound	_	SpaceAfter=No|Translit=kárlá¹
+19	สัตว์	_	NOUN	NN	_	18	obj	_	SpaceAfter=No|Translit=sâtw
+20	หลุด	_	VERB	VV	_	14	xcomp	_	SpaceAfter=No|Translit=hlud
+21	ไป	_	PART	RP	_	20	compound:prt	_	SpaceAfter=No|Translit=pai
+22	อีก	_	DET	DT	_	23	det	_	SpaceAfter=No|Translit='ík
+23	ครั้ง	_	NOUN	NNB	_	20	obl	_	Translit=gʰrâ²ŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01066068
+# text = ในการโต้ตอบกับวูดส์ทางอีเมล ฉันได้พยายามหารากศัพท์ต่างๆ
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	การโต้ตอบ	_	VERB	VV	_	9	obl	_	SpaceAfter=No|Translit=kártó²tɔːb
+3	กับ	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=kâb
+4	วูดส์	_	PROPN	NNP	_	2	obl	_	SpaceAfter=No|Translit=wúds
+5	ทาง	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=dʰáŋ
+6	อีเมล	_	NOUN	NN	_	2	obl	_	Translit='ímél|SpaceAfter=Yes
+7	ฉัน	_	PRON	PRP	Person=1	9	nsubj	_	SpaceAfter=No|Translit=čʰân
+8	ได้	_	AUX	AS	Aspect=Perf	9	aux	_	SpaceAfter=No|Translit=dai²
+9	พยายาม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=bʰyáyám
+10	หา	_	VERB	VV	_	9	xcomp	_	SpaceAfter=No|Translit=há
+11	ราก	_	NOUN	NN	_	10	obj	_	SpaceAfter=No|Translit=rák
+12	ศัพท์	_	NOUN	NN	_	11	compound	_	SpaceAfter=No|Translit=śâbʰdʰ
+13	ต่าง	_	ADJ	JJ	_	11	amod	_	SpaceAfter=No|Translit=tá¹ŋ
+14	ๆ	_	SYM	SYM	_	13	dep	_	Translit=|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w04007006
+# text = ช่วงสงครามสัมพันธมิตรครั้งที่หนึ่ง นโปเลียน โบนาปาร์ต นายทหารปืนใหญ่หนุ่มชาวคอร์ซิกาเริ่มเป็นที่จับตามองอย่างรวดเร็วหลังจากการปฏิวัติฝรั่งเศส
+1	ช่วง	_	NOUN	NN	_	16	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+2	สงคราม	_	NOUN	NN	_	1	compound	_	Proper=True|SpaceAfter=No|Translit=sŋgʰrám
+3	สัมพันธมิตร	_	PROPN	NNP	_	2	compound	_	SpaceAfter=No|Translit=sâmbʰânḏʰmitr
+4	ครั้ง	_	NOUN	NNB	_	2	clf	_	SpaceAfter=No|Translit=gʰrâ²ŋ
+5	ที่	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=dʰí¹
+6	หนึ่ง	_	NUM	CD	_	5	nummod	_	Translit=hnü¹ŋ|SpaceAfter=Yes
+7	นโปเลียน	_	PROPN	NNP	_	16	nsubj	_	Translit=npólíán|SpaceAfter=Yes
+8	โบนาปาร์ต	_	PROPN	NNP	_	7	flat:name	_	Translit=bónápárt|SpaceAfter=Yes
+9	นาย	_	NOUN	NN	_	7	appos	_	SpaceAfter=No|Translit=náy
+10	ทหาร	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=dʰhár
+11	ปืน	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=pűn
+12	ใหญ่	_	ADJ	JJ	_	11	amod	_	SpaceAfter=No|Translit=haiŷ¹
+13	หนุ่ม	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=hnu¹m
+14	ชาว	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=ćʰáw
+15	คอร์ซิกา	_	PROPN	NNP	_	14	compound	_	SpaceAfter=No|Translit=gʰɔːrciká
+16	เริ่ม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=réิ¹m
+17	เป็น	_	AUX	VC	_	18	cop	_	SpaceAfter=No|Translit=pen
+18	ที่	_	PRON	PRP	_	16	xcomp	_	SpaceAfter=No|Translit=dʰí¹
+19	จับตา	_	VERB	VV	_	18	acl	_	SpaceAfter=No|Translit=čâbtá
+20	มอง	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No|Translit=mɔːŋ
+21	อย่างรวดเร็ว	_	ADV	RB	_	20	advmod	_	SpaceAfter=No|Translit='yá¹ŋrwdrew
+22	หลัง	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=hlâŋ
+23	จาก	_	ADP	IN	_	22	fixed	_	SpaceAfter=No|Translit=čák
+24	การปฏิวัติ	_	VERB	VV	_	16	obl	_	Proper=True|SpaceAfter=No|Translit=kárpṭiwâti
+25	ฝรั่งเศส	_	PROPN	NNP	_	24	obj	_	Translit=fʰrâ¹ŋśés|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01141022
+# text = แต่ความพยายามล่าสุดในการลงมาเล่นกับแอปสนทนาในที่ทำงานนั้น เป็นส่วนหนึ่งของแนวโน้มที่ใหญ่กว่าของบริษัทเทคโนโลยีต่างๆ
+1	แต่	_	CCONJ	CC	_	17	cc	_	SpaceAfter=No|Translit=tǽ¹
+2	ความพยายาม	_	VERB	VV	_	17	nsubj	_	SpaceAfter=No|Translit=gʰwámbʰyáyám
+3	ล่าสุด	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No|Translit=lá¹sud
+4	ใน	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=nai
+5	การลง	_	VERB	VV	_	2	xcomp	_	SpaceAfter=No|Translit=kárlŋ
+6	มา	_	PART	RP	_	5	compound:prt	_	SpaceAfter=No|Translit=má
+7	เล่น	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=lé¹n
+8	กับ	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=kâb
+9	แอป	_	NOUN	NN	_	7	obl	_	SpaceAfter=No|Translit='ǽp
+10	สนทนา	_	VERB	VV	_	9	acl	_	SpaceAfter=No|Translit=sndʰná
+11	ใน	_	ADP	IN	_	12	case	_	SpaceAfter=No|Translit=nai
+12	ที่	_	NOUN	NN	_	9	nmod	_	SpaceAfter=No|Translit=dʰí¹
+13	ทำ	_	VERB	VV	_	12	acl	_	SpaceAfter=No|Translit=dʰã
+14	งาน	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=ŋán
+15	นั้น	_	DET	DT	_	2	det	_	Translit=nâ²n|SpaceAfter=Yes
+16	เป็น	_	AUX	VC	_	17	cop	_	SpaceAfter=No|Translit=pen
+17	ส่วน	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=s¹wn
+18	หนึ่ง	_	NUM	CD	_	17	amod	_	SpaceAfter=No|Translit=hnü¹ŋ
+19	ของ	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+20	แนว	_	NOUN	NN	_	17	nmod:poss	_	SpaceAfter=No|Translit=nǽw
+21	โน้ม	_	VERB	VV	_	20	acl	_	SpaceAfter=No|Translit=nó²m
+22	ที่	_	DET	WDT	_	23	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+23	ใหญ่	_	ADJ	JJ	_	20	acl:relcl	_	SpaceAfter=No|Translit=haiŷ¹
+24	กว่า	_	ADV	RB	_	23	advmod	_	SpaceAfter=No|Translit=kwá¹
+25	ของ	_	ADP	IN	_	26	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+26	บริษัท	_	NOUN	NN	_	23	obl	_	SpaceAfter=No|Translit=brišâdʰ
+27	เทคโนโลยี	_	NOUN	NN	_	26	compound	_	SpaceAfter=No|Translit=dʰégʰnólóyí
+28	ต่าง	_	ADJ	JJ	_	26	amod	_	SpaceAfter=No|Translit=tá¹ŋ
+29	ๆ	_	SYM	SYM	_	28	dep	_	Translit=|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w05004031
+# text = นี่เป็นพื้นที่จากเขตที่สองไปเขตชั้นนอกโดยใช้เส้นสมมติที่เชื่อมระหว่างจุดสังเกตประภาคารที่ปุนตาเดลเอสเตกับจุดสังเกตประภาคารที่ปุนตาราซา
+1	นี่	_	PRON	PRD	_	3	nsubj	_	SpaceAfter=No|Translit=ní¹
+2	เป็น	_	AUX	VC	_	3	cop	_	SpaceAfter=No|Translit=pen
+3	พื้นที่	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=bʰű²ndʰí¹
+4	จาก	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=čák
+5	เขต	_	NOUN	NN	_	3	nmod	_	SpaceAfter=No|ToDo=nmod|Translit=kʰét
+6	ที่	_	NOUN	NN	_	5	compound	_	SpaceAfter=No|Translit=dʰí¹
+7	สอง	_	NUM	CD	_	6	nummod	_	SpaceAfter=No|Translit=sɔːŋ
+8	ไป	_	VERB	VV	_	-1	_	_	SpaceAfter=No|Translit=pai
+9	เขต	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=kʰét
+10	ชั้น	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=ćʰâ²n
+11	นอก	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No|Translit=nɔːk
+12	โดย	_	ADP	IN	_	13	mark	_	SpaceAfter=No|Translit=dóy
+13	ใช้	_	VERB	VV	_	8	advcl	_	SpaceAfter=No|Translit=ćʰai²
+14	เส้น	_	NOUN	NN	_	13	obj	_	SpaceAfter=No|Translit=sé²n
+15	สมมติ	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=smmti
+16	ที่	_	DET	WDT	_	17	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+17	เชื่อม	_	VERB	VV	_	14	acl:relcl	_	SpaceAfter=No|Translit=ćʰűá¹m
+18	ระหว่าง	_	ADP	IN	_	19	case	_	SpaceAfter=No|Translit=rahwá¹ŋ
+19	จุด	_	NOUN	NN	_	17	obl	_	SpaceAfter=No|Translit=čud
+20	สังเกต	_	VERB	VV	_	19	acl	_	SpaceAfter=No|Translit=sâŋkét
+21	ประภาคาร	_	NOUN	NN	_	19	compound	_	SpaceAfter=No|Translit=praḇʰágʰár
+22	ที่	_	ADP	IN	_	23	case	_	SpaceAfter=No|Translit=dʰí¹
+23	ปุนตาเดลเอสเต	_	PROPN	NNP	_	21	nmod	_	SpaceAfter=No|Translit=puntádél'ésté
+24	กับ	_	CCONJ	CC	_	25	cc	_	SpaceAfter=No|Translit=kâb
+25	จุด	_	NOUN	NN	_	21	conj	_	SpaceAfter=No|Translit=čud
+26	สังเกต	_	VERB	VV	_	25	acl	_	SpaceAfter=No|Translit=sâŋkét
+27	ประภาคาร	_	NOUN	NN	_	25	compound	_	SpaceAfter=No|Translit=praḇʰágʰár
+28	ที่	_	ADP	IN	_	29	case	_	SpaceAfter=No|Translit=dʰí¹
+29	ปุนตาราซา	_	PROPN	NNP	_	27	nmod	_	Translit=puntárácá|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01137087
+# text = ในเดือนพฤษภาคม ทหารชายแดนเช็กยิงชาวนาเยอรมันซูเดเทินสองคนที่พยายามจะข้ามพรมแดนเข้ามาในเชโกสโลวาเกียโดยไม่ผ่านด่านตรวจ
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	เดือน	_	NOUN	NN	_	8	obl	_	SpaceAfter=No|Translit=dűán
+3	พฤษภาคม	_	NOUN	NN	_	2	appos	_	Translit=bʰṟšḇʰágʰm|SpaceAfter=Yes
+4	ทหาร	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No|Translit=dʰhár
+5	ชาย	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=ćʰáy
+6	แดน	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=dǽn
+7	เช็ก	_	PROPN	NNP	_	4	compound	_	SpaceAfter=No|Translit=ćʰek
+8	ยิง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=yiŋ
+9	ชาว	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=ćʰáw
+10	นา	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=ná
+11	เยอรมัน	_	PROPN	NNP	_	9	compound	_	SpaceAfter=No|Translit=yóérmân
+12	ซูเดเทิน	_	PROPN	NNP	_	9	compound	_	SpaceAfter=No|Translit=cúdédʰéิn
+13	สอง	_	NUM	CD	_	14	nummod	_	SpaceAfter=No|Translit=sɔːŋ
+14	คน	_	NOUN	NNB	_	9	clf	_	SpaceAfter=No|Translit=gʰn
+15	ที่	_	DET	WDT	_	16	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+16	พยายาม	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No|Translit=bʰyáyám
+17	จะ	_	AUX	MD	_	18	aux	_	SpaceAfter=No|Translit=ča
+18	ข้าม	_	VERB	VV	_	16	advcl	_	SpaceAfter=No|Translit=kʰá²m
+19	พรมแดน	_	NOUN	NN	_	18	obj	_	SpaceAfter=No|Translit=bʰrmdǽn
+20	เข้า	_	PART	RP	_	18	compound:prt	_	SpaceAfter=No|Translit=kʰao²
+21	มา	_	PART	RP	_	20	compound:prt	_	SpaceAfter=No|Translit=má
+22	ใน	_	ADP	IN	_	23	case	_	SpaceAfter=No|Translit=nai
+23	เชโกสโลวาเกีย	_	PROPN	NNP	_	18	obl	_	SpaceAfter=No|Translit=ćʰékóslówákíá
+24	โดย	_	ADP	IN	_	26	mark	_	SpaceAfter=No|Translit=dóy
+25	ไม่	_	PART	NEG	Polarity=Neg	26	advmod	_	SpaceAfter=No|Translit=mai¹
+26	ผ่าน	_	VERB	VV	_	18	advcl	_	SpaceAfter=No|Translit=pʰá¹n
+27	ด่าน	_	NOUN	NN	_	26	obj	_	SpaceAfter=No|Translit=dá¹n
+28	ตรวจ	_	VERB	VV	_	27	acl	_	Translit=trwč|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01068029
+# text = ผู้มีสิทธิเลือกตั้งอยู่ในพื้นที่สภาเมืองนอร์ทเคสเตเวน ซึ่ง 62% ของผู้ออกเสียงสนับสนุนให้ออกจากสหภาพยุโรป
+1	ผู้	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|Translit=pʰú²
+2	มี	_	VERB	VV	_	1	acl	_	SpaceAfter=No|Translit=mí
+3	สิทธิ	_	NOUN	NN	_	2	obj	_	SpaceAfter=No|Translit=sidʰḏʰi
+4	เลือกตั้ง	_	VERB	VV	_	2	acl	_	SpaceAfter=No|Translit=lűáktâ²ŋ
+5	อยู่	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit='yú¹
+6	ใน	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=nai
+7	พื้นที่	_	NOUN	NN	_	5	obl	_	SpaceAfter=No|Translit=bʰű²ndʰí¹
+8	สภา	_	NOUN	NN	_	7	compound	_	Proper=True|SpaceAfter=No|Translit=sḇʰá
+9	เมือง	_	NOUN	NN	_	7	compound	_	Proper=True|SpaceAfter=No|Translit=műáŋ
+10	นอร์ทเคสเตเวน	_	PROPN	NNP	_	7	flat:name	_	Translit=nɔːrdʰgʰéstéwén|SpaceAfter=Yes
+11	ซึ่ง	_	ADP	IN	_	-1	_	_	Translit=cü¹ŋ|SpaceAfter=Yes
+12	62	_	NUM	CD	_	-1	_	_	SpaceAfter=No|Translit=62
+13	%	_	SYM	SYM	_	-1	_	_	Translit=%|SpaceAfter=Yes
+14	ของ	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+15	ผู้	_	NOUN	NN	_	13	nmod:poss	_	SpaceAfter=No|Translit=pʰú²
+16	ออก	_	VERB	VV	_	15	acl	_	SpaceAfter=No|Translit='ɔːk
+17	เสียง	_	NOUN	NN	_	16	obj	_	SpaceAfter=No|Translit=síáŋ
+18	สนับสนุน	_	VERB	VV	_	15	acl:relcl	_	SpaceAfter=No|Translit=snâbsnun
+19	ให้	_	VERB	VV	_	18	xcomp	_	SpaceAfter=No|Translit=hai²
+20	ออก	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No|Translit='ɔːk
+21	จาก	_	ADP	IN	_	22	case	_	SpaceAfter=No|Translit=čák
+22	สหภาพ	_	NOUN	NN	_	20	obl	_	Proper=True|SpaceAfter=No|Translit=shḇʰábʰ
+23	ยุโรป	_	PROPN	NNP	_	22	compound	_	Translit=yuróp|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n04001002
+# text = ทีนา อันเซลมี เกิดเมื่อวันที่ 25 มีนาคม 1927 ในคาสเทลฟรังโกเวเนโต เธอเติบโตมาในครอบครัวคาทอลิกต่อต้านลัทธิฟาสซิสม์ที่ถูกหมายหัวเนื่องจากพ่อของเธอเป็นนักสังคมนิยมแบบทหาร
+1	ทีนา	_	PROPN	NNP	_	3	nsubj	_	Translit=dʰíná|SpaceAfter=Yes
+2	อันเซลมี	_	PROPN	NNP	_	1	flat:name	_	Translit='âncélmí|SpaceAfter=Yes
+3	เกิด	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kéิd
+4	เมื่อ	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=műá¹
+5	วันที่	_	NOUN	NN	_	3	obl	_	Translit=wândʰí¹|SpaceAfter=Yes
+6	25	_	NUM	CD	_	5	appos	_	Translit=25|SpaceAfter=Yes
+7	มีนาคม	_	NOUN	NN	_	5	obl:tmod	_	Translit=mínágʰm|SpaceAfter=Yes
+8	1927	_	NUM	CD	_	7	obl:tmod	_	Translit=1927|SpaceAfter=Yes
+9	ใน	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=nai
+10	คาสเทลฟรังโกเวเนโต	_	PROPN	NNP	_	3	obl	_	Translit=gʰásdʰélfrâŋkówénétó|SpaceAfter=Yes
+11	เธอ	_	PRON	PRP	Person=3	12	nsubj	_	SpaceAfter=No|Translit=ḏʰóé
+12	เติบโต	_	VERB	VV	_	3	ccomp	_	SpaceAfter=No|Translit=téิbtó
+13	มา	_	PART	RP	_	12	compound:prt	_	SpaceAfter=No|Translit=má
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=nai
+15	ครอบครัว	_	NOUN	NN	_	12	obl	_	SpaceAfter=No|Translit=gʰrɔːbgʰrúá
+16	คาทอลิก	_	PROPN	NNP	_	15	compound	_	SpaceAfter=No|Translit=gʰádʰɔːlik
+17	ต่อต้าน	_	VERB	VV	_	15	acl	_	SpaceAfter=No|Translit=t¹'tá²n
+18	ลัทธิ	_	NOUN	NN	_	17	obj	_	Proper=True|SpaceAfter=No|Translit=lâdʰḏʰi
+19	ฟาสซิสม์	_	PROPN	NNP	_	18	compound	_	SpaceAfter=No|Translit=fáscism
+20	ที่	_	DET	WDT	_	22	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+21	ถูก	_	AUX	MD	Voice=Pass	22	aux:pass	_	SpaceAfter=No|Translit=tʰúk
+22	หมายหัว	_	VERB	VV	_	18	acl:relcl	_	SpaceAfter=No|Translit=hmáyhúá
+23	เนื่อง	_	ADP	IN	_	29	mark	_	SpaceAfter=No|Translit=nűá¹ŋ
+24	จาก	_	ADP	IN	_	23	fixed	_	SpaceAfter=No|Translit=čák
+25	พ่อ	_	NOUN	NN	_	29	nsubj	_	SpaceAfter=No|Translit=bʰ¹'
+26	ของ	_	ADP	IN	_	27	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+27	เธอ	_	PRON	PRP	Person=3	25	nmod:poss	_	SpaceAfter=No|Translit=ḏʰóé
+28	เป็น	_	AUX	VC	_	29	cop	_	SpaceAfter=No|Translit=pen
+29	นัก	_	NOUN	NN	_	12	xcomp	_	SpaceAfter=No|Translit=nâk
+30	สังคมนิยม	_	NOUN	NN	_	29	compound	_	SpaceAfter=No|Translit=sâŋgʰmniym
+31	แบบ	_	NOUN	NN	_	29	compound	_	SpaceAfter=No|Translit=bǽb
+32	ทหาร	_	NOUN	NN	_	31	compound	_	Translit=dʰhár|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n02044008
+# text = ถึงกระนั้น ตอนสุดท้ายของซีซั่นนี้ก็ยังเป็นการส่งท้ายปีอันน่าทึ่งสำหรับเคอร์เบอร์
+1	ถึง	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=tʰüŋ
+2	กระนั้น	_	ADP	IN	_	1	fixed	_	Translit=kranâ²n|SpaceAfter=Yes
+3	ตอน	_	NOUN	NN	_	11	nsubj	_	SpaceAfter=No|Translit=tɔːn
+4	สุดท้าย	_	ADJ	JJ	_	3	amod	_	SpaceAfter=No|Translit=suddʰá²y
+5	ของ	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+6	ซีซั่น	_	NOUN	NN	_	3	nmod:poss	_	SpaceAfter=No|Translit=cícâ¹n
+7	นี้	_	DET	DT	_	6	det	_	SpaceAfter=No|Translit=ní²
+8	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No|Translit=kɔ
+9	ยัง	_	ADV	RB	_	11	aux	_	SpaceAfter=No|Translit=yâŋ
+10	เป็น	_	AUX	VC	_	11	cop	_	SpaceAfter=No|Translit=pen
+11	การส่งท้าย	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kárs¹ŋdʰá²y
+12	ปี	_	NOUN	NN	_	11	obj	_	SpaceAfter=No|Translit=pí
+13	อัน	_	DET	WDT	_	14	nsubj	_	SpaceAfter=No|Translit='ân
+14	น่าทึ่ง	_	VERB	VV	_	12	acl:relcl	_	SpaceAfter=No|Translit=ná¹dʰü¹ŋ
+15	สำหรับ	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=sãhrâb
+16	เคอร์เบอร์	_	PROPN	NNP	_	12	nmod	_	Translit=gʰóérbóér|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01003007
+# text = 5,000 ดอลลาร์ต่อคน สูงสุดตามที่ได้รับอนุญาต
+1	5,000	_	NUM	CD	_	2	nummod	_	Translit=5,000|SpaceAfter=Yes
+2	ดอลลาร์	_	NOUN	NNB	_	5	nsubj	_	SpaceAfter=No|Translit=dɔːllár
+3	ต่อ	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=t¹'
+4	คน	_	NOUN	NN	_	2	nmod	_	Translit=gʰn|SpaceAfter=Yes
+5	สูง	_	ADJ	JJ	_	0	root	_	SpaceAfter=No|Translit=súŋ
+6	สุด	_	ADV	RB	_	5	advmod	_	SpaceAfter=No|Translit=sud
+7	ตาม	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=tám
+8	ที่	_	DET	WDT	_	10	obj	_	SpaceAfter=No|Translit=dʰí¹
+9	ได้รับ	_	AUX	MD	Voice=Pass	10	aux	_	SpaceAfter=No|Translit=dai²râb
+10	อนุญาต	_	VERB	VV	_	5	advcl	_	Translit='nuŷát|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w02006081
+# text = ช่วงเลือกตั้งทั่วไปปี 2010 พรรคแรงงานสามารถเอาชนะได้ทั้ง 7 เขตเลือกตั้ง
+1	ช่วง	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+2	เลือกตั้ง	_	VERB	VV	_	1	acl	_	SpaceAfter=No|Translit=lűáktâ²ŋ
+3	ทั่วไป	_	ADV	RB	_	2	advmod	_	SpaceAfter=No|Translit=dʰúá¹pai
+4	ปี	_	NOUN	NN	_	1	obl:tmod	_	Translit=pí|SpaceAfter=Yes
+5	2010	_	NUM	CD	_	4	appos	_	Translit=2010|SpaceAfter=Yes
+6	พรรค	_	NOUN	NN	_	9	nsubj	_	Proper=True|SpaceAfter=No|Translit=bʰrrgʰ
+7	แรงงาน	_	NOUN	NN	_	6	compound	_	Proper=True|SpaceAfter=No|Translit=rǽŋŋán
+8	สามารถ	_	AUX	MD	_	9	aux	_	SpaceAfter=No|Translit=sámártʰ
+9	เอาชนะ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit='aoćʰna
+10	ได้	_	AUX	MD	_	9	aux	_	SpaceAfter=No|Translit=dai²
+11	ทั้ง	_	DET	DT	_	13	det	_	Translit=dʰâ²ŋ|SpaceAfter=Yes
+12	7	_	NUM	CD	_	13	nummod	_	Translit=7|SpaceAfter=Yes
+13	เขต	_	NOUN	NNB	_	9	obl	_	SpaceAfter=No|Translit=kʰét
+14	เลือกตั้ง	_	VERB	VV	_	13	acl	_	Translit=lűáktâ²ŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n04002027
+# text = เป็นการเน้นย้ำว่าเราไม่สามารถดำเนินการต่อกับกลุ่มคนที่ต่อต้านอิตาลีโดยสิ้นเชิงได้อย่างแน่นอน
+1	เป็น	_	AUX	VC	_	2	cop	_	SpaceAfter=No|Translit=pen
+2	การเน้นย้ำ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kárné²nyã²
+3	ว่า	_	ADP	IN	_	7	mark	_	SpaceAfter=No|Translit=wá¹
+4	เรา	_	PRON	PRP	Person=1	7	nsubj	_	SpaceAfter=No|Translit=rao
+5	ไม่	_	PART	NEG	Polarity=Neg	6	advmod	_	SpaceAfter=No|Translit=mai¹
+6	สามารถ	_	AUX	MD	_	7	aux	_	SpaceAfter=No|Translit=sámártʰ
+7	ดำเนินการ	_	VERB	VV	_	2	ccomp	_	SpaceAfter=No|Translit=dãnéิnkár
+8	ต่อ	_	ADV	RB	_	7	advmod	_	SpaceAfter=No|Translit=t¹'
+9	กับ	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=kâb
+10	กลุ่ม	_	NOUN	NN	_	7	obl	_	SpaceAfter=No|Translit=klu¹m
+11	คน	_	NOUN	NN	_	10	compound	_	SpaceAfter=No|Translit=gʰn
+12	ที่	_	DET	WDT	_	13	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+13	ต่อต้าน	_	VERB	VV	_	10	acl:relcl	_	SpaceAfter=No|Translit=t¹'tá²n
+14	อิตาลี	_	PROPN	NNP	_	13	obj	_	SpaceAfter=No|Translit='itálí
+15	โดยสิ้นเชิง	_	VERB	VV	_	13	advmod	_	SpaceAfter=No|Translit=dóysi²nćʰéิŋ
+16	ได้	_	AUX	MD	_	7	aux	_	SpaceAfter=No|Translit=dai²
+17	อย่างแน่นอน	_	ADV	RB	_	7	advmod	_	Translit='yá¹ŋnǽ¹nɔːn|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01116014
+# text = ชุดมีความร่วมสมัย
+1	ชุด	_	NOUN	NN	_	2	nsubj	_	SpaceAfter=No|Translit=ćʰud
+2	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+3	ความร่วม	_	VERB	VV	_	2	obj	_	SpaceAfter=No|Translit=gʰwámr¹wm
+4	สมัย	_	NOUN	NN	_	3	obj	_	Translit=smây|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01091045
+# text = นอกจากเป็นแหล่งอาหารโดยตรงแล้ว สัตว์บางชนิดสามารถให้หนัง ขน หนังและปุ๋ยอีกด้วย
+1	นอก	_	ADP	IN	_	4	mark	_	SpaceAfter=No|Translit=nɔːk
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No|Translit=čák
+3	เป็น	_	AUX	VC	_	4	cop	_	SpaceAfter=No|Translit=pen
+4	แหล่ง	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=hǽl¹ŋ
+5	อาหาร	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit='áhár
+6	โดยตรง	_	ADJ	JJ	_	4	advmod	_	SpaceAfter=No|Translit=dóytrŋ
+7	แล้ว	_	AUX	AS	Aspect=Perf	12	mark	_	Translit=lǽ²w|SpaceAfter=Yes
+8	สัตว์	_	NOUN	NN	_	12	nsubj	_	SpaceAfter=No|Translit=sâtw
+9	บาง	_	DET	DT	_	10	det	_	SpaceAfter=No|Translit=báŋ
+10	ชนิด	_	NOUN	NNB	_	8	clf	_	SpaceAfter=No|Translit=ćʰnid
+11	สามารถ	_	AUX	MD	_	12	aux	_	SpaceAfter=No|Translit=sámártʰ
+12	ให้	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No|Translit=hai²
+13	หนัง	_	NOUN	NN	_	12	obj	_	Translit=hnâŋ|SpaceAfter=Yes
+14	ขน	_	NOUN	NN	_	13	conj	_	Translit=kʰn|SpaceAfter=Yes
+15	หนัง	_	NOUN	NN	_	13	conj	_	SpaceAfter=No|Translit=hnâŋ
+16	และ	_	CCONJ	CC	_	17	cc	_	SpaceAfter=No|Translit=læ
+17	ปุ๋ย	_	NOUN	NN	_	13	conj	_	SpaceAfter=No|Translit=pu⁴y
+18	อีก	_	ADV	RB	_	12	advmod	_	SpaceAfter=No|Translit='ík
+19	ด้วย	_	ADV	RB	_	12	advmod	_	Translit=d²wy|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01035080
+# text = ในทางกลับกัน ระบบนิเวศที่สมบูรณ์ด้วยแนวปฏิบัติด้านการจัดการที่ดีจะลดโอกาสของเหตุการณ์เหล่านั้นที่จะเกิดขึ้น หรืออย่างน้อยก็บรรเทาผลข้างเคียง
+1	ใน	_	CCONJ	CC	_	17	mark	_	SpaceAfter=No|Translit=nai
+2	ทาง	_	NOUN	NN	_	1	fixed	_	SpaceAfter=No|Translit=dʰáŋ
+3	กลับ	_	VERB	VV	_	1	fixed	_	SpaceAfter=No|Translit=klâb
+4	กัน	_	PRON	PRP	_	1	fixed	_	Translit=kân|SpaceAfter=Yes
+5	ระบบ	_	NOUN	NN	_	17	nsubj	_	SpaceAfter=No|Translit=rabb
+6	นิเวศ	_	NOUN	NN	_	5	compound	_	SpaceAfter=No|Translit=niwéś
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+8	สมบูรณ์	_	ADJ	JJ	_	5	acl:relcl	_	SpaceAfter=No|Translit=smbúrṇ
+9	ด้วย	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=d²wy
+10	แนว	_	NOUN	NN	_	8	obl	_	SpaceAfter=No|Translit=nǽw
+11	ปฏิบัติ	_	VERB	VV	_	10	acl	_	SpaceAfter=No|Translit=pṭibâti
+12	ด้าน	_	NOUN	NN	_	10	compound	_	SpaceAfter=No|Translit=dá²n
+13	การจัดการ	_	VERB	VV	_	12	compound	_	SpaceAfter=No|Translit=kárčâdkár
+14	ที่	_	DET	WDT	_	15	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+15	ดี	_	ADJ	JJ	_	10	acl:relcl	_	SpaceAfter=No|Translit=dí
+16	จะ	_	AUX	MD	_	17	aux	_	SpaceAfter=No|Translit=ča
+17	ลด	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=ld
+18	โอกาส	_	NOUN	NN	_	17	obj	_	SpaceAfter=No|Translit='ókás
+19	ของ	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+20	เหตุการณ์	_	NOUN	NN	_	18	nmod:poss	_	SpaceAfter=No|Translit=hétukárṇ
+21	เหล่า	_	NOUN	NNB	_	20	clf	_	SpaceAfter=No|Translit=hélá¹
+22	นั้น	_	DET	DT	_	21	det	_	SpaceAfter=No|Translit=nâ²n
+23	ที่	_	DET	WDT	_	25	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+24	จะ	_	AUX	MD	_	25	aux	_	SpaceAfter=No|Translit=ča
+25	เกิด	_	VERB	VV	_	20	acl:relcl	_	SpaceAfter=No|Translit=kéิd
+26	ขึ้น	_	PART	RP	_	25	compound:prt	_	Translit=kʰü²n|SpaceAfter=Yes
+27	หรือ	_	CCONJ	CC	_	30	cc	_	SpaceAfter=No|Translit=hrű'
+28	อย่างน้อย	_	ADJ	JJ	_	30	advmod	_	SpaceAfter=No|Translit='yá¹ŋn²'y
+29	ก็	_	ADV	RB	_	30	advmod	_	SpaceAfter=No|Translit=kɔ
+30	บรรเทา	_	VERB	VV	_	17	conj	_	SpaceAfter=No|Translit=brrdʰao
+31	ผล	_	NOUN	NN	_	30	obj	_	SpaceAfter=No|Translit=pʰl
+32	ข้างเคียง	_	ADJ	JJ	_	31	amod	_	Translit=kʰá²ŋgʰíáŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01092025
+# text = สำหรับเรื่องนี้ กำหนดการหนึ่งในอนุทินโมร็อคโคจะเป็นวันเสาร์ตรงกลาง ซึ่งเหล่าประเทศพัฒนาแล้วจะไต่ถามกันอย่างสาธารณะเกี่ยวกับแผนการและความมุ่งมั่น
+1	สำหรับ	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=sãhrâb
+2	เรื่อง	_	NOUN	NN	_	-1	_	_	SpaceAfter=No|ToDo=nmod|Translit=rűá¹ŋ
+3	นี้	_	DET	DT	_	2	det	_	Translit=ní²|SpaceAfter=Yes
+4	กำหนดการ	_	NOUN	NN	_	-1	_	_	SpaceAfter=No|Translit=kãhndkár
+5	หนึ่ง	_	NUM	CD	_	-1	_	_	SpaceAfter=No|Translit=hnü¹ŋ
+6	ใน	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=nai
+7	อนุทิน	_	NOUN	NN	_	5	obl	_	SpaceAfter=No|Translit='nudʰin
+8	โมร็อคโค	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No|Translit=mórɔgʰgʰó
+9	จะ	_	AUX	MD	_	11	aux	_	SpaceAfter=No|Translit=ča
+10	เป็น	_	AUX	VC	_	11	cop	_	SpaceAfter=No|Translit=pen
+11	วัน	_	NOUN	NN	_	5	root	_	SpaceAfter=No|Translit=wân
+12	เสาร์	_	NOUN	NN	_	11	compound	_	SpaceAfter=No|Translit=saor
+13	ตรง	_	ADP	IN	_	11	amod	_	SpaceAfter=No|Translit=trŋ
+14	กลาง	_	NOUN	NN	_	11	amod	_	ToDo=nmod|Translit=kláŋ|SpaceAfter=Yes
+15	ซึ่ง	_	ADP	IN	_	21	mark	_	SpaceAfter=No|Translit=cü¹ŋ
+16	เหล่า	_	NOUN	NN	_	21	nsubj	_	SpaceAfter=No|Translit=hélá¹
+17	ประเทศ	_	NOUN	NN	_	16	compound	_	SpaceAfter=No|Translit=pradʰéś
+18	พัฒนา	_	VERB	VV	_	17	acl	_	SpaceAfter=No|Translit=bʰâḑʰná
+19	แล้ว	_	AUX	AS	Aspect=Perf	16	amod	_	SpaceAfter=No|Translit=lǽ²w
+20	จะ	_	AUX	MD	_	21	aux	_	SpaceAfter=No|Translit=ča
+21	ไต่ถาม	_	VERB	VV	_	11	acl:relcl	_	SpaceAfter=No|Translit=tai¹tʰám
+22	กัน	_	PRON	PRP	_	21	obl	_	SpaceAfter=No|Translit=kân
+23	อย่างสาธารณะ	_	ADJ	JJ	_	21	advmod	_	SpaceAfter=No|Translit='yá¹ŋsáḏʰárṇa
+24	เกี่ยว	_	VERB	VV	_	26	case	_	SpaceAfter=No|Translit=kíá¹w
+25	กับ	_	ADP	IN	_	24	fixed	_	SpaceAfter=No|Translit=kâb
+26	แผนการ	_	NOUN	NN	_	21	obl	_	SpaceAfter=No|Translit=pʰǽnkár
+27	และ	_	CCONJ	CC	_	28	cc	_	SpaceAfter=No|Translit=læ
+28	ความมุ่งมั่น	_	VERB	VV	_	26	conj	_	Translit=gʰwámmu¹ŋmâ¹n|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01025084
+# text = การล่าถอยนี้เป็นเรื่องน่าประหลาดใจของกองทัพออสเตรีย-ปรัสเซีย และกองทัพเดนมาร์กเกือบทั้งหมดประสบความสำเร็จการอพยพ
+1	การล่าถอย	_	VERB	VV	_	4	nsubj	_	SpaceAfter=No|Translit=kárlá¹tʰɔːy
+2	นี้	_	DET	DT	_	1	det	_	SpaceAfter=No|Translit=ní²
+3	เป็น	_	AUX	VC	_	4	cop	_	SpaceAfter=No|Translit=pen
+4	เรื่อง	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=rűá¹ŋ
+5	น่าประหลาดใจ	_	VERB	VV	_	4	amod	_	SpaceAfter=No|Translit=ná¹prahládčai
+6	ของ	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+7	กอง	_	NOUN	NN	_	4	nmod:poss	_	SpaceAfter=No|Translit=kɔːŋ
+8	ทัพ	_	NOUN	NN	_	7	compound	_	SpaceAfter=No|Translit=dʰâbʰ
+9	ออสเตรีย	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No|Translit='ɔːstéríy
+10	-	_	PUNCT	-	_	18	nsubj	_	SpaceAfter=No|Translit=-
+11	ปรัสเซีย	_	PROPN	NNP	_	10	conj	_	Translit=prâscíá|SpaceAfter=Yes
+12	และ	_	CCONJ	CC	_	18	cc	_	SpaceAfter=No|Translit=læ
+13	กอง	_	NOUN	NN	_	18	nsubj	_	SpaceAfter=No|Translit=kɔːŋ
+14	ทัพ	_	NOUN	NN	_	13	compound	_	SpaceAfter=No|Translit=dʰâbʰ
+15	เดนมาร์ก	_	PROPN	NNP	_	13	compound	_	SpaceAfter=No|Translit=dénmárk
+16	เกือบ	_	DET	DT	_	17	advmod	_	SpaceAfter=No|Translit=kűáb
+17	ทั้งหมด	_	DET	DT	_	18	advmod	_	SpaceAfter=No|Translit=dʰâ²ŋhmd
+18	ประสบ	_	VERB	VV	_	7	conj	_	SpaceAfter=No|Translit=prasb
+19	ความสำเร็จ	_	VERB	VV	_	18	obj	_	SpaceAfter=No|Translit=gʰwámsãreč
+20	การอพยพ	_	VERB	VV	_	19	obj	_	Translit=kárɔːbʰybʰ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w05005085
+# text = ชาวอินเดียนแดงที่มาจากแคนาดานำโดยโจเซฟ แบรนต์ได้สนับสนุนฝ่ายอังกฤษเนื่องจากพวกชาวอาณานิคมได้เข้ายึดที่ดินมากขึ้นเรื่อยๆ
+1	ชาว	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No|Translit=ćʰáw
+2	อินเดียนแดง	_	PROPN	NNP	_	1	compound	_	SpaceAfter=No|Translit='indíándǽŋ
+3	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+4	มา	_	VERB	VV	_	1	acl:relcl	_	SpaceAfter=No|Translit=má
+5	จาก	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=čák
+6	แคนาดา	_	PROPN	NNP	_	4	obl	_	SpaceAfter=No|Translit=gʰǽnádá
+7	นำ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=nã
+8	โดย	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=dóy
+9	โจเซฟ	_	PROPN	NNP	_	7	obl	_	Translit=čócéf|SpaceAfter=Yes
+10	แบรนต์	_	PROPN	NNP	_	9	flat:name	_	SpaceAfter=No|Translit=bǽrnt
+11	ได้	_	AUX	AS	Aspect=Perf	12	aux	_	SpaceAfter=No|Translit=dai²
+12	สนับสนุน	_	VERB	VV	_	7	ccomp	_	SpaceAfter=No|Translit=snâbsnun
+13	ฝ่าย	_	NOUN	NN	_	12	obj	_	SpaceAfter=No|Translit=fʰá¹y
+14	อังกฤษ	_	PROPN	NNP	_	13	compound	_	SpaceAfter=No|Translit='âŋkṟš
+15	เนื่อง	_	ADP	IN	_	21	mark	_	SpaceAfter=No|Translit=nűá¹ŋ
+16	จาก	_	ADP	IN	_	15	fixed	_	SpaceAfter=No|Translit=čák
+17	พวก	_	NOUN	NN	_	21	nsubj	_	SpaceAfter=No|Translit=bʰwk
+18	ชาว	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit=ćʰáw
+19	อาณานิคม	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit='áṇánigʰm
+20	ได้	_	AUX	AS	Aspect=Perf	21	aux	_	SpaceAfter=No|Translit=dai²
+21	เข้า	_	VERB	VV	_	12	advcl	_	SpaceAfter=No|Translit=kʰao²
+22	ยึด	_	VERB	VV	_	21	xcomp	_	SpaceAfter=No|Translit=yüd
+23	ที่	_	NOUN	NN	_	22	obj	_	SpaceAfter=No|Translit=dʰí¹
+24	ดิน	_	NOUN	NN	_	23	compound	_	SpaceAfter=No|Translit=din
+25	มาก	_	ADV	RB	_	22	advmod	_	SpaceAfter=No|Translit=mák
+26	ขึ้น	_	ADV	RB	_	25	advmod	_	SpaceAfter=No|Translit=kʰü²n
+27	เรื่อย	_	ADV	RB	_	25	advmod	_	SpaceAfter=No|Translit=rűá¹y
+28	ๆ	_	SYM	SYM	_	27	dep	_	Translit=|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01140030
+# text = ช่วงแรกในปี 1926 เมเยอร์ได้เขียนถึงอิแรน โยเลียต-กูรีโดยแนะนำให้โรนามาทำงานกับเธอด้วยเพื่อเรียนรู้ว่าห้องทดลองเขานั้นสามารถสร้างตัวอย่างพอโลเนียมของพวกเขาเองได้
+1	ช่วง	_	NOUN	NN	_	8	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+2	แรก	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No|Translit=rǽk
+3	ใน	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=nai
+4	ปี	_	NOUN	NN	_	1	nmod	_	Translit=pí|SpaceAfter=Yes
+5	1926	_	NUM	CD	_	4	appos	_	Translit=1926|SpaceAfter=Yes
+6	เมเยอร์	_	PROPN	NNP	_	8	nsubj	_	SpaceAfter=No|Translit=méyóér
+7	ได้	_	AUX	AS	Aspect=Perf	8	aux	_	SpaceAfter=No|Translit=dai²
+8	เขียน	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=kʰíán
+9	ถึง	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=tʰüŋ
+10	อิแรน	_	PROPN	NNP	_	8	obl	_	Translit='irǽn|SpaceAfter=Yes
+11	โยเลียต-กูรี	_	PROPN	NNP	_	10	flat:name	_	SpaceAfter=No|Translit=yólíát-kúrí
+12	โดย	_	ADP	IN	_	13	mark	_	SpaceAfter=No|Translit=dóy
+13	แนะนำ	_	VERB	VV	_	8	advcl	_	SpaceAfter=No|Translit=nænã
+14	ให้	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No|Translit=hai²
+15	โรนา	_	PROPN	NNP	_	14	obj	_	SpaceAfter=No|Translit=róná
+16	มา	_	VERB	VV	_	14	xcomp	_	SpaceAfter=No|Translit=má
+17	ทำ	_	VERB	VV	_	16	xcomp	_	SpaceAfter=No|Translit=dʰã
+18	งาน	_	NOUN	NN	_	17	obj	_	SpaceAfter=No|Translit=ŋán
+19	กับ	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=kâb
+20	เธอ	_	PRON	PRP	Person=3	17	obl	_	SpaceAfter=No|Translit=ḏʰóé
+21	ด้วย	_	ADV	RB	_	17	advmod	_	SpaceAfter=No|Translit=d²wy
+22	เพื่อ	_	ADP	IN	_	23	mark	_	SpaceAfter=No|Translit=bʰűá¹
+23	เรียนรู้	_	VERB	VV	_	14	advcl	_	SpaceAfter=No|Translit=ríánrú²
+24	ว่า	_	ADP	IN	_	30	mark	_	SpaceAfter=No|Translit=wá¹
+25	ห้อง	_	NOUN	NN	_	30	nsubj	_	SpaceAfter=No|Translit=h²'ŋ
+26	ทดลอง	_	VERB	VV	_	25	acl	_	SpaceAfter=No|Translit=dʰdlɔːŋ
+27	เขา	_	PRON	PRP	Person=3	25	compound	_	SpaceAfter=No|Translit=kʰao
+28	นั้น	_	DET	DT	_	25	det	_	SpaceAfter=No|Translit=nâ²n
+29	สามารถ	_	AUX	MD	_	30	aux	_	SpaceAfter=No|Translit=sámártʰ
+30	สร้าง	_	VERB	VV	_	23	ccomp	_	SpaceAfter=No|Translit=srá²ŋ
+31	ตัวอย่าง	_	NOUN	NN	_	30	obj	_	SpaceAfter=No|Translit=túá'yá¹ŋ
+32	พอโลเนียม	_	NOUN	NN	_	31	compound	_	SpaceAfter=No|Translit=bʰɔːlóníám
+33	ของ	_	ADP	IN	_	34	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+34	พวก	_	NOUN	NN	_	31	nmod:poss	_	SpaceAfter=No|Translit=bʰwk
+35	เขา	_	PRON	PRP	Person=3	34	compound	_	SpaceAfter=No|Translit=kʰao
+36	เอง	_	PRON	PRP	_	34	amod	_	SpaceAfter=No|Translit='éŋ
+37	ได้	_	AUX	MD	_	30	aux	_	Translit=dai²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01116088
+# text = ในปี 2009 ยอดขายรวมของเดอะพาวเวอร์ออฟนาวและอะนิวเอิร์ธในทวีปอเมริกาเหนือรวมเป็นสามล้านและห้าล้านฉบับตามลำดับ
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	ปี	_	NOUN	NN	_	19	obl	_	Translit=pí|SpaceAfter=Yes
+3	2009	_	NUM	CD	_	2	appos	_	Translit=2009|SpaceAfter=Yes
+4	ยอด	_	NOUN	NN	_	19	nsubj	_	SpaceAfter=No|Translit=yɔːd
+5	ขาย	_	VERB	VV	_	4	acl	_	SpaceAfter=No|Translit=kʰáy
+6	รวม	_	VERB	VV	_	4	amod	_	SpaceAfter=No|Translit=rwm
+7	ของ	_	ADP	IN	_	19	mark	_	SpaceAfter=No|Translit=kʰɔːŋ
+8	เดอะ	_	DET	DT	_	19	nsubj	_	Proper=True|SpaceAfter=No|Translit=doe
+9	พาวเวอร์	_	NOUN	NN	_	8	nmod:poss	_	Proper=True|SpaceAfter=No|Translit=bʰáwwóér
+10	ออฟ	_	ADP	IN	_	11	case	_	Proper=True|SpaceAfter=No|Translit='ɔːf
+11	นาว	_	NOUN	NN	_	9	nmod	_	Proper=True|SpaceAfter=No|Translit=náw
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No|Translit=læ
+13	อะ	_	DET	DT	_	9	conj	_	Proper=True|SpaceAfter=No|Translit='a
+14	นิว	_	ADJ	JJ	_	13	conj	_	Proper=True|SpaceAfter=No|Translit=niw
+15	เอิร์ธ	_	NOUN	NN	_	14	conj	_	Proper=True|SpaceAfter=No|Translit='éิrḏʰ
+16	ใน	_	ADP	IN	_	17	case	_	SpaceAfter=No|Translit=nai
+17	ทวีป	_	NOUN	NN	_	9	nmod	_	Proper=True|SpaceAfter=No|Translit=dʰwíp
+18	อเมริกาเหนือ	_	PROPN	NNP	_	17	compound	_	SpaceAfter=No|Translit='mérikáhénű'
+19	รวม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=rwm
+20	เป็น	_	AUX	VC	_	22	cop	_	SpaceAfter=No|Translit=pen
+21	สาม	_	NUM	CD	_	22	nummod	_	SpaceAfter=No|Translit=sám
+22	ล้าน	_	NUM	CD	_	26	nummod	_	SpaceAfter=No|Translit=lá²n
+23	และ	_	CCONJ	CC	_	26	cc	_	SpaceAfter=No|Translit=læ
+24	ห้า	_	NUM	CD	_	26	nummod	_	SpaceAfter=No|Translit=há²
+25	ล้าน	_	NUM	CD	_	26	nummod	_	SpaceAfter=No|Translit=lá²n
+26	ฉบับ	_	NOUN	NNB	_	19	obl	_	SpaceAfter=No|Translit=čʰbâb
+27	ตาม	_	ADP	IN	_	28	case	_	SpaceAfter=No|Translit=tám
+28	ลำดับ	_	NOUN	NN	_	19	obl	_	ToDo=nmod|Translit=lãdâb|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01144063
+# text = พรรครีพับลิกันครองที่นั่งวุฒิสภาได้เป็นครั้งแรกตั้งแต่ปี 1952 และได้ที่นั่งในทำเนียบ 34 ตำแหน่ง แต่พรรคเดโมแครตรักษาเสียงส่วนใหญ่ไว้ได้
+1	พรรค	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No|Translit=bʰrrgʰ
+2	รีพับลิกัน	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit=ríbʰâblikân
+3	ครอง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=gʰrɔːŋ
+4	ที่	_	NOUN	NN	_	3	obj	_	SpaceAfter=No|Translit=dʰí¹
+5	นั่ง	_	VERB	VV	_	4	acl	_	SpaceAfter=No|Translit=nâ¹ŋ
+6	วุฒิสภา	_	NOUN	NN	_	5	obj	_	SpaceAfter=No|Translit=wuḑʰisḇʰá
+7	ได้	_	AUX	MD	_	3	aux	_	SpaceAfter=No|Translit=dai²
+8	เป็น	_	AUX	VC	_	9	cop	_	SpaceAfter=No|Translit=pen
+9	ครั้ง	_	NOUN	NN	_	3	acl	_	SpaceAfter=No|Translit=gʰrâ²ŋ
+10	แรก	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No|Translit=rǽk
+11	ตั้ง	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=tâ²ŋ
+12	แต่	_	ADP	IN	_	11	fixed	_	SpaceAfter=No|Translit=tǽ¹
+13	ปี	_	NOUN	NN	_	3	obl	_	ToDo=nmod|Translit=pí|SpaceAfter=Yes
+14	1952	_	NUM	CD	_	13	appos	_	Translit=1952|SpaceAfter=Yes
+15	และ	_	CCONJ	CC	_	16	cc	_	SpaceAfter=No|Translit=læ
+16	ได้	_	VERB	VV	_	3	conj	_	SpaceAfter=No|Translit=dai²
+17	ที่	_	NOUN	NN	_	16	obj	_	SpaceAfter=No|Translit=dʰí¹
+18	นั่ง	_	VERB	VV	_	17	acl	_	SpaceAfter=No|Translit=nâ¹ŋ
+19	ใน	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=nai
+20	ทำเนียบ	_	NOUN	NN	_	17	nmod	_	Translit=dʰãníáb|SpaceAfter=Yes
+21	34	_	NUM	CD	_	22	nummod	_	Translit=34|SpaceAfter=Yes
+22	ตำแหน่ง	_	NOUN	NNB	_	20	clf	_	Translit=tãhǽn¹ŋ|SpaceAfter=Yes
+23	แต่	_	CCONJ	CC	_	26	cc	_	SpaceAfter=No|Translit=tǽ¹
+24	พรรค	_	NOUN	NN	_	26	nsubj	_	SpaceAfter=No|Translit=bʰrrgʰ
+25	เดโมแครต	_	PROPN	NNP	_	24	compound	_	SpaceAfter=No|Translit=démógʰǽrt
+26	รักษา	_	VERB	VV	_	3	conj	_	SpaceAfter=No|Translit=râkšá
+27	เสียง	_	NOUN	NN	_	26	obj	_	SpaceAfter=No|Translit=síáŋ
+28	ส่วน	_	NOUN	NN	_	27	compound	_	SpaceAfter=No|Translit=s¹wn
+29	ใหญ่	_	ADJ	JJ	_	28	amod	_	SpaceAfter=No|Translit=haiŷ¹
+30	ไว้	_	ADV	RB	_	26	advmod	_	SpaceAfter=No|Translit=wai²
+31	ได้	_	AUX	MD	_	26	aux	_	Translit=dai²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01084045
+# text = อัตรา 3% นี้มีผลกับผู้ถือบัตรเน็กทาร์ที่ต้องการกู้ยืมเงินระหว่าง 15,001-19,999 ปอนด์ เป็นเวลา 2-3 ปีเช่นกัน
+1	อัตรา	_	NOUN	NN	_	5	nsubj	_	Translit='âtrá|SpaceAfter=Yes
+2	3	_	NUM	CD	_	3	nummod	_	SpaceAfter=No|Translit=3
+3	%	_	SYM	SYM	_	1	clf	_	Translit=%|SpaceAfter=Yes
+4	นี้	_	DET	DT	_	1	det	_	SpaceAfter=No|Translit=ní²
+5	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+6	ผล	_	NOUN	NN	_	5	obj	_	SpaceAfter=No|Translit=pʰl
+7	กับ	_	ADP	IN	_	8	case	_	SpaceAfter=No|Translit=kâb
+8	ผู้	_	NOUN	NN	_	5	obl	_	SpaceAfter=No|Translit=pʰú²
+9	ถือ	_	VERB	VV	_	8	acl	_	SpaceAfter=No|Translit=tʰű'
+10	บัตร	_	NOUN	NN	_	9	obj	_	SpaceAfter=No|Translit=bâtr
+11	เน็กทาร์	_	PROPN	NNP	_	10	compound	_	SpaceAfter=No|Translit=nekdʰár
+12	ที่	_	DET	WDT	_	13	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+13	ต้องการ	_	VERB	VV	_	8	acl:relcl	_	SpaceAfter=No|Translit=t²'ŋkár
+14	กู้ยืม	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No|Translit=kú²yűm
+15	เงิน	_	NOUN	NN	_	14	obj	_	SpaceAfter=No|Translit=ŋéิn
+16	ระหว่าง	_	ADP	IN	_	20	case	_	Translit=rahwá¹ŋ|SpaceAfter=Yes
+17	15,001	_	NUM	CD	_	20	nummod	_	SpaceAfter=No|Translit=15,001
+18	-	_	PUNCT	-	_	20	nummod	_	SpaceAfter=No|Translit=-
+19	19,999	_	NUM	CD	_	20	nummod	_	Translit=19,999|SpaceAfter=Yes
+20	ปอนด์	_	NOUN	NNB	_	13	obl	_	Translit=pɔːnd|SpaceAfter=Yes
+21	เป็น	_	AUX	VC	_	22	cop	_	SpaceAfter=No|Translit=pen
+22	เวลา	_	NOUN	NN	_	5	xcomp	_	Translit=wélá|SpaceAfter=Yes
+23	2	_	NUM	CD	_	25	nummod	_	SpaceAfter=No|Translit=2
+24	-	_	PUNCT	-	_	25	advmod	_	SpaceAfter=No|Translit=-
+25	3	_	NUM	CD	_	26	nummod	_	Translit=3|SpaceAfter=Yes
+26	ปี	_	NOUN	NNB	_	22	clf	_	SpaceAfter=No|Translit=pí
+27	เช่น	_	AUX	VC	_	-1	_	_	SpaceAfter=No|Translit=ćʰé¹n
+28	กัน	_	PRON	PRP	_	27	fixed	_	Translit=kân|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01078013
+# text = บทความหลายบทความถกถึงผลกระทบเสื่อมทรามเชิงสังคมและวัฒนธรรมของสงครามต่อมนุษยชาติ
+1	บทความ	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No|Translit=bdʰgʰwám
+2	หลาย	_	DET	DT	_	3	det	_	SpaceAfter=No|Translit=hláy
+3	บทความ	_	NOUN	NN	_	1	clf	_	SpaceAfter=No|Translit=bdʰgʰwám
+4	ถก	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=tʰk
+5	ถึง	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=tʰüŋ
+6	ผล	_	NOUN	NN	_	4	obl	_	SpaceAfter=No|Translit=pʰl
+7	กระทบ	_	VERB	VV	_	6	acl	_	SpaceAfter=No|Translit=kradʰb
+8	เสื่อมทราม	_	ADJ	JJ	_	6	acl	_	SpaceAfter=No|Translit=sűá¹mdʰrám
+9	เชิง	_	NOUN	NN	_	10	case	_	SpaceAfter=No|Translit=ćʰéิŋ
+10	สังคม	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit=sâŋgʰm
+11	และ	_	CCONJ	CC	_	12	cc	_	SpaceAfter=No|Translit=læ
+12	วัฒนธรรม	_	NOUN	NN	_	6	conj	_	SpaceAfter=No|Translit=wâḑʰnḏʰrrm
+13	ของ	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+14	สงคราม	_	NOUN	NN	_	6	nmod:poss	_	SpaceAfter=No|Translit=sŋgʰrám
+15	ต่อ	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=t¹'
+16	มนุษยชาติ	_	NOUN	NN	_	14	nmod	_	Translit=mnušyćʰáti|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01014012
+# text = คำสั่งใหม่ของราชนาวีใหม่ที่เป็นผลดีต่ออุตสาหกรรมต่อเรือในแม่น้ำไคลด์นั้นทำขึ้นก่อนการทำประชามติเรื่องการแยกตัวเป็นอิสระของสกอตแลนด์ในปี 2014
+1	คำ	_	NOUN	NN	_	19	nsubj	_	SpaceAfter=No|Translit=gʰã
+2	สั่ง	_	VERB	VV	_	1	acl	_	SpaceAfter=No|Translit=sâ¹ŋ
+3	ใหม่	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No|Translit=haim¹
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+5	ราชนาวี	_	PROPN	NNP	_	1	nmod:poss	_	SpaceAfter=No|Translit=ráćʰnáwí
+6	ใหม่	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No|Translit=haim¹
+7	ที่	_	DET	WDT	_	9	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+8	เป็น	_	AUX	VC	_	9	cop	_	SpaceAfter=No|Translit=pen
+9	ผล	_	NOUN	NN	_	1	acl:relcl	_	SpaceAfter=No|Translit=pʰl
+10	ดี	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No|Translit=dí
+11	ต่อ	_	ADP	IN	_	12	case	_	SpaceAfter=No|Translit=t¹'
+12	อุตสาหกรรม	_	NOUN	NN	_	9	obl	_	SpaceAfter=No|ToDo=nmod|Translit='utsáhkrrm
+13	ต่อ	_	VERB	VV	_	14	case	_	SpaceAfter=No|Translit=t¹'
+14	เรือ	_	NOUN	NN	_	12	nmod	_	SpaceAfter=No|Translit=rűá
+15	ใน	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=nai
+16	แม่น้ำ	_	NOUN	NN	_	9	obl	_	Proper=True|SpaceAfter=No|Translit=mǽ¹nã²
+17	ไคลด์	_	PROPN	NNP	_	16	flat:name	_	SpaceAfter=No|Translit=gʰaild
+18	นั้น	_	DET	DT	_	1	det	_	SpaceAfter=No|Translit=nâ²n
+19	ทำ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=dʰã
+20	ขึ้น	_	PART	RP	_	19	compound:prt	_	SpaceAfter=No|Translit=kʰü²n
+21	ก่อน	_	ADP	IN	_	22	case	_	SpaceAfter=No|Translit=k¹'n
+22	การทำ	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No|Translit=kárdʰã
+23	ประชามติ	_	NOUN	NN	_	22	obj	_	SpaceAfter=No|Translit=praćʰámti
+24	เรื่อง	_	NOUN	NN	_	25	case	_	SpaceAfter=No|Translit=rűá¹ŋ
+25	การแยก	_	VERB	VV	_	22	xcomp	_	SpaceAfter=No|Translit=káryǽk
+26	ตัว	_	NOUN	NN	_	25	obj	_	SpaceAfter=No|Translit=túá
+27	เป็น	_	AUX	VC	_	28	cop	_	SpaceAfter=No|Translit=pen
+28	อิสระ	_	ADJ	JJ	_	25	xcomp	_	SpaceAfter=No|Translit='isra
+29	ของ	_	ADP	IN	_	30	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+30	สกอตแลนด์	_	PROPN	NNP	_	25	nmod:poss	_	SpaceAfter=No|Translit=skɔːtlǽnd
+31	ใน	_	ADP	IN	_	32	case	_	SpaceAfter=No|Translit=nai
+32	ปี	_	NOUN	NN	_	25	obl	_	Translit=pí|SpaceAfter=Yes
+33	2014	_	NUM	CD	_	32	appos	_	Translit=2014|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01096074
+# text = การทำสงครามบนพื้นดินเปลี่ยนจากการรบแนวหน้าแบบอยู่กับที่ในสงครามโลกครั้งที่หนึ่งมาเป็นแบบเคลื่อนที่มากขึ้นและติดอาวุธร่วมด้วย
+1	การทำ	_	VERB	VV	_	6	nsubj	_	SpaceAfter=No|Translit=kárdʰã
+2	สงคราม	_	NOUN	NN	_	1	obj	_	SpaceAfter=No|Translit=sŋgʰrám
+3	บน	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=bn
+4	พื้น	_	NOUN	NN	_	1	obl	_	SpaceAfter=No|Translit=bʰű²n
+5	ดิน	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=din
+6	เปลี่ยน	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=pélí¹yn
+7	จาก	_	ADP	IN	_	8	case	_	SpaceAfter=No|Translit=čák
+8	การรบ	_	VERB	VV	_	6	obl	_	SpaceAfter=No|Translit=kárrb
+9	แนว	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=nǽw
+10	หน้า	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=hná²
+11	แบบ	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=bǽb
+12	อยู่	_	VERB	VV	_	8	acl	_	SpaceAfter=No|Translit='yú¹
+13	กับ	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=kâb
+14	ที่	_	NOUN	NN	_	12	obl	_	SpaceAfter=No|Translit=dʰí¹
+15	ใน	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=nai
+16	สงคราม	_	NOUN	NN	_	12	obl	_	Proper=True|SpaceAfter=No|Translit=sŋgʰrám
+17	โลก	_	NOUN	NN	_	16	flat:name	_	Proper=True|SpaceAfter=No|Translit=lók
+18	ครั้ง	_	PROPN	NNB	_	16	clf	_	Proper=True|SpaceAfter=No|Translit=gʰrâ²ŋ
+19	ที่	_	NOUN	NN	_	18	compound	_	Proper=True|SpaceAfter=No|Translit=dʰí¹
+20	หนึ่ง	_	NUM	CD	_	19	nummod	_	Proper=True|SpaceAfter=No|Translit=hnü¹ŋ
+21	มา	_	PART	RP	_	6	xcomp	_	SpaceAfter=No|Translit=má
+22	เป็น	_	AUX	VC	_	23	cop	_	SpaceAfter=No|Translit=pen
+23	แบบ	_	NOUN	NN	_	21	xcomp	_	SpaceAfter=No|Translit=bǽb
+24	เคลื่อนที่	_	VERB	VV	_	23	acl	_	SpaceAfter=No|Translit=gʰélű¹'ndʰí¹
+25	มาก	_	ADV	RB	_	21	advmod	_	SpaceAfter=No|Translit=mák
+26	ขึ้น	_	ADV	RB	_	25	advmod	_	SpaceAfter=No|Translit=kʰü²n
+27	และ	_	CCONJ	CC	_	28	cc	_	SpaceAfter=No|Translit=læ
+28	ติด	_	VERB	VV	_	21	conj	_	SpaceAfter=No|Translit=tid
+29	อาวุธ	_	NOUN	NN	_	28	obj	_	SpaceAfter=No|Translit='áwuḏʰ
+30	ร่วม	_	VERB	VV	_	28	acl	_	SpaceAfter=No|Translit=r¹wm
+31	ด้วย	_	ADV	RB	_	30	advmod	_	Translit=d²wy|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01057006
+# text = บทกวีแต่ละบทบรรยายถึงเพียงส่วนหนึ่งของสงคราม
+1	บท	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|Translit=bdʰ
+2	กวี	_	NOUN	NN	_	1	compound	_	SpaceAfter=No|Translit=kwí
+3	แต่ละ	_	DET	DT	_	4	det	_	SpaceAfter=No|Translit=tǽ¹la
+4	บท	_	NOUN	NNB	_	1	clf	_	SpaceAfter=No|Translit=bdʰ
+5	บรรยาย	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=brryáy
+6	ถึง	_	ADP	IN	_	-1	_	_	SpaceAfter=No|Translit=tʰüŋ
+7	เพียง	_	ADV	RB	_	6	fixed	_	SpaceAfter=No|Translit=bʰíáŋ
+8	ส่วน	_	NOUN	NNB	_	7	obl	_	SpaceAfter=No|Translit=s¹wn
+9	หนึ่ง	_	NUM	CD	_	8	amod	_	SpaceAfter=No|Translit=hnü¹ŋ
+10	ของ	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+11	สงคราม	_	NOUN	NN	_	8	nmod:poss	_	Translit=sŋgʰrám|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01097020
+# text = หลังจากที่ฉันพบว่ามีแหล่งบนอินเทอร์เน็ตที่คุยกันในประเด็นนี้ รายชื่อของฉันก็ขยายตัวใหญ่โตและครอบคลุมเกือบทุกรัฐในสหภาพ
+1	หลัง	_	ADP	IN	_	5	mark	_	SpaceAfter=No|Translit=hlâŋ
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No|Translit=čák
+3	ที่	_	ADP	IN	_	1	fixed	_	SpaceAfter=No|Translit=dʰí¹
+4	ฉัน	_	PRON	PRP	Person=1	5	nsubj	_	SpaceAfter=No|Translit=čʰân
+5	พบ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=bʰb
+6	ว่า	_	ADP	IN	_	7	mark	_	SpaceAfter=No|Translit=wá¹
+7	มี	_	VERB	VV	_	5	ccomp	_	SpaceAfter=No|Translit=mí
+8	แหล่ง	_	NOUN	NN	_	7	obj	_	SpaceAfter=No|Translit=hǽl¹ŋ
+9	บน	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=bn
+10	อินเทอร์เน็ต	_	NOUN	NN	_	8	nmod	_	SpaceAfter=No|Translit='indʰóérnet
+11	ที่	_	DET	WDT	_	12	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+12	คุย	_	VERB	VV	_	8	acl:relcl	_	SpaceAfter=No|Translit=gʰuy
+13	กัน	_	PRON	PRP	_	12	obl	_	SpaceAfter=No|Translit=kân
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=nai
+15	ประเด็น	_	NOUN	NN	_	12	obl	_	SpaceAfter=No|Translit=praden
+16	นี้	_	DET	DT	_	15	det	_	Translit=ní²|SpaceAfter=Yes
+17	ราย	_	NOUN	NN	_	22	nsubj	_	SpaceAfter=No|Translit=ráy
+18	ชื่อ	_	NOUN	NN	_	17	compound	_	SpaceAfter=No|Translit=ćʰű¹'
+19	ของ	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+20	ฉัน	_	PRON	PRP	Person=1	17	nmod:poss	_	SpaceAfter=No|Translit=čʰân
+21	ก็	_	ADV	RB	_	22	advmod	_	SpaceAfter=No|Translit=kɔ
+22	ขยาย	_	VERB	VV	_	7	advcl	_	SpaceAfter=No|Translit=kʰyáy
+23	ตัว	_	NOUN	NN	_	22	obj	_	SpaceAfter=No|Translit=túá
+24	ใหญ่โต	_	ADV	RB	_	22	advmod	_	SpaceAfter=No|Translit=haiŷ¹tó
+25	และ	_	CCONJ	CC	_	26	cc	_	SpaceAfter=No|Translit=læ
+26	ครอบคลุม	_	VERB	VV	_	22	conj	_	SpaceAfter=No|Translit=gʰrɔːbgʰlum
+27	เกือบ	_	DET	DT	_	29	det	_	SpaceAfter=No|Translit=kűáb
+28	ทุก	_	DET	DT	_	29	det	_	SpaceAfter=No|Translit=dʰuk
+29	รัฐ	_	NOUN	NNB	_	26	obj	_	SpaceAfter=No|Translit=râṭʰ
+30	ใน	_	ADP	IN	_	31	case	_	SpaceAfter=No|Translit=nai
+31	สหภาพ	_	NOUN	NN	_	29	nmod	_	Proper=True|Translit=shḇʰábʰ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01092008
+# text = เอาเป็นว่าเขาผิด
+1	เอา	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit='ao
+2	เป็น	_	VERB	VC	_	1	xcomp	_	SpaceAfter=No|Translit=pen
+3	ว่า	_	ADP	IN	_	5	mark	_	SpaceAfter=No|Translit=wá¹
+4	เขา	_	PRON	PRP	Person=3	5	nsubj	_	SpaceAfter=No|Translit=kʰao
+5	ผิด	_	ADJ	JJ	_	1	ccomp	_	Translit=pʰid|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01039013
+# text = ในขณะเดียวกัน คลินตันและพันธมิตรของเธอก็พยายามคงเป้าหมายความสนใจไว้ที่ทรัมป์ โดยโจมตีที่ความเห็นเชิงดูถูกผู้หญิงกับชนกลุ่มน้อยและการแสดงออกทางอารมณ์ของเขา ซึ่งทำให้เขาไม่เหมาะสมที่จะดำรงตำแหน่ง
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=nai
+2	ขณะ	_	NOUN	NN	_	11	obl	_	SpaceAfter=No|Translit=kʰṇa
+3	เดียว	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No|Translit=díáw
+4	กัน	_	PRON	PRP	_	3	obl	_	Translit=kân|SpaceAfter=Yes
+5	คลินตัน	_	PROPN	NNP	_	11	nsubj	_	SpaceAfter=No|Translit=gʰlintân
+6	และ	_	CCONJ	CC	_	7	cc	_	SpaceAfter=No|Translit=læ
+7	พันธมิตร	_	NOUN	NN	_	5	conj	_	SpaceAfter=No|Translit=bʰânḏʰmitr
+8	ของ	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+9	เธอ	_	PRON	PRP	Person=3	7	nmod:poss	_	SpaceAfter=No|Translit=ḏʰóé
+10	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No|Translit=kɔ
+11	พยายาม	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=bʰyáyám
+12	คง	_	VERB	VV	_	11	xcomp	_	SpaceAfter=No|Translit=gʰŋ
+13	เป้าหมาย	_	NOUN	NN	_	12	obj	_	SpaceAfter=No|Translit=pao²hmáy
+14	ความสนใจ	_	VERB	VV	_	13	compound	_	SpaceAfter=No|Translit=gʰwámsnčai
+15	ไว้	_	VERB	VV	_	12	advmod	_	SpaceAfter=No|Translit=wai²
+16	ที่	_	ADP	IN	_	17	case	_	SpaceAfter=No|Translit=dʰí¹
+17	ทรัมป์	_	PROPN	NNP	_	12	obl	_	Translit=dʰrâmp|SpaceAfter=Yes
+18	โดย	_	ADP	IN	_	19	mark	_	SpaceAfter=No|Translit=dóy
+19	โจมตี	_	VERB	VV	_	12	advcl	_	SpaceAfter=No|Translit=čómtí
+20	ที่	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit=dʰí¹
+21	ความเห็น	_	VERB	VV	_	19	obl	_	SpaceAfter=No|Translit=gʰwámhen
+22	เชิง	_	NOUN	NN	_	21	compound	_	SpaceAfter=No|Translit=ćʰéิŋ
+23	ดูถูก	_	VERB	VV	_	22	acl	_	SpaceAfter=No|Translit=dútʰúk
+24	ผู้หญิง	_	NOUN	NN	_	23	obj	_	SpaceAfter=No|Translit=pʰú²hŷiŋ
+25	กับ	_	CCONJ	CC	_	26	case	_	SpaceAfter=No|Translit=kâb
+26	ชน	_	NOUN	NN	_	21	conj	_	SpaceAfter=No|Translit=ćʰn
+27	กลุ่ม	_	NOUN	NNB	_	26	compound	_	SpaceAfter=No|Translit=klu¹m
+28	น้อย	_	ADJ	JJ	_	27	amod	_	SpaceAfter=No|Translit=n²'y
+29	และ	_	CCONJ	CC	_	30	cc	_	SpaceAfter=No|Translit=læ
+30	การแสดง	_	VERB	VV	_	21	conj	_	SpaceAfter=No|Translit=kársǽdŋ
+31	ออก	_	VERB	VV	_	30	acl	_	SpaceAfter=No|Translit='ɔːk
+32	ทาง	_	ADP	IN	_	33	case	_	SpaceAfter=No|Translit=dʰáŋ
+33	อารมณ์	_	NOUN	NN	_	30	obl	_	SpaceAfter=No|Translit='ármṇ
+34	ของ	_	ADP	IN	_	35	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+35	เขา	_	PRON	PRP	Person=3	33	nmod:poss	_	Translit=kʰao|SpaceAfter=Yes
+36	ซึ่ง	_	DET	WDT	_	37	nsubj	_	SpaceAfter=No|Translit=cü¹ŋ
+37	ทำให้	_	VERB	VV	_	30	advcl	_	SpaceAfter=No|Translit=dʰãhai²
+38	เขา	_	PRON	PRP	Person=3	37	obj	_	SpaceAfter=No|Translit=kʰao
+39	ไม่	_	PART	NEG	Polarity=Neg	40	advmod	_	SpaceAfter=No|Translit=mai¹
+40	เหมาะสม	_	ADJ	JJ	_	37	ccomp	_	SpaceAfter=No|Translit=hémáะsm
+41	ที่	_	ADP	IN	_	43	mark	_	SpaceAfter=No|Translit=dʰí¹
+42	จะ	_	AUX	MD	_	43	aux	_	SpaceAfter=No|Translit=ča
+43	ดำรง	_	VERB	VV	_	40	advcl	_	SpaceAfter=No|Translit=dãrŋ
+44	ตำแหน่ง	_	NOUN	NN	_	43	obj	_	Translit=tãhǽn¹ŋ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01016014
+# text = ตอนแรกบริษัทเกาหลีใต้คิดว่าสาเหตุคือความบกพร่องของแบตเตอรี่ จึงเปลี่ยนจากการใช้ส่วนประกอบของตัวเองเป็นเซลล์ไฟฟ้าจากบุคคลภายนอก
+1	ตอน	_	NOUN	NN	_	5	obl	_	SpaceAfter=No|Translit=tɔːn
+2	แรก	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No|Translit=rǽk
+3	บริษัท	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|Translit=brišâdʰ
+4	เกาหลีใต้	_	PROPN	NNP	_	3	compound	_	SpaceAfter=No|Translit=kaohlítai²
+5	คิด	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=gʰid
+6	ว่า	_	ADP	IN	_	9	mark	_	SpaceAfter=No|Translit=wá¹
+7	สาเหตุ	_	NOUN	NN	_	9	nsubj	_	SpaceAfter=No|Translit=sáhétu
+8	คือ	_	AUX	VC	_	9	cop	_	SpaceAfter=No|Translit=gʰű'
+9	ความบกพร่อง	_	VERB	VV	_	5	ccomp	_	SpaceAfter=No|Translit=gʰwámbkbʰr¹'ŋ
+10	ของ	_	ADP	IN	_	11	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+11	แบตเตอรี่	_	NOUN	NN	_	9	nmod:poss	_	Translit=bǽttóérí¹|SpaceAfter=Yes
+12	จึง	_	ADP	IN	_	13	mark	_	SpaceAfter=No|Translit=čüŋ
+13	เปลี่ยน	_	VERB	VV	_	9	advcl	_	SpaceAfter=No|Translit=pélí¹yn
+14	จาก	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=čák
+15	การใช้	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No|Translit=kárćʰai²
+16	ส่วน	_	NOUN	NN	_	15	obj	_	SpaceAfter=No|Translit=s¹wn
+17	ประกอบ	_	VERB	VV	_	16	acl	_	SpaceAfter=No|Translit=prakɔːb
+18	ของ	_	ADP	IN	_	19	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+19	ตัวเอง	_	PRON	PRP	Person=3	16	nmod:poss	_	SpaceAfter=No|Translit=túá'éŋ
+20	เป็น	_	AUX	VC	_	21	cop	_	SpaceAfter=No|Translit=pen
+21	เซลล์	_	NOUN	NN	_	15	xcomp	_	SpaceAfter=No|Translit=céll
+22	ไฟฟ้า	_	NOUN	NN	_	21	compound	_	SpaceAfter=No|Translit=faifá²
+23	จาก	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=čák
+24	บุคคล	_	NOUN	NN	_	21	obl	_	SpaceAfter=No|ToDo=nmod|Translit=bugʰgʰl
+25	ภาย	_	NOUN	NN	_	-1	_	_	SpaceAfter=No|Translit=ḇʰáy
+26	นอก	_	ADJ	JJ	_	25	amod	_	Translit=nɔːk|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01016032
+# text = โทรศัพท์เมท 9 ไม่รองรับอินเทอร์เฟซปัญญาประดิษฐ์อย่าง Google Assistant หรือ Siri ของแอปเปิล
+1	โทรศัพท์	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No|Translit=dʰórśâbʰdʰ
+2	เมท	_	PROPN	NNP	_	1	compound	_	Translit=médʰ|SpaceAfter=Yes
+3	9	_	NUM	CD	_	1	appos	_	Proper=True|Translit=9|SpaceAfter=Yes
+4	ไม่	_	PART	NEG	Polarity=Neg	5	advmod	_	SpaceAfter=No|Translit=mai¹
+5	รองรับ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=rɔːŋrâb
+6	อินเทอร์เฟซ	_	NOUN	NN	_	5	obj	_	SpaceAfter=No|Translit='indʰóérféc
+7	ปัญญา	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit=pâŷŷá
+8	ประดิษฐ์	_	VERB	VV	_	7	acl	_	SpaceAfter=No|Translit=pradišṭʰ
+9	อย่าง	_	ADP	IN	_	10	case	_	Translit='yá¹ŋ|SpaceAfter=Yes
+10	Google	_	PROPN	NNP	_	6	nmod	_	Translit=Google|SpaceAfter=Yes
+11	Assistant	_	NOUN	NN	_	10	flat:name	_	Proper=True|Translit=Assistant|SpaceAfter=Yes
+12	หรือ	_	CCONJ	CC	_	13	cc	_	Translit=hrű'|SpaceAfter=Yes
+13	Siri	_	NOUN	NN	_	10	conj	_	Proper=True|Translit=Siri|SpaceAfter=Yes
+14	ของ	_	ADP	IN	_	15	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+15	แอปเปิล	_	PROPN	NNP	_	6	nmod:poss	_	Translit='ǽppéิl|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01025087
+# text = เดนนีเวิร์กอยู่ในความครอบครองของเยอรมันนับแต่นั้นมา
+1	เดนนีเวิร์ก	_	PROPN	NNP	_	2	nsubj	_	SpaceAfter=No|Translit=dénníwéิrk
+2	อยู่	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit='yú¹
+3	ใน	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=nai
+4	ความครอบครอง	_	VERB	VV	_	2	obl	_	SpaceAfter=No|Translit=gʰwámgʰrɔːbgʰrɔːŋ
+5	ของ	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+6	เยอรมัน	_	PROPN	NNP	_	4	nmod:poss	_	SpaceAfter=No|Translit=yóérmân
+7	นับ	_	VERB	VV	_	9	case	_	SpaceAfter=No|Translit=nâb
+8	แต่	_	ADP	IN	_	7	fixed	_	SpaceAfter=No|Translit=tǽ¹
+9	นั้น	_	PRON	PRD	_	4	nmod	_	SpaceAfter=No|Translit=nâ²n
+10	มา	_	PART	RP	_	2	compound:prt	_	Translit=má|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01092019
+# text = การเปลี่ยนแปลงพื้นฐานด้านหลักการในการทำงานได้นำมาใช้โดยเจมส์ วัตต์ ชาวสก็อต
+1	การเปลี่ยนแปลง	_	VERB	VV	_	9	nsubj	_	SpaceAfter=No|Translit=kárpélí¹ynpǽlŋ
+2	พื้นฐาน	_	NOUN	NN	_	1	obj	_	SpaceAfter=No|Translit=bʰű²nṭʰán
+3	ด้าน	_	NOUN	NN	_	2	compound	_	SpaceAfter=No|Translit=dá²n
+4	หลักการ	_	NOUN	NN	_	2	compound	_	SpaceAfter=No|Translit=hlâkkár
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	การทำ	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No|Translit=kárdʰã
+7	งาน	_	NOUN	NN	_	6	obj	_	SpaceAfter=No|Translit=ŋán
+8	ได้	_	AUX	AS	Aspect=Perf	9	aux	_	SpaceAfter=No|Translit=dai²
+9	นำ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=nã
+10	มา	_	PART	RP	_	9	compound:prt	_	SpaceAfter=No|Translit=má
+11	ใช้	_	VERB	VV	_	9	xcomp	_	SpaceAfter=No|Translit=ćʰai²
+12	โดย	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=dóy
+13	เจมส์	_	PROPN	NNP	_	11	obl	_	Translit=čéms|SpaceAfter=Yes
+14	วัตต์	_	PROPN	NNP	_	13	flat:name	_	Translit=wâtt|SpaceAfter=Yes
+15	ชาว	_	NOUN	NN	_	13	appos	_	SpaceAfter=No|Translit=ćʰáw
+16	สก็อต	_	PROPN	NNP	_	15	compound	_	Translit=skɔt|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01036002
+# text = สมาคมที่เป็นตัวแทนนายหน้าอสังหาริมทรัพย์ในออนทาริโอกล่าวว่าต้องมีความพยายามปกป้องผู้บริโภคและลงโทษนายหน้าที่ข้องเกี่ยวกับการประพฤติผิดจรรยาบรรณ
+1	สมาคม	_	NOUN	NN	_	10	nsubj	_	Proper=True|SpaceAfter=No|Translit=smágʰm
+2	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+3	เป็น	_	AUX	VC	_	4	cop	_	SpaceAfter=No|Translit=pen
+4	ตัว	_	NOUN	NN	_	1	acl:relcl	_	SpaceAfter=No|Translit=túá
+5	แทน	_	VERB	VV	_	4	acl	_	SpaceAfter=No|Translit=dʰǽn
+6	นายหน้า	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=náyhná²
+7	อสังหาริมทรัพย์	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit='sâŋhárimdʰrâbʰy
+8	ใน	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=nai
+9	ออนทาริโอ	_	PROPN	NNP	_	4	obl	_	SpaceAfter=No|Translit='ɔːndʰári'ó
+10	กล่าว	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=klá¹w
+11	ว่า	_	ADP	IN	_	13	mark	_	SpaceAfter=No|Translit=wá¹
+12	ต้อง	_	AUX	MD	_	13	aux	_	SpaceAfter=No|Translit=t²'ŋ
+13	มี	_	VERB	VV	_	10	ccomp	_	SpaceAfter=No|Translit=mí
+14	ความพยายาม	_	VERB	VV	_	13	obj	_	SpaceAfter=No|Translit=gʰwámbʰyáyám
+15	ปกป้อง	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No|Translit=pkp²'ŋ
+16	ผู้	_	NOUN	NN	_	15	obj	_	SpaceAfter=No|Translit=pʰú²
+17	บริโภค	_	VERB	VV	_	16	acl	_	SpaceAfter=No|Translit=briḇʰógʰ
+18	และ	_	CCONJ	CC	_	19	cc	_	SpaceAfter=No|Translit=læ
+19	ลงโทษ	_	VERB	VV	_	15	conj	_	SpaceAfter=No|Translit=lŋdʰóš
+20	นายหน้า	_	NOUN	NN	_	19	obj	_	SpaceAfter=No|Translit=náyhná²
+21	ที่	_	DET	WDT	_	22	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+22	ข้องเกี่ยว	_	VERB	VV	_	20	acl:relcl	_	SpaceAfter=No|Translit=kʰ²'ŋkíá¹w
+23	กับ	_	ADP	IN	_	24	case	_	SpaceAfter=No|Translit=kâb
+24	การประพฤติ	_	VERB	VV	_	22	obl	_	SpaceAfter=No|Translit=kárprabʰṟti
+25	ผิด	_	VERB	VV	_	24	acl	_	SpaceAfter=No|Translit=pʰid
+26	จรรยาบรรณ	_	NOUN	NN	_	25	obj	_	Translit=črryábrrṇ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01072046
+# text = แต่ผลกระทบของฮิสปาเนียต่อผู้มาใหม่นั้นมีมากเช่นกัน
+1	แต่	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=tǽ¹
+2	ผล	_	NOUN	NN	_	11	nsubj	_	SpaceAfter=No|Translit=pʰl
+3	กระทบ	_	VERB	VV	_	2	acl	_	SpaceAfter=No|Translit=kradʰb
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+5	ฮิสปาเนีย	_	PROPN	NNP	_	2	nmod:poss	_	SpaceAfter=No|Translit=ḥispáníá
+6	ต่อ	_	ADP	IN	_	7	case	_	SpaceAfter=No|Translit=t¹'
+7	ผู้	_	NOUN	NN	_	2	nmod	_	SpaceAfter=No|Translit=pʰú²
+8	มา	_	VERB	VV	_	7	acl	_	SpaceAfter=No|Translit=má
+9	ใหม่	_	ADV	RB	_	7	amod	_	SpaceAfter=No|Translit=haim¹
+10	นั้น	_	DET	DT	_	2	det	_	SpaceAfter=No|Translit=nâ²n
+11	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+12	มาก	_	ADV	RB	_	11	advmod	_	SpaceAfter=No|Translit=mák
+13	เช่น	_	AUX	VC	_	14	cop	_	SpaceAfter=No|Translit=ćʰé¹n
+14	กัน	_	PRON	PRP	_	11	obl	_	Translit=kân|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w02015085
+# text = ทุกวันนี้ซากปรักหักพังกว้างใหญ่สามารถเห็นได้จากตรงนี้
+1	ทุก	_	DET	DT	_	10	advmod	_	SpaceAfter=No|Translit=dʰuk
+2	วัน	_	NOUN	NNB	_	10	obl	_	SpaceAfter=No|Translit=wân
+3	นี้	_	DET	DT	_	2	det	_	SpaceAfter=No|Translit=ní²
+4	ซาก	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No|Translit=cák
+5	ปรัก	_	VERB	VV	_	4	acl	_	SpaceAfter=No|Translit=prâk
+6	หัก	_	VERB	VV	_	5	conj	_	SpaceAfter=No|Translit=hâk
+7	พัง	_	VERB	VV	_	5	acl	_	SpaceAfter=No|Translit=bʰâŋ
+8	กว้างใหญ่	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No|Translit=kwá²ŋhaiŷ¹
+9	สามารถ	_	AUX	MD	_	10	aux	_	SpaceAfter=No|Translit=sámártʰ
+10	เห็น	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=hen
+11	ได้	_	AUX	MD	_	10	aux	_	SpaceAfter=No|Translit=dai²
+12	จาก	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=čák
+13	ตรง	_	ADP	IN	_	10	obl	_	SpaceAfter=No|Translit=trŋ
+14	นี้	_	PRON	PRD	_	13	nmod	_	ToDo=nmod|Translit=ní²|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n02022015
+# text = ไม่มีใครรู้เลยว่านักเขียนบทละครทั้งคู่จะทำงานร่วมกันอย่างไร
+1	ไม่	_	PART	NEG	Polarity=Neg	2	advmod	_	SpaceAfter=No|Translit=mai¹
+2	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=mí
+3	ใคร	_	PRON	WP	_	2	obj	_	SpaceAfter=No|Translit=gʰair
+4	รู้	_	VERB	VV	_	2	xcomp	_	SpaceAfter=No|Translit=rú²
+5	เลย	_	ADV	RB	_	4	advmod	_	SpaceAfter=No|Translit=léy
+6	ว่า	_	ADP	IN	_	14	mark	_	SpaceAfter=No|Translit=wá¹
+7	นัก	_	NOUN	NN	_	14	nsubj	_	SpaceAfter=No|Translit=nâk
+8	เขียน	_	VERB	VV	_	7	acl	_	SpaceAfter=No|Translit=kʰíán
+9	บท	_	NOUN	NN	_	8	obj	_	SpaceAfter=No|Translit=bdʰ
+10	ละคร	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=lagʰr
+11	ทั้ง	_	DET	DT	_	12	det	_	SpaceAfter=No|Translit=dʰâ²ŋ
+12	คู่	_	NOUN	NNB	_	7	clf	_	SpaceAfter=No|Translit=gʰú¹
+13	จะ	_	AUX	MD	_	14	aux	_	SpaceAfter=No|Translit=ča
+14	ทำ	_	VERB	VV	_	4	ccomp	_	SpaceAfter=No|Translit=dʰã
+15	งาน	_	NOUN	NN	_	14	obj	_	SpaceAfter=No|Translit=ŋán
+16	ร่วม	_	VERB	VV	_	14	acl	_	SpaceAfter=No|Translit=r¹wm
+17	กัน	_	PRON	PRP	_	16	obl	_	SpaceAfter=No|Translit=kân
+18	อย่างไร	_	ADV	WRB	_	14	advmod	_	Translit='yá¹ŋrai|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01130101
+# text = ประกอบไปด้วยสามเพลงที่ร่วมแต่งกับจิม น้องชายของราฟเฟอร์ตี้ ซึ่งเป็นนักร้องนักแต่งเพลงที่เซ็นสัญญากับเดคคา เรคคอร์ดส์เมื่อทศวรรษที่ 1970
+1	ประกอบ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=prakɔːb
+2	ไป	_	PART	RP	_	1	compound:prt	_	SpaceAfter=No|Translit=pai
+3	ด้วย	_	ADP	IN	_	5	case	_	SpaceAfter=No|Translit=d²wy
+4	สาม	_	NUM	CD	_	5	nummod	_	SpaceAfter=No|Translit=sám
+5	เพลง	_	NOUN	NNB	_	1	obl	_	SpaceAfter=No|Translit=bʰélŋ
+6	ที่	_	DET	WDT	_	7	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+7	ร่วม	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No|Translit=r¹wm
+8	แต่ง	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No|Translit=tǽ¹ŋ
+9	กับ	_	ADP	IN	_	10	case	_	SpaceAfter=No|Translit=kâb
+10	จิม	_	PROPN	NNP	_	8	obl	_	Translit=čim|SpaceAfter=Yes
+11	น้อง	_	NOUN	NN	_	10	appos	_	SpaceAfter=No|Translit=n²'ŋ
+12	ชาย	_	NOUN	NN	_	11	compound	_	SpaceAfter=No|Translit=ćʰáy
+13	ของ	_	ADP	IN	_	14	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+14	ราฟเฟอร์ตี้	_	PROPN	NNP	_	11	nmod:poss	_	Translit=ráffóértí²|SpaceAfter=Yes
+15	ซึ่ง	_	DET	WDT	_	17	nsubj	_	SpaceAfter=No|Translit=cü¹ŋ
+16	เป็น	_	AUX	VC	_	17	cop	_	SpaceAfter=No|Translit=pen
+17	นัก	_	NOUN	NN	_	11	acl:relcl	_	SpaceAfter=No|Translit=nâk
+18	ร้อง	_	VERB	VV	_	17	acl	_	SpaceAfter=No|Translit=r²'ŋ
+19	นัก	_	NOUN	NN	_	-1	_	_	SpaceAfter=No|Translit=nâk
+20	แต่ง	_	VERB	VV	_	19	acl	_	SpaceAfter=No|Translit=tǽ¹ŋ
+21	เพลง	_	NOUN	NN	_	20	obj	_	SpaceAfter=No|Translit=bʰélŋ
+22	ที่	_	DET	WDT	_	23	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+23	เซ็น	_	VERB	VV	_	19	acl:relcl	_	SpaceAfter=No|Translit=cen
+24	สัญญา	_	NOUN	NN	_	23	obj	_	SpaceAfter=No|Translit=sâŷŷá
+25	กับ	_	ADP	IN	_	26	case	_	SpaceAfter=No|Translit=kâb
+26	เดคคา	_	PROPN	NNP	_	23	obl	_	Translit=dégʰgʰá|SpaceAfter=Yes
+27	เรคคอร์ดส์	_	NOUN	NN	_	26	flat:name	_	Proper=True|SpaceAfter=No|Translit=régʰgʰɔːrds
+28	เมื่อ	_	ADP	IN	_	29	case	_	SpaceAfter=No|Translit=műá¹
+29	ทศวรรษ	_	NOUN	NN	_	23	obl	_	SpaceAfter=No|Translit=dʰśwrrš
+30	ที่	_	NOUN	NN	_	29	compound	_	Translit=dʰí¹|SpaceAfter=Yes
+31	1970	_	NUM	CD	_	30	nummod	_	Translit=1970|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01043014
+# text = งบประมาณประจำปีมากกว่า 1.4 พันล้านดอลลาร์และจ้างงานกว่า 6,000 คน
+1	งบประมาณ	_	VERB	VV	_	4	nsubj	_	SpaceAfter=No|Translit=ŋbpramáṇ
+2	ประจำ	_	VERB	VV	_	1	acl	_	SpaceAfter=No|Translit=pračã
+3	ปี	_	NOUN	NN	_	2	obj	_	SpaceAfter=No|Translit=pí
+4	มาก	_	ADV	RB	_	0	root	_	SpaceAfter=No|Translit=mák
+5	กว่า	_	ADP	IN	_	8	case	_	Translit=kwá¹|SpaceAfter=Yes
+6	1.4	_	NUM	CD	_	7	nummod	_	Translit=1.4|SpaceAfter=Yes
+7	พัน	_	NUM	CD	_	8	nummod	_	SpaceAfter=No|Translit=bʰân
+8	ล้าน	_	NUM	CD	_	9	nummod	_	SpaceAfter=No|Translit=lá²n
+9	ดอลลาร์	_	NOUN	NNB	_	4	obl	_	SpaceAfter=No|Translit=dɔːllár
+10	และ	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No|Translit=læ
+11	จ้าง	_	VERB	VV	_	4	conj	_	SpaceAfter=No|Translit=čá²ŋ
+12	งาน	_	NOUN	NN	_	11	obj	_	SpaceAfter=No|Translit=ŋán
+13	กว่า	_	ADV	RB	_	14	advmod	_	Translit=kwá¹|SpaceAfter=Yes
+14	6,000	_	NUM	CD	_	15	nummod	_	Translit=6,000|SpaceAfter=Yes
+15	คน	_	NOUN	NNB	_	11	clf	_	Translit=gʰn|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n02011003
+# text = ด้วยเบาะแสของข้อมูลบัตรเดบิต ตำรวจเอสเซนกำลังสอบสวนคนสี่คนที่ยืนดูอยู่ตอนที่คนวัยเกษียณเสียชีวิตในธนาคาร
+1	ด้วย	_	ADP	IN	_	2	case	_	SpaceAfter=No|Translit=d²wy
+2	เบาะแส	_	NOUN	NN	_	10	obl	_	SpaceAfter=No|Translit=bɔsǽ
+3	ของ	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+4	ข้อมูล	_	NOUN	NN	_	2	nmod:poss	_	SpaceAfter=No|Translit=kʰ²'múl
+5	บัตร	_	NOUN	NN	_	4	compound	_	SpaceAfter=No|Translit=bâtr
+6	เดบิต	_	NOUN	NN	_	5	flat:name	_	Translit=débit|SpaceAfter=Yes
+7	ตำรวจ	_	NOUN	NN	_	10	nsubj	_	SpaceAfter=No|Translit=tãrwč
+8	เอสเซน	_	PROPN	NNP	_	7	compound	_	SpaceAfter=No|Translit='éscén
+9	กำลัง	_	AUX	AS	Aspect=Prog	10	aux	_	SpaceAfter=No|Translit=kãlâŋ
+10	สอบสวน	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=sɔːbswn
+11	คน	_	NOUN	NN	_	10	obj	_	SpaceAfter=No|Translit=gʰn
+12	สี่	_	NUM	CD	_	13	nummod	_	SpaceAfter=No|Translit=sí¹
+13	คน	_	NOUN	NNB	_	11	clf	_	SpaceAfter=No|Translit=gʰn
+14	ที่	_	DET	WDT	_	15	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+15	ยืน	_	VERB	VV	_	11	acl:relcl	_	SpaceAfter=No|Translit=yűn
+16	ดู	_	VERB	VV	_	15	xcomp	_	SpaceAfter=No|Translit=dú
+17	อยู่	_	AUX	AS	Aspect=Prog	15	aux	_	SpaceAfter=No|Translit='yú¹
+18	ตอน	_	NOUN	NN	_	15	obl	_	SpaceAfter=No|Translit=tɔːn
+19	ที่	_	DET	WDT	_	23	advmod	_	SpaceAfter=No|Translit=dʰí¹
+20	คน	_	NOUN	NN	_	23	nsubj	_	SpaceAfter=No|Translit=gʰn
+21	วัย	_	NOUN	NN	_	20	compound	_	SpaceAfter=No|Translit=wây
+22	เกษียณ	_	VERB	VV	_	21	acl	_	SpaceAfter=No|Translit=kéšíyṇ
+23	เสียชีวิต	_	VERB	VV	_	18	acl:relcl	_	SpaceAfter=No|Translit=síáćʰíwit
+24	ใน	_	ADP	IN	_	25	case	_	SpaceAfter=No|Translit=nai
+25	ธนาคาร	_	NOUN	NN	_	23	obl	_	Translit=ḏʰnágʰár|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01059025
+# text = “ผมไม่รู้ว่าการเติบโตของจีดีพีสมัยที่วอชิงตันและลินคอล์นเป็นรัฐบาลเป็นเท่าไร แต่พัฒนาการเชิงสถาบันในยุคนั้นมีผลกระทบที่ยิ่งใหญ่และคงอยู่เป็นเวลานาน”
+1	“	_	PUNCT	``	_	4	punct	_	SpaceAfter=No|Translit=“
+2	ผม	_	PRON	PRP	Person=1	4	nsubj	_	SpaceAfter=No|Translit=pʰm
+3	ไม่	_	PART	NEG	Polarity=Neg	4	advmod	_	SpaceAfter=No|Translit=mai¹
+4	รู้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=rú²
+5	ว่า	_	ADP	IN	_	16	mark	_	SpaceAfter=No|Translit=wá¹
+6	การเติบโต	_	VERB	VV	_	16	nsubj	_	SpaceAfter=No|Translit=kártéิbtó
+7	ของ	_	ADP	IN	_	8	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+8	จีดีพี	_	NOUN	NN	_	6	nmod:poss	_	SpaceAfter=No|Translit=čídíbʰí
+9	สมัย	_	NOUN	NN	_	6	compound	_	SpaceAfter=No|Translit=smây
+10	ที่	_	DET	WDT	_	15	advmod	_	SpaceAfter=No|Translit=dʰí¹
+11	วอชิงตัน	_	PROPN	NNP	_	15	nsubj	_	SpaceAfter=No|Translit=wɔːćʰiŋtân
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No|Translit=læ
+13	ลินคอล์น	_	PROPN	NNP	_	11	conj	_	SpaceAfter=No|Translit=lingʰɔːln
+14	เป็น	_	AUX	VC	_	15	cop	_	SpaceAfter=No|Translit=pen
+15	รัฐบาล	_	NOUN	NN	_	9	acl:relcl	_	SpaceAfter=No|Translit=râṭʰbál
+16	เป็น	_	VERB	VC	_	-1	_	_	SpaceAfter=No|Translit=pen
+17	เท่าไร	_	ADV	WRB	_	16	advmod	_	Translit=dʰao¹rai|SpaceAfter=Yes
+18	แต่	_	CCONJ	CC	_	25	cc	_	SpaceAfter=No|Translit=tǽ¹
+19	พัฒนาการ	_	NOUN	NN	_	25	nsubj	_	SpaceAfter=No|Translit=bʰâḑʰnákár
+20	เชิง	_	ADP	IN	_	23	case	_	SpaceAfter=No|Translit=ćʰéิŋ
+21	สถาบัน	_	NOUN	NN	_	20	compound	_	SpaceAfter=No|Translit=stʰábân
+22	ใน	_	ADP	IN	_	23	case	_	SpaceAfter=No|Translit=nai
+23	ยุค	_	NOUN	NN	_	19	nmod	_	SpaceAfter=No|Translit=yugʰ
+24	นั้น	_	DET	DT	_	23	det	_	SpaceAfter=No|Translit=nâ²n
+25	มี	_	VERB	VV	_	16	conj	_	SpaceAfter=No|Translit=mí
+26	ผล	_	NOUN	NN	_	25	obj	_	SpaceAfter=No|Translit=pʰl
+27	กระทบ	_	VERB	VV	_	26	acl	_	SpaceAfter=No|Translit=kradʰb
+28	ที่	_	DET	WDT	_	29	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+29	ยิ่งใหญ่	_	ADJ	JJ	_	26	acl:relcl	_	SpaceAfter=No|Translit=yi¹ŋhaiŷ¹
+30	และ	_	CCONJ	CC	_	31	cc	_	SpaceAfter=No|Translit=læ
+31	คงอยู่	_	VERB	VV	_	26	conj	_	SpaceAfter=No|Translit=gʰŋɔːyú¹
+32	เป็น	_	AUX	VC	_	33	cop	_	SpaceAfter=No|Translit=pen
+33	เวลา	_	NOUN	NN	_	31	xcomp	_	SpaceAfter=No|Translit=wélá
+34	นาน	_	ADJ	JJ	_	33	amod	_	SpaceAfter=No|Translit=nán
+35	”	_	PUNCT	''	_	16	punct	_	Translit=”|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01093024
+# text = แต่การลดลงหลักๆ ก็ระบุปลาค็อด ปลาโซล ปลาเพลซ ปลาเมกริม และปลาพอลแล็คในทะเลเซลติกและไอริช
+1	แต่	_	CCONJ	CC	_	7	cc	_	SpaceAfter=No|Translit=tǽ¹
+2	การลด	_	VERB	VV	_	7	nsubj	_	SpaceAfter=No|Translit=kárld
+3	ลง	_	PART	RP	_	2	compound:prt	_	SpaceAfter=No|Translit=lŋ
+4	หลัก	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No|Translit=hlâk
+5	ๆ	_	SYM	SYM	_	4	dep	_	Translit=|SpaceAfter=Yes
+6	ก็	_	ADV	RB	_	7	advmod	_	SpaceAfter=No|Translit=kɔ
+7	ระบุ	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=rabu
+8	ปลา	_	NOUN	NN	_	7	obj	_	SpaceAfter=No|Translit=plá
+9	ค็อด	_	NOUN	NN	_	8	flat:name	_	Translit=gʰɔd|SpaceAfter=Yes
+10	ปลา	_	NOUN	NN	_	8	conj	_	SpaceAfter=No|Translit=plá
+11	โซล	_	NOUN	NN	_	10	flat:name	_	Translit=cól|SpaceAfter=Yes
+12	ปลา	_	NOUN	NN	_	10	conj	_	SpaceAfter=No|Translit=plá
+13	เพลซ	_	NOUN	NN	_	12	flat:name	_	Translit=bʰélc|SpaceAfter=Yes
+14	ปลา	_	NOUN	NN	_	12	conj	_	SpaceAfter=No|Translit=plá
+15	เมกริม	_	NOUN	NN	_	14	flat:name	_	Translit=mékrim|SpaceAfter=Yes
+16	และ	_	CCONJ	CC	_	17	cc	_	SpaceAfter=No|Translit=læ
+17	ปลา	_	NOUN	NN	_	8	conj	_	SpaceAfter=No|Translit=plá
+18	พอลแล็ค	_	NOUN	NN	_	17	flat:name	_	SpaceAfter=No|Translit=bʰɔːllægʰ
+19	ใน	_	ADP	IN	_	20	case	_	SpaceAfter=No|Translit=nai
+20	ทะเล	_	NOUN	NN	_	8	nmod	_	Proper=True|SpaceAfter=No|Translit=dʰalé
+21	เซลติก	_	PROPN	NNP	_	20	flat:name	_	SpaceAfter=No|Translit=céltik
+22	และ	_	CCONJ	CC	_	23	cc	_	SpaceAfter=No|Translit=læ
+23	ไอริช	_	PROPN	NNP	_	20	conj	_	Translit='airićʰ|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01102006
+# text = เขาบอกกับรายการแอนดรูว์มาร์โชว์ของบีบีซีว่า “จริงๆ แล้วการเลือกตั้งทั่วไปคือสิ่งสุดท้ายที่รัฐบาลต้องการ”
+1	เขา	_	PRON	PRP	Person=3	2	nsubj	_	SpaceAfter=No|Translit=kʰao
+2	บอก	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=bɔːk
+3	กับ	_	ADP	IN	_	4	case	_	SpaceAfter=No|Translit=kâb
+4	รายการ	_	NOUN	NN	_	2	obl	_	SpaceAfter=No|Translit=ráykár
+5	แอนดรูว์	_	PROPN	NNP	_	4	flat:name	_	SpaceAfter=No|Translit='ǽndrúw
+6	มาร์	_	PROPN	NNP	_	5	flat:name	_	SpaceAfter=No|Translit=már
+7	โชว์	_	NOUN	NN	_	5	acl	_	Proper=True|SpaceAfter=No|Translit=ćʰów
+8	ของ	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=kʰɔːŋ
+9	บีบีซี	_	PROPN	NNP	_	4	nmod:poss	_	SpaceAfter=No|Translit=bíbící
+10	ว่า	_	ADP	IN	_	18	mark	_	Translit=wá¹|SpaceAfter=Yes
+11	“	_	PUNCT	``	_	18	punct	_	SpaceAfter=No|Translit=“
+12	จริง	_	ADV	RB	_	18	advmod	_	SpaceAfter=No|Translit=čriŋ
+13	ๆ	_	SYM	SYM	_	12	dep	_	Translit=|SpaceAfter=Yes
+14	แล้ว	_	ADV	RB	_	12	fixed	_	SpaceAfter=No|Translit=lǽ²w
+15	การเลือกตั้ง	_	VERB	VV	_	18	nsubj	_	SpaceAfter=No|Translit=kárlűáktâ²ŋ
+16	ทั่วไป	_	ADJ	JJ	_	15	amod	_	SpaceAfter=No|Translit=dʰúá¹pai
+17	คือ	_	AUX	VC	_	18	cop	_	SpaceAfter=No|Translit=gʰű'
+18	สิ่ง	_	NOUN	NN	_	2	ccomp	_	SpaceAfter=No|Translit=si¹ŋ
+19	สุดท้าย	_	ADJ	JJ	_	18	amod	_	SpaceAfter=No|Translit=suddʰá²y
+20	ที่	_	DET	WDT	_	22	obj	_	SpaceAfter=No|Translit=dʰí¹
+21	รัฐบาล	_	NOUN	NN	_	22	nsubj	_	SpaceAfter=No|Translit=râṭʰbál
+22	ต้องการ	_	VERB	VV	_	18	acl:relcl	_	SpaceAfter=No|Translit=t²'ŋkár
+23	”	_	PUNCT	''	_	18	punct	_	Translit=”|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01115005
+# text = พวกเขาจะเล่นในวันเสาร์ที่ 10 มิถุนายน
+1	พวก	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No|Translit=bʰwk
+2	เขา	_	PRON	PRP	Person=3	1	compound	_	SpaceAfter=No|Translit=kʰao
+3	จะ	_	AUX	MD	_	4	aux	_	SpaceAfter=No|Translit=ča
+4	เล่น	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=lé¹n
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No|Translit=nai
+6	วัน	_	NOUN	NN	_	4	obl	_	SpaceAfter=No|Translit=wân
+7	เสาร์	_	NOUN	NN	_	6	appos	_	SpaceAfter=No|Translit=saor
+8	ที่	_	NOUN	NN	_	6	compound	_	Translit=dʰí¹|SpaceAfter=Yes
+9	10	_	NUM	CD	_	6	appos	_	Translit=10|SpaceAfter=Yes
+10	มิถุนายน	_	NOUN	NN	_	6	obl:tmod	_	Translit=mitʰunáyn|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n02024008
+# text = การศึกษาจากสวีเดนได้แสดงให้เห็นว่าสัตว์แทบจะไม่พักแม้แต่น้อยหลังจากช่วงผสมพันธุ์ที่ยาว 2 เดือน
+1	การศึกษา	_	VERB	VV	_	5	nsubj	_	SpaceAfter=No|Translit=kárśükšá
+2	จาก	_	ADP	IN	_	3	case	_	SpaceAfter=No|Translit=čák
+3	สวีเดน	_	PROPN	NNP	_	1	nmod	_	SpaceAfter=No|Translit=swídén
+4	ได้	_	AUX	AS	Aspect=Perf	5	aux	_	SpaceAfter=No|Translit=dai²
+5	แสดง	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=sǽdŋ
+6	ให้	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No|Translit=hai²
+7	เห็น	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No|Translit=hen
+8	ว่า	_	ADP	IN	_	13	mark	_	SpaceAfter=No|Translit=wá¹
+9	สัตว์	_	NOUN	NN	_	13	nsubj	_	SpaceAfter=No|Translit=sâtw
+10	แทบ	_	ADV	RB	_	13	advmod	_	SpaceAfter=No|Translit=dʰǽb
+11	จะ	_	AUX	MD	_	13	aux	_	SpaceAfter=No|Translit=ča
+12	ไม่	_	PART	NEG	Polarity=Neg	13	advmod	_	SpaceAfter=No|Translit=mai¹
+13	พัก	_	VERB	VV	_	7	ccomp	_	SpaceAfter=No|Translit=bʰâk
+14	แม้	_	ADP	IN	_	16	case	_	SpaceAfter=No|Translit=mǽ²
+15	แต่	_	ADP	IN	_	14	fixed	_	SpaceAfter=No|Translit=tǽ¹
+16	น้อย	_	ADJ	JJ	_	13	obl	_	SpaceAfter=No|Translit=n²'y
+17	หลัง	_	ADP	IN	_	19	case	_	SpaceAfter=No|Translit=hlâŋ
+18	จาก	_	ADP	IN	_	17	fixed	_	SpaceAfter=No|Translit=čák
+19	ช่วง	_	NOUN	NN	_	13	obl	_	SpaceAfter=No|Translit=ćʰ¹wŋ
+20	ผสม	_	VERB	VV	_	19	acl	_	SpaceAfter=No|Translit=pʰsm
+21	พันธุ์	_	NOUN	NN	_	20	obj	_	SpaceAfter=No|Translit=bʰânḏʰu
+22	ที่	_	DET	WDT	_	23	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+23	ยาว	_	ADJ	JJ	_	19	acl:relcl	_	Translit=yáw|SpaceAfter=Yes
+24	2	_	NUM	CD	_	25	nummod	_	Translit=2|SpaceAfter=Yes
+25	เดือน	_	NOUN	NNB	_	23	clf	_	Translit=dűán|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01013005
+# text = นายออสบอร์นเซ็นสัญญาเข้าทำงานกับหน่วยงานโฆษกสหรัฐอเมริกา หลังจากถูกไล่ออกเมื่อเดือนกรกฎาคม
+1	นาย	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No|Translit=náy
+2	ออสบอร์น	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No|Translit='ɔːsbɔːrn
+3	เซ็น	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=cen
+4	สัญญา	_	NOUN	NN	_	3	obj	_	SpaceAfter=No|Translit=sâŷŷá
+5	เข้า	_	VERB	VV	_	3	acl	_	SpaceAfter=No|Translit=kʰao²
+6	ทำ	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No|Translit=dʰã
+7	งาน	_	NOUN	NN	_	6	obj	_	SpaceAfter=No|Translit=ŋán
+8	กับ	_	ADP	IN	_	9	case	_	SpaceAfter=No|Translit=kâb
+9	หน่วย	_	NOUN	NN	_	6	obl	_	SpaceAfter=No|Translit=hn¹wy
+10	งาน	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=ŋán
+11	โฆษก	_	NOUN	NN	_	9	compound	_	SpaceAfter=No|Translit=qʰóšk
+12	สหรัฐ	_	NOUN	NN	_	9	flat:name	_	Proper=True|SpaceAfter=No|Translit=shrâṭʰ
+13	อเมริกา	_	PROPN	NNP	_	9	flat:name	_	Translit='mériká|SpaceAfter=Yes
+14	หลัง	_	ADP	IN	_	17	mark	_	SpaceAfter=No|Translit=hlâŋ
+15	จาก	_	ADP	IN	_	14	fixed	_	SpaceAfter=No|Translit=čák
+16	ถูก	_	AUX	MD	Voice=Pass	17	aux:pass	_	SpaceAfter=No|Translit=tʰúk
+17	ไล่ออก	_	VERB	VV	_	3	advcl	_	SpaceAfter=No|Translit=lai¹'ɔːk
+18	เมื่อ	_	ADP	IN	_	19	case	_	SpaceAfter=No|Translit=műá¹
+19	เดือน	_	NOUN	NN	_	17	obl	_	SpaceAfter=No|Translit=dűán
+20	กรกฎาคม	_	NOUN	NN	_	19	appos	_	Translit=krkḍágʰm|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = n01047048
+# text = นี่คือสิ่งที่ทำให้เรากลับมาอีก
+1	นี่	_	PRON	PRD	_	3	nsubj	_	SpaceAfter=No|Translit=ní¹
+2	คือ	_	AUX	VC	_	3	cop	_	SpaceAfter=No|Translit=gʰű'
+3	สิ่ง	_	NOUN	NN	_	0	root	_	SpaceAfter=No|Translit=si¹ŋ
+4	ที่	_	DET	WDT	_	5	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+5	ทำให้	_	VERB	VV	_	3	acl:relcl	_	SpaceAfter=No|Translit=dʰãhai²
+6	เรา	_	PRON	PRP	Person=1	5	obj	_	SpaceAfter=No|Translit=rao
+7	กลับ	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No|Translit=klâb
+8	มา	_	PART	RP	_	7	compound:prt	_	SpaceAfter=No|Translit=má
+9	อีก	_	ADV	RB	_	7	advmod	_	Translit='ík|SpaceAfter=No
+
+# filename = data/thai_pud/pre_split.conllu
+# sent_id = w01113033
+# text = บัตรใบนี้ให้ค่าเบี้ยเลี้ยงที่สามารถถอนได้จากเอทีเอ็มเพื่อนำไปซื้ออุปกรณ์การเรียนอย่างหนังสือและเครื่องแบบ
+1	บัตร	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No|Translit=bâtr
+2	ใบ	_	NOUN	NNB	_	1	clf	_	SpaceAfter=No|Translit=bai
+3	นี้	_	DET	DT	_	2	det	_	SpaceAfter=No|Translit=ní²
+4	ให้	_	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=hai²
+5	ค่า	_	NOUN	NN	_	4	obj	_	SpaceAfter=No|Translit=gʰá¹
+6	เบี้ย	_	NOUN	NN	_	5	compound	_	SpaceAfter=No|Translit=bíá²
+7	เลี้ยง	_	VERB	VV	_	6	acl	_	SpaceAfter=No|Translit=líá²ŋ
+8	ที่	_	DET	WDT	_	10	nsubj	_	SpaceAfter=No|Translit=dʰí¹
+9	สามารถ	_	AUX	MD	_	10	aux	_	SpaceAfter=No|Translit=sámártʰ
+10	ถอน	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No|Translit=tʰɔːn
+11	ได้	_	AUX	MD	_	10	aux	_	SpaceAfter=No|Translit=dai²
+12	จาก	_	ADP	IN	_	13	case	_	SpaceAfter=No|Translit=čák
+13	เอทีเอ็ม	_	NOUN	NN	_	10	obl	_	SpaceAfter=No|Translit='édʰí'em
+14	เพื่อ	_	ADP	IN	_	15	mark	_	SpaceAfter=No|Translit=bʰűá¹
+15	นำ	_	VERB	VV	_	4	advcl	_	SpaceAfter=No|Translit=nã
+16	ไป	_	PART	RP	_	15	compound:prt	_	SpaceAfter=No|Translit=pai
+17	ซื้อ	_	VERB	VV	_	15	xcomp	_	SpaceAfter=No|Translit=cű²'
+18	อุปกรณ์	_	NOUN	NN	_	17	obj	_	SpaceAfter=No|Translit='upkrṇ
+19	การเรียน	_	VERB	VV	_	18	compound	_	SpaceAfter=No|Translit=kárríán
+20	อย่าง	_	ADP	IN	_	21	case	_	SpaceAfter=No|Translit='yá¹ŋ
+21	หนังสือ	_	NOUN	NN	_	18	nmod	_	SpaceAfter=No|Translit=hnâŋsű'
+22	และ	_	CCONJ	CC	_	23	cc	_	SpaceAfter=No|Translit=læ
+23	เครื่อง	_	NOUN	NN	_	21	conj	_	SpaceAfter=No|Translit=gʰérű¹'ŋ
+24	แบบ	_	NOUN	NN	_	23	compound	_	Translit=bǽb|SpaceAfter=No
+
