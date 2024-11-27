@@ -54,20 +54,11 @@
 </div>
 </center>
 
+
+
 ## Content
 This repository consisting of 3 parts.
 1. **TUD**: contains the treebank itself, including both the original full treebank and its train-dev-test splits, and various statistics about the treebank.
-
-```{figure} img/dependency_length.png
-:align: center
-:width: 40%
-
-```
-<center>
-
- *Figure 1 : Dependency length distribution in TUD.*
-</center><br>
-
 2. **Experiment**: contains the code used in our experiment, including the specific train-dev-test splits of [Thai-PUD](https://github.com/UniversalDependencies/UD_Thai-PUD) used in our experiment.
 3. **Prediction**: contains the full test split prediction of the 92 models trained in our experiment and their confusion matrices.
 
@@ -75,38 +66,177 @@ This repository consisting of 3 parts.
 ## Experiment Results
 Thai dependency parsing models evaluated in the experiments can be categorized into two categories: (1) baseline models and (2) open-source models. All models used treebank gold-standard tokenization. Two types of parsers were tested: (1) Transition-based parsers and (2) Graph-based parsers. The evaluation results are in Figure 2. 
 
-```{figure} img/model_eval.png
-:align: center
-:width: 70%
-```
-
 <center>
+<table><tr><th></th><th>Thai-PUD</th><th>TUD</th></tr>
+<tr>
+<td>
+
+| Model|
+|-----------|
+| T S ∅ W   | 
+| T S A W   |
+| T E ∅ W   |
+| T E A W   |
+| T S ∅ P   |
+| T S A P   |
+| T E ∅ P   |
+| T E A P   |
+| G-∅ W     |
+| G-A W     |
+| G-∅ P     |
+| G-A P     |
+| UDPipe* W    |
+| UDPipe* P    |
+| Stanza* W    |
+| Stanza* P    |
+| Trankit* W   |
+| Trankit* P   |
+
+</td>
+<td>
+
+| UAS (Gold POS) | LAS (Gold POS) | UAS (Auto POS) | LAS (Auto POS) | UAS (No POS) | LAS (No POS) | 
+|------------|------------|------------|------------|------------|------------|
+| 88.14      | 80.39      | 85.28      | 76.65      | 85.60      | 75.45      | 
+| 88.83      | 82.23      | 88.14      | 80.20      | 86.25      | 76.60      |
+| 87.40      | 80.53      | 88.00      | 79.60      | 84.54      | 75.03      |
+| 88.42      | 81.91      | 87.77      | 80.39      | 86.39      | 78.08      |
+| 89.57      | 82.33      | 87.91      | 79.51      | 84.73      | 75.27      |
+| 89.43      | 83.48      | 88.28      | 80.94      | 85.65      | 76.70      |
+| 89.11      | 82.60      | 88.92      | 80.48      | 86.48      | 78.17      |
+| 89.39      | 83.76      | 88.37      | 81.17      | 87.45      | 79.51      |
+| 85.97      | 80.43      | 83.43      | 76.60      | 84.36      | 77.34      |
+| 87.82      | 82.69      | 86.29      | 79.79      | 83.80      | 76.14      |
+| 89.29      | 84.82      | 88.42      | 82.19      | 87.91      | 81.68      |
+| 89.80      | 84.91      | 88.65      | 82.60      | 88.74      | 82.05      |
+| 88.92      | 83.06      | ----       | ----       | 86.06      | 77.01      |
+| 89.89      | 83.53      | ----       | ----       | 86.67      | 77.78      |
+| 91.37      | 86.16      | 89.85      | 83.34      | 89.29      | 83.06      |
+| **92.02**      | **87.22**      | **90.54**      | **84.54**      | **90.72**      | **84.73**      |
+| 89.62      | 84.08      | ----       | ----       | 86.22      | 76.19      |
+| 91.28      | 86.11      | ----       | ----       | 86.71      | 77.01      |
+
+</td>
+<td>
+
+| UAS (Gold POS) | LAS (Gold POS) | UAS (Auto POS) | LAS (Auto POS) | UAS (No POS) | LAS (No POS)|
+|------------|------------|---------------|---------------|---------------|---------------|
+| 89.47      | 82.60      | 86.27         | 76.22         | 86.59         | 76.81         |
+| 89.82      | 83.18      | 86.59         | 76.52         | 86.80         | 76.87         |
+| 89.20      | 82.27      | 86.33         | 76.53         | 86.02         | 76.02         |
+| 89.41      | 82.62      | 86.24         | 76.70         | 86.37         | 76.55         |
+| 90.15      | 83.57      | 87.05         | 77.60         | 87.19         | 77.64         |
+| 90.04      | 83.74      | **87.26**         | 77.55         | 87.09         | 77.68         |
+| 89.93      | 83.42      | 86.82         | 77.09         | 86.54         | 77.07         |
+| 89.77      | 83.42      | 87.00         | **77.68**         | 86.76         | 77.61         |
+| 86.33      | 79.64      | 84.25         | 74.59         | 84.77         | 74.41         |
+| 87.99      | 81.01      | 81.44         | 71.50         | 85.62         | 75.53         |
+| 88.75      | 82.25      | 85.73         | 76.12         | 86.40         | 76.56         |
+| 89.48      | 82.98      | 86.03         | 76.40         | 85.84         | 76.14         |
+| ----       | ----       | ----          | ----          | ----          | ----          |
+| ----       | ----       | ----          | ----          | ----          | ----          |
+| 90.12      | 83.30      | 86.31         | 76.60         | 87.01         | 77.39         |
+| **90.90**      | **84.54**      | 86.93         | 77.51         | **87.39**         |**78.09**         |
+| ----       | ----       | ----          | ----          | ----          | ----          |
+| ----       | ----       | ----          | ----          | ----          | ----          |
+</td>
+</tr>
+
+</table>
+
+
 
 *Figure 2 : Evaluation results of each model on each treebank’s test split. T = Transition-based, G = Graph-based, S = Arc-standard, E = Arc-eager, A = Augmented with sentence and super token embeddings, W = Wangchan-
 BERTa, P = PhayaThaiBERT.* <br> *Open-source models are all graph-based.*
 
-</center>
+<table><tr><th style="text-align:center">UPOS</th><th style="text-align:center">Thai PUD</th><th style="text-align:center">TUD</th></tr>
+<tr>
+<td>
 
-<div style="display: grid; grid-template-columns: 70% 30% ; gap: 30% 0px ;justify-content: center;">
+|.|
+|--------------|
+| ADJ          | 
+| ADP          |
+| ADV          |
+| AUX          |
+| CCONJ        |
+| DET          |
+| NOUN         |
+| NUM          |
+| PART         |
+| PRON         |
+| PROPN        |
+| PUNCT        |
+| SCONJ        |
+| SYM          |
+| VERB         |
+| *MacroAverage* |
 
-```{figure} img/linear_regression.png
-:align: center
-:width: 100%
-```
+</td>
+<td>
 
-```{figure} img/UPOS_tag.png
-:align: center
-:width: 90%
-```
-</div>
-<div style="display: grid; grid-template-columns: 70% 30% ; gap: 30% 0px ;justify-content: center;">
+ W        | P        |
+|:----------:|:----------:|
+| 0.7978   | **0.8508**   |
+| 0.9578   | **0.9677**   |
+| 0.8528   | **0.8705**   |
+| 0.9565   | **0.9710**   |
+| 0.9434   | **0.9636**   |
+| 0.9469   | **0.9596**   |
+| 0.9597   | **0.9711**   |
+| **1.0000**   | **1.0000**   |
+| 0.9556   | **0.9663**   |
+| 0.9552   | **0.9925**   |
+| 0.9341   | **0.9375**   |
+| **1.0000**   | **1.0000**   |
+| -       | -          |
+| **1.0000**   | **1.0000**   |
+| 0.9502   | **0.9610**   |
+| 0.9458   | **0.9580**  |
 
-*Figure 3 : Table5: Linear regression results for UAS(R2=0.54) and LAS(R2=0.507). 
+</td>
+<td>
+
+| W        | P        |
+|:----------:|:----------:|
+| 0.6486   | **0.6852**   |
+| 0.9206   | **0.9272**   |
+| 0.7665   | **0.7792**   |
+| 0.8483   | **0.8508**   |
+| 0.8675   | **0.8813**   |
+| 0.9007   | **0.9122**   |
+| 0.9640   | **0.9672**   |
+| **0.9391**   | 0.9264   |
+| 0.8395   | **0.8402**   |
+| 0.9330   | **0.9418**   |
+| 0.9037   | **0.9223**   |
+| **0.9881**   | 0.9843   |
+|0.8205   | **0.8479**   |
+| **1.0000**   | **1.0000**   |
+| 0.9240   | **0.9292**   |
+| 0.8843   | **0.8930**   |
+
+</td>
+</tr>
+</table>
+
+*Figure 2 : F1 scores of our UPOS taggers on each label and treebank. W=WangchanBERTa. P=PhayathaiBERT. ADP tag is used instead for SCONJ in Thai-PUD*
+
+
+| Factor                          | Coefficient (UAS) | p-value (UAS)   | Coefficient (LAS) | p-value (LAS)   |
+|---------------------------------|-------------------|-----------------|-------------------|-----------------|
+| (Intercept)                     | 84.7953           | <0.001***       | 76.0953           | <0.001***       |
+| ModelCategory:Open-sourceModels | 2.0221            | <0.001***       | 1.7424            | 0.035*          |
+| Architecture:Transition-Standard| 1.0420            | 0.011*          | 0.0563            | 0.937           |
+| Architecture:Transition-Eager   | 1.0622            | 0.010*          | 0.4103            | 0.566           |
+| Encoder:PhayaThaiBERT           | 1.2665            | <0.001***       | 1.6927            | 0.001**         |
+| Augmented:Yes                   | 0.4487            | 0.174           | 0.7599            | 0.195           |
+| UPOSQuality:Gold                | 2.2607            | <0.001***       | 4.5311            | <0.001***       |
+| UPOSQuality:Auto                | 0.4217            | 0.259           | 0.8011            | 0.227           |
+
+*Figure 3 : Linear regression results for UAS(R2=0.54) and LAS(R2=0.507). 
 The reference categories are baseline models graph-based architecture, WangchanBERTa as encoder, non-augmented, and agnostic UPOS.*
-
-*Figure 4 : F1 scores of our UPOS taggers on each label and treebank. W=WangchanBERTa. P=PhayathaiBERT. ADP tag is used instead for SCONJ in Thai-PUD*
-
-</div>
+</center>
 <br>
 
 The results of the experiments can answer the questions below (1-4) and the challenges unique to Thai dependency parsing are also addressed (5).
@@ -129,11 +259,41 @@ The results of the experiments can answer the questions below (1-4) and the chal
 
 ### 5. Challenges in Thai dependency parsing. 
 
-```{figure} img/common_confusions.png
-:align: center
-:width: 70%
-```
+
 <center>
+
+<table><tr><th style="text-align:center">Thai-PUD</th><th style="text-align:center">TUD</th></tr>
+<tr><td>
+
+| Rank | UPOS Confusion         | Tokens                       | DEPREL Confusion     | Tokens                      |
+|:------:|:------------------------|:------------------------------|:----------------------|:-----------------------------|
+| 1 |NOUN-PROPN            | ดิสแพตช์, ไลน์             | compound-flat:name   | ที่, เซนต์                |
+| 2 |ADJ-VERB              | เฉลี่ย, ใกล้ชิด            | acl-xcomp            | ดู, ใช้                     |
+| 3 |ADJ-ADV               | ใหม่, น้อย                  | nmod-obl             | ปี, ทะเล                   |
+| 4 |ADP-ADV               | กว่า, จึง                   | nsubj-obj            | ที่, ซึ่ง                  |
+| 5 |AUX-VERB              | เป็น, ได้                   | obj-obl              | กัน, จรรยาบรรณ             |
+| 6 |ADJ-NOUN              | ปัจจุบัน, หนุ่ม             | compound-obj         | ประภาคาร, พื้นฐาน          |
+| 7 |ADV-VERB              | พร้อม, สมบูรณ์              | nsubj-obl:tmod       | ที่, อัน                  |
+| 8 |ADP-NOUN              | เชิง                        | advcl-root           | ก่อ, แหล่ง                |
+| 9 |NOUN-VERB             | ประดิษฐ์, โชว์              | appos-flat:name      | ไมเคิล, ปีเตอร์            |
+| 10  |ADP-VERB              | ตั้ง, ต่อ                   | clf-compound         | กลุ่ม, เฮกตาร์             |
+
+</td><td>
+
+| Rank | UPOS Confusion         | Tokens                       | DEPREL Confusion     | Tokens                      |
+|:------:|:------------------------|:------------------------------|:----------------------|:-----------------------------|
+|1 |ADV-VERB              | มา, ไป                      | compound-nmod        | ประเทศ, สาว                |
+|2 |ADV-AUX               | ได้, อยู่                   | nmod-obl             | การ, ประเทศ                 |
+|3 |AUX-VERB              | เป็น, ได้                   | advmod-compound      | มา, ไป                     |
+|4 |ADJ-VERB              | ดี, ร้าย                    | advmod-aux           | ได้, แล้ว                  |
+|5 |NOUN-PROPN            | เมทริกซ์, มะกัน             | acl-compound         | พนัน, เสพ                  |
+|6 |NOUN-VERB             | คมนาคม, พนัน                | nsubj-obj            | ที่                         |
+|7 |CCONJ-SCONJ           | โดย, ซึ่ง                   | clf-nmod             | คน, แบบ                   |
+|8 |SCONJ-VERB            | ให้                         | compound-obj         | การ, ชีวิต                 |
+|9 |ADJ-ADV               | มาก, น้อย                   | obj-obl              | ที่, ความ                  |
+|10 |ADP-VERB              | ถึง, ให้                    | ccomp-compound       | เรียน, เชื่อม             |
+
+</td></tr></table>
 
 *Figure : 4 Top ten of common confusions made by the taggers for UPOS and the parsers for DEPREL along with their most frequentlt associated tokens.*
 </center>
