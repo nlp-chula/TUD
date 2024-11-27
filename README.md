@@ -1,9 +1,9 @@
 # Thai Universal Dependency Treebank (TUD)
 **Thai Universal Dependency Treebank (TUD)** is a Thai treebank consisting of 3,627 trees annotated using the [Universal Dependencies (UD)](https://universaldependencies.org/guidelines.html) framework. TUD includes 15 part-of-speech tags and 35 dependency relations, as shown in the distribution table below. The documents used for annotation were randomly sampled from the *Thai National Corpus (TNC)* and *the November 2020 dump of Thai Wikipedia*, covering a wide range of document types and topics. The process of constructing the treebank and benchmarks for 92 dependency parsing models' detail are in the paper *"The Thai Universal Dependency Treebank"*, published in Transactions of the Association for Computational Linguistics. 
 
-<center>
-<div style="display: grid; grid-template-columns: 30% 40% ; gap: 0px 50px ;justify-content: center;">
 
+<div align="center">
+ 
 |UPOS|Train|Dev|Test|
 |:----|-----:|---:|----:|
 |NOUN|18777|2270|2310|
@@ -22,7 +22,7 @@
 |PUNCT|871|104|125|
 |SYM|16|1|1|
 
-
+*Table 1 : UPOS (Universal Part-Of-Speech) distribution.*
 
 |DEPREL|Train|Dev|Test||DEPREL|Train|Dev|Test|
 |:------------------|----:|---:|---:|-|:------------------|----:|---:|---:|
@@ -44,17 +44,10 @@
 |ccomp|1304|168|174||expl|14|2|2|
 |det|1117|135|145||vocative|1|1|1|
 |nummod|1020|149|92|||||
-</div>
 
-<div style="display: grid; grid-template-columns: 30% 40% ; gap: 0px 50px ;justify-content: center;">
-
-*Table 1 : UPOS (Universal Part-Of-Speech) distribution.*
 
 *Table 2 : DEPREL (Dependency relationships) distribution.*
 </div>
-</center>
-
-
 
 ## Content
 This repository consisting of 3 parts.
@@ -64,14 +57,15 @@ This repository consisting of 3 parts.
 
 
 ## Experiment Results
-Thai dependency parsing models evaluated in the experiments can be categorized into two categories: (1) baseline models and (2) open-source models. All models used treebank gold-standard tokenization. Two types of parsers were tested: (1) Transition-based parsers and (2) Graph-based parsers. The evaluation results are in Figure 2. 
+Thai dependency parsing models evaluated in the experiments can be categorized into two categories: (1) baseline models and (2) open-source models. All models used treebank gold-standard tokenization. Two types of parsers were tested: (1) Transition-based parsers and (2) Graph-based parsers. The evaluation results are in Table 3. 
 
-<center>
+
+<div align="center">
 <table><tr><th></th><th>Thai-PUD</th><th>TUD</th></tr>
 <tr>
 <td>
 
-| Model|
+| <br>Model|
 |-----------|
 | T S ∅ W   | 
 | T S A W   |
@@ -95,8 +89,8 @@ Thai dependency parsing models evaluated in the experiments can be categorized i
 </td>
 <td>
 
-| UAS (Gold POS) | LAS (Gold POS) | UAS (Auto POS) | LAS (Auto POS) | UAS (No POS) | LAS (No POS) | 
-|------------|------------|------------|------------|------------|------------|
+| Gold POS<br>UAS  | Gold POS<br>LAS |Auto POS<br>UAS  | Auto POS<br>LAS | No POS<br>UAS  | No POS<br>LAS |
+|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
 | 88.14      | 80.39      | 85.28      | 76.65      | 85.60      | 75.45      | 
 | 88.83      | 82.23      | 88.14      | 80.20      | 86.25      | 76.60      |
 | 87.40      | 80.53      | 88.00      | 79.60      | 84.54      | 75.03      |
@@ -119,8 +113,8 @@ Thai dependency parsing models evaluated in the experiments can be categorized i
 </td>
 <td>
 
-| UAS (Gold POS) | LAS (Gold POS) | UAS (Auto POS) | LAS (Auto POS) | UAS (No POS) | LAS (No POS)|
-|------------|------------|---------------|---------------|---------------|---------------|
+| Gold POS<br>UAS  | Gold POS<br>LAS |Auto POS<br>UAS  | Auto POS<br>LAS | No POS<br>UAS  | No POS<br>LAS |
+|:------------:|:------------:|:------------:|:------------:|:------------:|:------------:|
 | 89.47      | 82.60      | 86.27         | 76.22         | 86.59         | 76.81         |
 | 89.82      | 83.18      | 86.59         | 76.52         | 86.80         | 76.87         |
 | 89.20      | 82.27      | 86.33         | 76.53         | 86.02         | 76.02         |
@@ -146,7 +140,7 @@ Thai dependency parsing models evaluated in the experiments can be categorized i
 
 
 
-*Figure 2 : Evaluation results of each model on each treebank’s test split. T = Transition-based, G = Graph-based, S = Arc-standard, E = Arc-eager, A = Augmented with sentence and super token embeddings, W = Wangchan-
+*Table 3 : Evaluation results of each model on each treebank’s test split. T = Transition-based, G = Graph-based, S = Arc-standard, E = Arc-eager, A = Augmented with sentence and super token embeddings, W = Wangchan-
 BERTa, P = PhayaThaiBERT.* <br> *Open-source models are all graph-based.*
 
 <table><tr><th style="text-align:center">UPOS</th><th style="text-align:center">Thai PUD</th><th style="text-align:center">TUD</th></tr>
@@ -220,7 +214,7 @@ BERTa, P = PhayaThaiBERT.* <br> *Open-source models are all graph-based.*
 </tr>
 </table>
 
-*Figure 2 : F1 scores of our UPOS taggers on each label and treebank. W=WangchanBERTa. P=PhayathaiBERT. ADP tag is used instead for SCONJ in Thai-PUD*
+*Table 4 : F1 scores of our UPOS taggers on each label and treebank. W=WangchanBERTa. P=PhayathaiBERT. ADP tag is used instead for SCONJ in Thai-PUD*
 
 
 | Factor                          | Coefficient (UAS) | p-value (UAS)   | Coefficient (LAS) | p-value (LAS)   |
@@ -234,9 +228,9 @@ BERTa, P = PhayaThaiBERT.* <br> *Open-source models are all graph-based.*
 | UPOSQuality:Gold                | 2.2607            | <0.001***       | 4.5311            | <0.001***       |
 | UPOSQuality:Auto                | 0.4217            | 0.259           | 0.8011            | 0.227           |
 
-*Figure 3 : Linear regression results for UAS(R2=0.54) and LAS(R2=0.507). 
+*Table 5 : Linear regression results for UAS(R2=0.54) and LAS(R2=0.507). 
 The reference categories are baseline models graph-based architecture, WangchanBERTa as encoder, non-augmented, and agnostic UPOS.*
-</center>
+</div>
 <br>
 
 The results of the experiments can answer the questions below (1-4) and the challenges unique to Thai dependency parsing are also addressed (5).
@@ -295,7 +289,7 @@ The results of the experiments can answer the questions below (1-4) and the chal
 
 </td></tr></table>
 
-*Figure : 4 Top ten of common confusions made by the taggers for UPOS and the parsers for DEPREL along with their most frequentlt associated tokens.*
+*Table 6 : Top ten of common confusions made by the taggers for UPOS and the parsers for DEPREL along with their most frequentlt associated tokens.*
 </center>
 
 Six challanges unique to Thai dependency parsing are identified in this work. 
